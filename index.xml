@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
-    <lastBuildDate>Sun, 19 May 2019 07:04:32 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2019 04:04:32 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,20 +15,12 @@
     <item>
       <title>My First Post</title>
       <link>/2019/05/my-first-post/</link>
-      <pubDate>Sun, 19 May 2019 07:04:32 +0300</pubDate>
+      <pubDate>Sun, 19 May 2019 04:04:32 +0000</pubDate>
       
       <guid>/2019/05/my-first-post/</guid>
-      <description>My First Post using Hugo
-Just a little something to jot down notes and ideas.
+      <description>My First Post using Hugo  Just a little something to jot down notes and ideas.
 For my reference:
- Quickstart - https://gohugo.io/getting-started/quick-start/
- Create new posts using the command: hugo new posts/my-first-post.md
- Hugo Server:hugo server -D
- For adding shorcodes - https://gohugo.io/content-management/shortcodes/
- For adding images -
- https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8
- https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/
-  After running hugo server for local web development, you need to do a final hugo run without the server part of the command to rebuild your site.</description>
+ Quickstart - https://gohugo.io/getting-started/quick-start/ Create new posts using the command: hugo new posts/my-first-post.md Hugo Server:hugo server -D For adding shorcodes - https://gohugo.io/content-management/shortcodes/ For adding images -  https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8 https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/  After running hugo server for local web development, you need to do a final hugo run without the _server_ part of the command to rebuild your site.</description>
     </item>
     
     <item>
