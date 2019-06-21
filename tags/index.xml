@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
-    <lastBuildDate>Mon, 10 Jun 2019 10:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2019 11:00:00 +0300</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,18 @@
     <item>
       <title>sysadmin</title>
       <link>/tags/sysadmin/</link>
-      <pubDate>Mon, 10 Jun 2019 10:00:00 +0300</pubDate>
+      <pubDate>Mon, 10 Jun 2019 11:00:00 +0300</pubDate>
       
       <guid>/tags/sysadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Mon, 10 Jun 2019 11:00:00 +0300</pubDate>
+      
+      <guid>/tags/windows/</guid>
       <description></description>
     </item>
     
