@@ -6,8 +6,71 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>mark05E</copyright>
-        <lastBuildDate>Sun, 19 May 2019 04:04:32 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 10 Jun 2019 10:00:00 +0300</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>mRemoteNG External Tools enhancement</title>
+            <link>/2019/06/mremoteng-external-tools-enhancement/</link>
+            <pubDate>Mon, 10 Jun 2019 10:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/mremoteng-external-tools-enhancement/</guid>
+            <description>Explore C: Drive (Windows using Domain Account)
+ Filename: %COMSPEC%  Arguments: /c net use \\%hostname%\c$ /user:%domain%\%username% %password% &amp;amp;&amp;amp; start \\%hostname%\c$
+ WinSCP to tmp folder (Linux)
+ Filename: __Tools\WinSCP-Portable\WinSCP.exe  Arguments: scp://%Username%:%Password%@%Hostname%/tmp/
+ Database .NET Integration (SQL Sever - Windows Integrated Login)
+ Filename: __Tools\CPAU.exe  Arguments: -u %domain%\%username% -p %password% -ex &amp;quot;__Tools\DatabaseNet4\Database4.exe 6 -s:%hostname% -e&amp;quot;
+ RDP Plus (Maximized RDP Window)
+ Filename: __Tools\rdp.exe  Arguments: /console /noprinters /nodrives /max /title:%NAME% /u:%domain%\%username% /p:%password% /v:%hostname%</description>
+            <content type="html"><![CDATA[
+
+<ol>
+<li><p>Explore C: Drive (Windows using Domain Account)</p>
+
+<ul>
+<li>Filename: <code>%COMSPEC%</code></li>
+</ul>
+
+<p>Arguments: <code>/c net use \\%hostname%\c$ /user:%domain%\%username% %password% &amp;&amp; start \\%hostname%\c$</code></p></li>
+
+<li><p>WinSCP to tmp folder (Linux)</p>
+
+<ul>
+<li>Filename: <code>__Tools\WinSCP-Portable\WinSCP.exe</code></li>
+</ul>
+
+<p>Arguments: <code>scp://%Username%:%Password%@%Hostname%/tmp/</code></p></li>
+
+<li><p>Database .NET Integration (SQL Sever - Windows Integrated Login)</p>
+
+<ul>
+<li>Filename: <code>__Tools\CPAU.exe</code></li>
+</ul>
+
+<p>Arguments: <code>-u %domain%\%username% -p %password% -ex &quot;__Tools\DatabaseNet4\Database4.exe 6 -s:%hostname% -e&quot;</code></p></li>
+
+<li><p>RDP Plus (Maximized RDP Window)</p>
+
+<ul>
+<li>Filename: <code>__Tools\rdp.exe</code></li>
+</ul>
+
+<p>Arguments: <code>/console /noprinters /nodrives /max /title:%NAME% /u:%domain%\%username% /p:%password% /v:%hostname%</code></p></li>
+</ol>
+
+<p>I have placed all my external tools under a folder called <code>__Tools</code> inside the mRemoteNG base folder.</p>
+
+<h4 id="list-of-external-tools-mentioned-in-the-list-above">List of external tools mentioned in the list above</h4>
+
+<ol>
+<li><a href="https://winscp.net/eng/download.php">WinSCP Portable</a> - FTP/SCP Client I use to access the filesystem on linux boxes.</li>
+<li><a href="http://www.joeware.net/freetools/tools/cpau/">CPAU</a> - Open application in alternative security context. Sort of <em>Run As</em> replacement.</li>
+<li><a href="https://fishcodelib.com/Database.htm">Database .NET</a> - One of my favorite portable database management tools which has support for many types of databases. It is also portable.</li>
+<li><a href="https://www.donkz.nl/downloads/">RDP Plus</a> - One of my fav tools I use to RDP into machines in a maximized window (not fullscreen). This helps to see the taskbar tray of the host box. It also has good command line support.</li>
+</ol>
+]]></content>
+        </item>
         
         <item>
             <title>My First Post</title>
