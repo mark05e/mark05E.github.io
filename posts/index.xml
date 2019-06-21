@@ -15,16 +15,16 @@
             <pubDate>Mon, 10 Jun 2019 11:00:00 +0300</pubDate>
             
             <guid>/2019/06/windows-visual-performance-panel-shortcut/</guid>
-            <description> %windir%\system32\SystemPropertiesPerformance.exe
-Yep that&amp;rsquo;s all. Just to jump into the the visual performance page to change the settings on a freshly prepared Windows machine.
+            <description>%windir%\system32\SystemPropertiesPerformance.exe
+Yep that&amp;rsquo;s all. Paste it into the Run prompt or the command-line window. Just to jump into the the visual performance page to change the settings on a freshly prepared Windows machine.
 I wish there was an easier way to change the settings over command line but it seemed little too complicated compared to this one I have found.
 Maybe I will find something new later on..
-References:  https://stackoverflow.com/questions/2435418/how-to-open-performance-options-dialog-from-command-line-or-system-call  </description>
+References:  https://stackoverflow.</description>
             <content type="html"><![CDATA[
 
 <p><code>%windir%\system32\SystemPropertiesPerformance.exe</code></p>
 
-<p>Yep that&rsquo;s all. Just to jump into the the visual performance page to change the settings on a freshly prepared Windows machine.</p>
+<p>Yep that&rsquo;s all. Paste it into the Run prompt or the command-line window. Just to jump into the the visual performance page to change the settings on a freshly prepared Windows machine.</p>
 
 <p>I wish there was an easier way to change the settings over command line but it seemed little too complicated compared to this one I have found.</p>
 
