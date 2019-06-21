@@ -7,10 +7,68 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
-    <lastBuildDate>Tue, 11 Jun 2019 09:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2019 10:00:00 +0300</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Daniel Hamermesh on Spending Time</title>
+      <link>/2019/06/daniel-hamermesh-on-spending-time/</link>
+      <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/2019/06/daniel-hamermesh-on-spending-time/</guid>
+      <description>Found these talks interesting
+From Planet Money
+https://www.npr.org/2019/05/22/725841004/is-time-really-on-your-side
+lead to:
+http://www.econtalk.org/daniel-hamermesh-on-spending-time/</description>
+    </item>
+    
+    <item>
+      <title>Tycho - &#34;Dive&#34; Album</title>
+      <link>/2019/06/tycho-dive-album/</link>
+      <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/2019/06/tycho-dive-album/</guid>
+      <description>Tycho - &amp;ldquo;Dive&amp;rdquo; Album
+  </description>
+    </item>
+    
+    <item>
+      <title>Wireshark - Filter MAC addresses</title>
+      <link>/2019/06/wireshark-filter-mac-addresses/</link>
+      <pubDate>Mon, 17 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/2019/06/wireshark-filter-mac-addresses/</guid>
+      <description>Few days ago I have been trying to troubleshoot some recording issue over the network while assisting with integration of Sestek&amp;rsquo;s Speech Analytics application.
+Background:
+The phone traffic are mirrored towards towards a server. We needed to know if the traffic from Avaya phones or a phone in specific was being sent towards this server.
+Wireshark Capture Filter (Filter you set before it start monitoring)
+ether host 24:d9:21:XX:XX:XX
+Wireshark Display Filter (Filter you set while traffic is being monitored)</description>
+    </item>
+    
+    <item>
+      <title>AMC Contact Canvas - Voice Driver simulation</title>
+      <link>/2019/06/amc-contact-canvas-voice-driver-simulation/</link>
+      <pubDate>Tue, 11 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/2019/06/amc-contact-canvas-voice-driver-simulation/</guid>
+      <description>Below has not been tested. There are only for my personal reference.
+To place the solution into simulation mode you must perform the following steps;
+Within the configuration, under the **ModuleManager** section:
+Comment: Module=CTIModule,XXXXXXXXXX
+Uncomment: #ModuleClass=CTINullClass,CTI_NULL.MC_CTI_NULL_ _#Module=CTIModule,CTINullClass
+&amp;hellip; and all lines under: #------------------------------------------------------------------------------
+# N U L L C o n n e c t o r
+#------------------------------------------------------------------------------
+#ModuleClass=CTINullClass,CTI_NULL.AMC_CTI_NULL
+#Module=CTIModule,CTINullClass
+&amp;hellip; and
+#------------------------------------------------------------------------------
+# N U L L C O N N E C T O R</description>
+    </item>
     
     <item>
       <title>Avaya ACR and WFO License Generation Link</title>

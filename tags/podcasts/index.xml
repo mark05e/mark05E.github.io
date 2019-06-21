@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>podcasts on a corner of a mind</title>
+    <link>/tags/podcasts/</link>
+    <description>Recent content in podcasts on a corner of a mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>mark05E</copyright>
+    <lastBuildDate>Wed, 19 Jun 2019 10:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="/tags/podcasts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Daniel Hamermesh on Spending Time</title>
+      <link>/2019/06/daniel-hamermesh-on-spending-time/</link>
+      <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/2019/06/daniel-hamermesh-on-spending-time/</guid>
+      <description>Found these talks interesting
+From Planet Money
+https://www.npr.org/2019/05/22/725841004/is-time-really-on-your-side
+lead to:
+http://www.econtalk.org/daniel-hamermesh-on-spending-time/</description>
+    </item>
+    
+  </channel>
+</rss>

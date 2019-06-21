@@ -7,17 +7,62 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
-    <lastBuildDate>Tue, 11 Jun 2019 09:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2019 10:00:00 +0300</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>music</title>
+      <link>/tags/music/</link>
+      <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcasts</title>
+      <link>/tags/podcasts/</link>
+      <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/tags/podcasts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work-music</title>
+      <link>/tags/work-music/</link>
+      <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/tags/work-music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>avaya</title>
       <link>/tags/avaya/</link>
-      <pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate>
+      <pubDate>Mon, 17 Jun 2019 10:00:00 +0300</pubDate>
       
       <guid>/tags/avaya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wirehark</title>
+      <link>/tags/wirehark/</link>
+      <pubDate>Mon, 17 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/tags/wirehark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CTI</title>
+      <link>/tags/cti/</link>
+      <pubDate>Tue, 11 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/tags/cti/</guid>
       <description></description>
     </item>
     

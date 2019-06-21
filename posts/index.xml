@@ -6,8 +6,148 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>mark05E</copyright>
-        <lastBuildDate>Tue, 11 Jun 2019 09:00:00 +0300</lastBuildDate>
+        <lastBuildDate>Wed, 19 Jun 2019 10:00:00 +0300</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Daniel Hamermesh on Spending Time</title>
+            <link>/2019/06/daniel-hamermesh-on-spending-time/</link>
+            <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/daniel-hamermesh-on-spending-time/</guid>
+            <description>Found these talks interesting
+From Planet Money
+https://www.npr.org/2019/05/22/725841004/is-time-really-on-your-side
+lead to:
+http://www.econtalk.org/daniel-hamermesh-on-spending-time/</description>
+            <content type="html"><![CDATA[<p>Found these talks interesting</p>
+
+<p>From Planet Money<br />
+<a href="https://www.npr.org/2019/05/22/725841004/is-time-really-on-your-side" title="https://www.npr.org/2019/05/22/725841004/is-time-really-on-your-side">https://www.npr.org/2019/05/22/725841004/is-time-really-on-your-side</a></p>
+
+<p>lead to:<br />
+<a href="http://www.econtalk.org/daniel-hamermesh-on-spending-time/" title="http://www.econtalk.org/daniel-hamermesh-on-spending-time/">http://www.econtalk.org/daniel-hamermesh-on-spending-time/</a></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Tycho - &#34;Dive&#34; Album</title>
+            <link>/2019/06/tycho-dive-album/</link>
+            <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/tycho-dive-album/</guid>
+            <description>Tycho - &amp;ldquo;Dive&amp;rdquo; Album
+  </description>
+            <content type="html"><![CDATA[<p><a href="https://www.youtube.com/watch?v=Z6ih1aKeETk">Tycho - &ldquo;Dive&rdquo; Album</a></p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/Z6ih1aKeETk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Wireshark - Filter MAC addresses</title>
+            <link>/2019/06/wireshark-filter-mac-addresses/</link>
+            <pubDate>Mon, 17 Jun 2019 10:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/wireshark-filter-mac-addresses/</guid>
+            <description>Few days ago I have been trying to troubleshoot some recording issue over the network while assisting with integration of Sestek&amp;rsquo;s Speech Analytics application.
+Background:
+The phone traffic are mirrored towards towards a server. We needed to know if the traffic from Avaya phones or a phone in specific was being sent towards this server.
+Wireshark Capture Filter (Filter you set before it start monitoring)
+ether host 24:d9:21:XX:XX:XX
+Wireshark Display Filter (Filter you set while traffic is being monitored)</description>
+            <content type="html"><![CDATA[
+
+<p>Few days ago I have been trying to troubleshoot some recording issue over the network while assisting with integration of <a href="https://www.sestek.com/">Sestek</a>&rsquo;s Speech Analytics application.</p>
+
+<p><strong>Background:</strong></p>
+
+<p>The phone traffic are mirrored towards towards a server. We needed to know if the traffic from Avaya phones or a phone in specific was being sent towards this server.</p>
+
+<h4 id="wireshark-capture-filter">Wireshark Capture Filter</h4>
+
+<p>(Filter you set before it start monitoring)</p>
+
+<p><code>ether host 24:d9:21:XX:XX:XX</code></p>
+
+<h4 id="wireshark-display-filter">Wireshark Display Filter</h4>
+
+<p>(Filter you set while traffic is being monitored)</p>
+
+<p><code>eth.src==24:d9:21:XX:XX:XX</code></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>AMC Contact Canvas - Voice Driver simulation</title>
+            <link>/2019/06/amc-contact-canvas-voice-driver-simulation/</link>
+            <pubDate>Tue, 11 Jun 2019 10:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/amc-contact-canvas-voice-driver-simulation/</guid>
+            <description>Below has not been tested. There are only for my personal reference.
+To place the solution into simulation mode you must perform the following steps;
+Within the configuration, under the **ModuleManager** section:
+Comment: Module=CTIModule,XXXXXXXXXX
+Uncomment: #ModuleClass=CTINullClass,CTI_NULL.MC_CTI_NULL_ _#Module=CTIModule,CTINullClass
+&amp;hellip; and all lines under: #------------------------------------------------------------------------------
+# N U L L C o n n e c t o r
+#------------------------------------------------------------------------------
+#ModuleClass=CTINullClass,CTI_NULL.AMC_CTI_NULL
+#Module=CTIModule,CTINullClass
+&amp;hellip; and
+#------------------------------------------------------------------------------
+# N U L L C O N N E C T O R</description>
+            <content type="html"><![CDATA[
+
+<p>Below has not been tested. There are only for my personal reference.</p>
+
+<hr />
+
+<p>To place the solution into simulation mode you must perform the following steps;</p>
+
+<p>Within the configuration, under the <code>**ModuleManager**</code> section:</p>
+
+<h4 id="comment">Comment:</h4>
+
+<p><code>Module=CTIModule,XXXXXXXXXX</code></p>
+
+<h4 id="uncomment">Uncomment:</h4>
+
+<p><code>#ModuleClass=CTINullClass,CTI_NULL.MC_CTI_NULL</code><code>_  
+_</code><code>#Module=CTIModule,CTINullClass</code></p>
+
+<h4 id="and-all-lines-under">&hellip; and all lines under:</h4>
+
+<p><code>#------------------------------------------------------------------------------</code><br />
+<code># N U L L   C o n n e c t o r</code><br />
+<code>#------------------------------------------------------------------------------</code><br />
+<code>#ModuleClass=CTINullClass,CTI_NULL.AMC_CTI_NULL</code><br />
+<code>#Module=CTIModule,CTINullClass</code></p>
+
+<p><strong>&hellip; and</strong></p>
+
+<p><code>#------------------------------------------------------------------------------</code><br />
+<code># N U L L   C O N N E C T O R</code><br />
+<code>#------------------------------------------------------------------------------</code><br />
+<code>#TraceEnabled=1</code><br />
+<code>#TraceLevel=4</code><br />
+<code>#TraceMaxSize=50240</code><br />
+<code>#DataStore=DataStore</code><br />
+<code>#Channel=CTI1</code><br />
+<code>#ServerName=NULL</code><br />
+<code>#Simulator=YES</code><br />
+<code>#SimulatedLines=2</code><br />
+<code>#InternalExtLen=5</code><br />
+<code>#KnownQueues=2000,3000,20061,20062,20065,12345,77777,99999</code><br />
+<code>#EnableNullConnectorDemo=TRUE</code><br />
+<code>#SimulatorData=8041112222,Key1|Value1,Key2|Value2;6143334444,Key1|Value1,Key2|Value2</code><br />
+<code>#SimulatorCallsInterval=4000</code></p>
+]]></content>
+        </item>
         
         <item>
             <title>Avaya ACR and WFO License Generation Link</title>

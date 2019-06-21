@@ -3,32 +3,82 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2019/06/avaya-acr-and-wfo-license-generation-link/</loc>
-    <lastmod>2019-06-11T09:00:00+03:00</lastmod>
+    <loc>/2019/06/daniel-hamermesh-on-spending-time/</loc>
+    <lastmod>2019-06-19T10:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2019-06-11T09:00:00+03:00</lastmod>
+    <lastmod>2019-06-19T10:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2019-06-11T09:00:00+03:00</lastmod>
+    <lastmod>2019-06-19T10:00:00+03:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2019/06/tycho-dive-album/</loc>
+    <lastmod>2019-06-19T10:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-06-11T09:00:00+03:00</lastmod>
+    <lastmod>2019-06-19T10:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/avaya/</loc>
-    <lastmod>2019-06-11T09:00:00+03:00</lastmod>
+    <loc>/tags/music/</loc>
+    <lastmod>2019-06-19T10:00:00+03:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/podcasts/</loc>
+    <lastmod>2019-06-19T10:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/work-music/</loc>
+    <lastmod>2019-06-19T10:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2019/06/wireshark-filter-mac-addresses/</loc>
+    <lastmod>2019-06-17T10:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/avaya/</loc>
+    <lastmod>2019-06-17T10:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wirehark/</loc>
+    <lastmod>2019-06-17T10:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2019/06/amc-contact-canvas-voice-driver-simulation/</loc>
+    <lastmod>2019-06-11T10:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cti/</loc>
+    <lastmod>2019-06-11T10:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2019/06/avaya-acr-and-wfo-license-generation-link/</loc>
+    <lastmod>2019-06-11T09:00:00+03:00</lastmod>
   </url>
   
   <url>
