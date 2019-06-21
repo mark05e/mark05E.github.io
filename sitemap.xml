@@ -38,6 +38,18 @@
   </url>
   
   <url>
+    <loc>/tags/command-line/</loc>
+    <lastmod>2019-06-10T10:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2019-06-10T10:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/2019/06/mremoteng-external-tools-enhancement/</loc>
     <lastmod>2019-06-10T10:00:00+03:00</lastmod>
   </url>
