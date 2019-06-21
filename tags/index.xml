@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
-    <lastBuildDate>Mon, 10 Jun 2019 11:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 09:00:00 +0300</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>avaya</title>
+      <link>/tags/avaya/</link>
+      <pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate>
+      
+      <guid>/tags/avaya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>call-recording</title>
+      <link>/tags/call-recording/</link>
+      <pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate>
+      
+      <guid>/tags/call-recording/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>verint</title>
+      <link>/tags/verint/</link>
+      <pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate>
+      
+      <guid>/tags/verint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workforce-optimization</title>
+      <link>/tags/workforce-optimization/</link>
+      <pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate>
+      
+      <guid>/tags/workforce-optimization/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>sysadmin</title>
