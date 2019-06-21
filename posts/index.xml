@@ -1,0 +1,66 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on a corner of a mind</title>
+        <link>/posts/</link>
+        <description>Recent content in Posts on a corner of a mind</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>mark05E</copyright>
+        <lastBuildDate>Sun, 19 May 2019 07:04:32 +0300</lastBuildDate>
+        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>My First Post</title>
+            <link>/2019/05/my-first-post/</link>
+            <pubDate>Sun, 19 May 2019 07:04:32 +0300</pubDate>
+            
+            <guid>/2019/05/my-first-post/</guid>
+            <description>My First Post using Hugo
+Just a little something to jot down notes and ideas.
+For my reference:
+ Quickstart - https://gohugo.io/getting-started/quick-start/
+ Create new posts using the command: hugo new posts/my-first-post.md
+ Hugo Server:hugo server -D
+ For adding shorcodes - https://gohugo.io/content-management/shortcodes/
+ For adding images -
+ https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8
+ https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/
+  After running hugo server for local web development, you need to do a final hugo run without the server part of the command to rebuild your site.</description>
+            <content type="html"><![CDATA[<p>My First Post using Hugo</p>
+
+<p>Just a little something to jot down notes and ideas.</p>
+
+<hr />
+
+<p><strong>For my reference:</strong></p>
+
+<ul>
+<li><p>Quickstart - <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></p></li>
+
+<li><p>Create new posts using the command: <code>hugo new posts/my-first-post.md</code></p></li>
+
+<li><p>Hugo Server:<code>hugo server -D</code></p></li>
+
+<li><p>For adding shorcodes - <a href="https://gohugo.io/content-management/shortcodes/">https://gohugo.io/content-management/shortcodes/</a></p></li>
+
+<li><p>For adding images -</p>
+
+<ul>
+<li><p><a href="https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8">https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8</a></p></li>
+
+<li><p><a href="https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/">https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/</a></p></li>
+</ul></li>
+
+<li><p>After running <code>hugo server</code> for local web development, you need to do a final <code>hugo</code> run <em>without the <code>server</code> part of the command</em> to rebuild your site. You may then deploy your site by copying the <code>public/</code> directory to your production web server.</p>
+
+<ul>
+<li><a href="https://gohugo.io/getting-started/usage/">https://gohugo.io/getting-started/usage/</a></li>
+</ul></li>
+
+<li></li>
+</ul>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
