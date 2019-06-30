@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="">
+<meta name="description"
+    content="Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=None&amp;amp;primaryinum=833303000000412&amp;amp;transactionid=XXXXX&amp;amp;type=audio&amp;amp;searcharchiver=false&amp;amp;searchbuffer=true&amp;amp;token=XXXXXX ... [locator |B698|E] 2019-06-30 09:48:55.354&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;amp;primaryinum=833303000000412&amp;amp;transactionid=XXXXX&amp;amp;type=speaker&amp;amp;searcharchiver=false&amp;amp;searchbuffer=true&amp;amp;token=XXXXX  Resolution https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN318006
+ We use winhttp to talk between the application server and the content server. This is different than the proxy defined in IE" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/" />
+
+
+<title>
+    
+    WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found :: a corner of a mind  — mark&#39;s mind
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.91687bbfc139d7ff1a244bb6d7324425f9c4f424eaaad242b478e3b3cf56396a.css">
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="theme-color" content="#252627">
+<meta itemprop="name" content="WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found">
+<meta itemprop="description" content="Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=None&amp;primaryinum=833303000000412&amp;transactionid=XXXXX&amp;type=audio&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXXX ... [locator |B698|E] 2019-06-30 09:48:55.354&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;primaryinum=833303000000412&amp;transactionid=XXXXX&amp;type=speaker&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX  Resolution https://support.avaya.com/ext/index?page=content&amp;id=SOLN318006
+ We use winhttp to talk between the application server and the content server. This is different than the proxy defined in IE">
+
+
+<meta itemprop="datePublished" content="2019-06-30T18:06:00&#43;03:00" />
+<meta itemprop="dateModified" content="2019-06-30T18:06:00&#43;03:00" />
+<meta itemprop="wordCount" content="257">
+
+
+
+<meta itemprop="keywords" content="windows,workforce-optimization,call-recording,verint,avaya," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/"/>
+
+<meta name="twitter:title" content="WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found"/>
+<meta name="twitter:description" content="Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=None&amp;primaryinum=833303000000412&amp;transactionid=XXXXX&amp;type=audio&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXXX ... [locator |B698|E] 2019-06-30 09:48:55.354&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;primaryinum=833303000000412&amp;transactionid=XXXXX&amp;type=speaker&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX  Resolution https://support.avaya.com/ext/index?page=content&amp;id=SOLN318006
+ We use winhttp to talk between the application server and the content server. This is different than the proxy defined in IE"/>
+
+
+
+
+<meta property="article:published_time" content="2019-06-30 18:06:00 &#43;0300 &#43;0300" />
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">mark&#39;s mind</span>
+            <span class="logo__cursor"></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/about">About</a></li><li><a href="/posts">Blog Posts</a></li><li><a href="/contact">Contact</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>2 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title"><a href="/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/">WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found</a></h1>
+
+            
+
+            <div class="post-content">
+                
+
+<p><img src="/uploads/2019-06-30_182541.png" alt="" /></p>
+
+<h1 id="observation-1">Observation - 1</h1>
+
+<h3 id="locator-logs-authentication-error-for-requests-going-to-contentserver">Locator Logs – Authentication error for requests going to ContentServer</h3>
+
+<pre><code>[locator |11B4|E] 2019-06-30 09:43:04.025+03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=None&amp;primaryinum=833303000000412&amp;transactionid=XXXXX&amp;type=audio&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXXX
+...
+[locator |B698|E] 2019-06-30 09:48:55.354+03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;primaryinum=833303000000412&amp;transactionid=XXXXX&amp;type=speaker&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX
+</code></pre>
+
+<h3 id="resolution">Resolution</h3>
+
+<p><a href="https://support.avaya.com/ext/index?page=content&amp;id=SOLN318006" title="https://support.avaya.com/ext/index?page=content&amp;id=SOLN318006">https://support.avaya.com/ext/index?page=content&amp;id=SOLN318006</a></p>
+
+<blockquote>
+<p>We use winhttp to talk between the application server and the content server. This is different than the proxy defined in IE</p>
+</blockquote>
+
+<p><strong>Observation:</strong> There was a proxy server configured already from WinHttp when the server was joined to the domain</p>
+
+<p>Using below commands helped view and remove the proxy (Ref: <a href="https://www.thewindowsclub.com/reset-winhttp-proxy-settings-windows">TheWindowsClub</a>)</p>
+
+<p><code>netsh winhttp show proxy</code></p>
+
+<p><code>netsh winhttp reset proxy</code></p>
+
+<h1 id="observation-2">Observation – 2</h1>
+
+<h3 id="locator-logs-requests-to-contentserver-not-successful">Locator Logs – Requests to ContentServer not successful</h3>
+
+<pre><code>[locator |B3C4|I] 2019-06-30 11:33:56.549+03:00 Locator::INumLocatorImpl::sendContentRequest&lt;896&gt; HEAD Request did not succeed for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;primaryinum=833303000001008&amp;transactionid=XXXXX&amp;type=speaker&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX with HTTP Code 410 Gone
+...
+[locator |B3C4|I] 2019-06-30 11:33:56.572+03:00 Locator::INumLocatorImpl::sendContentRequest&lt;896&gt; HEAD Request did not succeed for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;primaryinum=833303000001008&amp;transactionid=XXXXX&amp;type=metadata&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX with HTTP Code 410 Gone
+</code></pre>
+
+<h3 id="contentserver-logs-requests-to-acr-crs-not-successful">ContentServer logs – Requests to ACR CRS not successful</h3>
+
+<pre><code>[locator |18C8|I] 2019-06-30 11:34:14.497+03:00 Locator::INumLocatorImpl::sendContentRequest&lt;896&gt; GET Request did not succeed for url http://MARKLABACRCRS:8080/replay?accept=eyretel/raw&amp;encryptionSupported=true&amp;inum=833303000001010&amp;segmentinum=833303000001010&amp;type=audio&amp;uid=%7B5400A773-23E0-20FD-C318-005004431754%7D&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX with HTTP Code 410 Gone
+...
+[locator |18C8|I] 2019-06-30 11:34:14.489+03:00 Locator::INumLocatorImpl::sendContentRequest&lt;896&gt; GET Request did not succeed for url http://MARKLABACRCRS:8080/replay?encryptionSupported=true&amp;inum=833303000001010&amp;segmentinum=833303000001010&amp;type=energy&amp;uid=%7B5400A773-23E0-20FD-C318-005004431754%7D&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX with HTTP Code 410 Gone
+</code></pre>
+
+<h3 id="resolution-1">Resolution</h3>
+
+<p>In this situation, the calls were not able on the CRS. ACR Master recorded the calls and did not push the calls to CRS. Inside WFO, only CRS was configured with the ACR Replay role.</p>
+
+<p>In this case, fixed integration between ACR Master and CRS. On tests after the integration, calls were able to be played back.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/windows">windows</a></span><span class="tag"><a href="/tags/workforce-optimization">workforce-optimization</a></span><span class="tag"><a href="/tags/call-recording">call-recording</a></span><span class="tag"><a href="/tags/verint">verint</a></span><span class="tag"><a href="/tags/avaya">avaya</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>257 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-06-30 15:06 &#43;0000</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h">Read other posts</span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="/2019/06/daniel-hamermesh-on-spending-time-podcast/">
+                                <span class="button__text">Daniel Hamermesh on Spending Time [Podcast]</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2019</span>
+            
+            <span>mark05E</span>
+            <span> <a href="/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.cf7871ed49474a80ed457154d24e61f7881adbe0f9384951a74ac46b688a39a4dbfa68bc6d37baeb058186de354ead3487d4ee7f083ea4cba860c48600b694f3.js" integrity="sha512-z3hx7UlHSoDtRXFU0k5h94ga2&#43;D5OElRp0rEa2iKOaTb&#43;mi8bTe66wWBht41Tq00h9Tufwg&#43;pMuoYMSGALaU8w=="></script>
+
+
+
+    </body>
+</html>

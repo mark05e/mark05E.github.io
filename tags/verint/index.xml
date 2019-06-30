@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>verint on a corner of a mind</title>
+    <link>/tags/verint/</link>
+    <description>Recent content in verint on a corner of a mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>mark05E</copyright>
+    <lastBuildDate>Sun, 30 Jun 2019 18:06:00 +0300</lastBuildDate>
+    
+	<atom:link href="/tags/verint/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found</title>
+      <link>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</link>
+      <pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate>
+      
+      <guid>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</guid>
+      <description>Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=None&amp;amp;primaryinum=833303000000412&amp;amp;transactionid=XXXXX&amp;amp;type=audio&amp;amp;searcharchiver=false&amp;amp;searchbuffer=true&amp;amp;token=XXXXXX ... [locator |B698|E] 2019-06-30 09:48:55.354+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;amp;primaryinum=833303000000412&amp;amp;transactionid=XXXXX&amp;amp;type=speaker&amp;amp;searcharchiver=false&amp;amp;searchbuffer=true&amp;amp;token=XXXXX  Resolution https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN318006
+ We use winhttp to talk between the application server and the content server. This is different than the proxy defined in IE</description>
+    </item>
+    
+    <item>
+      <title>Avaya ACR and WFO License Generation Link</title>
+      <link>/2019/06/avaya-acr-and-wfo-license-generation-link/</link>
+      <pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate>
+      
+      <guid>/2019/06/avaya-acr-and-wfo-license-generation-link/</guid>
+      <description>WFO: https://oaccess.verint.com/LicenseActivator/Activate.aspx  Reference: Avaya Workforce Optimization - System Administration Guide (Avaya_WFO_V15_2_System_Administration.pdf)  ACR: https://oaccess.verint.com/acr/  Reference: https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN258246 Reference: Avaya Contact Recorder - Planning, Installation and Administration Guide (acradmin_en.pdf)   I spend sometime trying to find these links. They should probably send it out when they generate the license emails instead of burying it inside documentation.
+ACR - Avaya Contact Recorder
+WFO - Workforce Optimization (generally refers to their Quality Management (QM) module)</description>
+    </item>
+    
+  </channel>
+</rss>

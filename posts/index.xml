@@ -6,27 +6,346 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>mark05E</copyright>
-        <lastBuildDate>Sun, 19 May 2019 07:04:32 +0300</lastBuildDate>
+        <lastBuildDate>Sun, 30 Jun 2019 18:06:00 +0300</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found</title>
+            <link>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</link>
+            <pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate>
+            
+            <guid>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</guid>
+            <description>Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=None&amp;amp;primaryinum=833303000000412&amp;amp;transactionid=XXXXX&amp;amp;type=audio&amp;amp;searcharchiver=false&amp;amp;searchbuffer=true&amp;amp;token=XXXXXX ... [locator |B698|E] 2019-06-30 09:48:55.354+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;amp;primaryinum=833303000000412&amp;amp;transactionid=XXXXX&amp;amp;type=speaker&amp;amp;searcharchiver=false&amp;amp;searchbuffer=true&amp;amp;token=XXXXX  Resolution https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN318006
+ We use winhttp to talk between the application server and the content server. This is different than the proxy defined in IE</description>
+            <content type="html"><![CDATA[
+
+<p><img src="/uploads/2019-06-30_182541.png" alt="" /></p>
+
+<h1 id="observation-1">Observation - 1</h1>
+
+<h3 id="locator-logs-authentication-error-for-requests-going-to-contentserver">Locator Logs – Authentication error for requests going to ContentServer</h3>
+
+<pre><code>[locator |11B4|E] 2019-06-30 09:43:04.025+03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=None&amp;primaryinum=833303000000412&amp;transactionid=XXXXX&amp;type=audio&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXXX
+...
+[locator |B698|E] 2019-06-30 09:48:55.354+03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;primaryinum=833303000000412&amp;transactionid=XXXXX&amp;type=speaker&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX
+</code></pre>
+
+<h3 id="resolution">Resolution</h3>
+
+<p><a href="https://support.avaya.com/ext/index?page=content&amp;id=SOLN318006" title="https://support.avaya.com/ext/index?page=content&amp;id=SOLN318006">https://support.avaya.com/ext/index?page=content&amp;id=SOLN318006</a></p>
+
+<blockquote>
+<p>We use winhttp to talk between the application server and the content server. This is different than the proxy defined in IE</p>
+</blockquote>
+
+<p><strong>Observation:</strong> There was a proxy server configured already from WinHttp when the server was joined to the domain</p>
+
+<p>Using below commands helped view and remove the proxy (Ref: <a href="https://www.thewindowsclub.com/reset-winhttp-proxy-settings-windows">TheWindowsClub</a>)</p>
+
+<p><code>netsh winhttp show proxy</code></p>
+
+<p><code>netsh winhttp reset proxy</code></p>
+
+<h1 id="observation-2">Observation – 2</h1>
+
+<h3 id="locator-logs-requests-to-contentserver-not-successful">Locator Logs – Requests to ContentServer not successful</h3>
+
+<pre><code>[locator |B3C4|I] 2019-06-30 11:33:56.549+03:00 Locator::INumLocatorImpl::sendContentRequest&lt;896&gt; HEAD Request did not succeed for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;primaryinum=833303000001008&amp;transactionid=XXXXX&amp;type=speaker&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX with HTTP Code 410 Gone
+...
+[locator |B3C4|I] 2019-06-30 11:33:56.572+03:00 Locator::INumLocatorImpl::sendContentRequest&lt;896&gt; HEAD Request did not succeed for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;primaryinum=833303000001008&amp;transactionid=XXXXX&amp;type=metadata&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX with HTTP Code 410 Gone
+</code></pre>
+
+<h3 id="contentserver-logs-requests-to-acr-crs-not-successful">ContentServer logs – Requests to ACR CRS not successful</h3>
+
+<pre><code>[locator |18C8|I] 2019-06-30 11:34:14.497+03:00 Locator::INumLocatorImpl::sendContentRequest&lt;896&gt; GET Request did not succeed for url http://MARKLABACRCRS:8080/replay?accept=eyretel/raw&amp;encryptionSupported=true&amp;inum=833303000001010&amp;segmentinum=833303000001010&amp;type=audio&amp;uid=%7B5400A773-23E0-20FD-C318-005004431754%7D&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX with HTTP Code 410 Gone
+...
+[locator |18C8|I] 2019-06-30 11:34:14.489+03:00 Locator::INumLocatorImpl::sendContentRequest&lt;896&gt; GET Request did not succeed for url http://MARKLABACRCRS:8080/replay?encryptionSupported=true&amp;inum=833303000001010&amp;segmentinum=833303000001010&amp;type=energy&amp;uid=%7B5400A773-23E0-20FD-C318-005004431754%7D&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX with HTTP Code 410 Gone
+</code></pre>
+
+<h3 id="resolution-1">Resolution</h3>
+
+<p>In this situation, the calls were not able on the CRS. ACR Master recorded the calls and did not push the calls to CRS. Inside WFO, only CRS was configured with the ACR Replay role.</p>
+
+<p>In this case, fixed integration between ACR Master and CRS. On tests after the integration, calls were able to be played back.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Daniel Hamermesh on Spending Time [Podcast]</title>
+            <link>/2019/06/daniel-hamermesh-on-spending-time-podcast/</link>
+            <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/daniel-hamermesh-on-spending-time-podcast/</guid>
+            <description>Found these talks interesting
+From Planet Money
+https://www.npr.org/2019/05/22/725841004/is-time-really-on-your-side
+lead to:
+http://www.econtalk.org/daniel-hamermesh-on-spending-time/</description>
+            <content type="html"><![CDATA[<p>Found these talks interesting</p>
+
+<p>From Planet Money<br />
+<a href="https://www.npr.org/2019/05/22/725841004/is-time-really-on-your-side" title="https://www.npr.org/2019/05/22/725841004/is-time-really-on-your-side">https://www.npr.org/2019/05/22/725841004/is-time-really-on-your-side</a></p>
+
+<p>lead to:<br />
+<a href="http://www.econtalk.org/daniel-hamermesh-on-spending-time/" title="http://www.econtalk.org/daniel-hamermesh-on-spending-time/">http://www.econtalk.org/daniel-hamermesh-on-spending-time/</a></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Tycho - &#34;Dive&#34; Album [Music]</title>
+            <link>/2019/06/tycho-dive-album-music/</link>
+            <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/tycho-dive-album-music/</guid>
+            <description>Tycho - &amp;ldquo;Dive&amp;rdquo; Album
+  </description>
+            <content type="html"><![CDATA[<p><a href="https://www.youtube.com/watch?v=Z6ih1aKeETk">Tycho - &ldquo;Dive&rdquo; Album</a></p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/Z6ih1aKeETk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Wireshark - Filter MAC addresses</title>
+            <link>/2019/06/wireshark-filter-mac-addresses/</link>
+            <pubDate>Mon, 17 Jun 2019 10:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/wireshark-filter-mac-addresses/</guid>
+            <description>Few days ago I have been trying to troubleshoot some recording issue over the network while assisting with integration of Sestek&amp;rsquo;s Speech Analytics application.
+Background:
+The phone traffic are mirrored towards towards a server. We needed to know if the traffic from Avaya phones or a phone in specific was being sent towards this server.
+Wireshark Capture Filter (Filter you set before it start monitoring)
+ether host 24:d9:21:XX:XX:XX
+Wireshark Display Filter (Filter you set while traffic is being monitored)</description>
+            <content type="html"><![CDATA[
+
+<p>Few days ago I have been trying to troubleshoot some recording issue over the network while assisting with integration of <a href="https://www.sestek.com/">Sestek</a>&rsquo;s Speech Analytics application.</p>
+
+<p><strong>Background:</strong></p>
+
+<p>The phone traffic are mirrored towards towards a server. We needed to know if the traffic from Avaya phones or a phone in specific was being sent towards this server.</p>
+
+<h4 id="wireshark-capture-filter">Wireshark Capture Filter</h4>
+
+<p>(Filter you set before it start monitoring)</p>
+
+<p><code>ether host 24:d9:21:XX:XX:XX</code></p>
+
+<h4 id="wireshark-display-filter">Wireshark Display Filter</h4>
+
+<p>(Filter you set while traffic is being monitored)</p>
+
+<p><code>eth.src==24:d9:21:XX:XX:XX</code></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>AMC Contact Canvas - Voice Driver simulation</title>
+            <link>/2019/06/amc-contact-canvas-voice-driver-simulation/</link>
+            <pubDate>Tue, 11 Jun 2019 10:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/amc-contact-canvas-voice-driver-simulation/</guid>
+            <description>Below has not been tested. There are only for my personal reference.
+To place the solution into simulation mode you must perform the following steps;
+Within the configuration, under the **ModuleManager** section:
+Comment: Module=CTIModule,XXXXXXXXXX
+Uncomment: #ModuleClass=CTINullClass,CTI_NULL.MC_CTI_NULL_ _#Module=CTIModule,CTINullClass
+&amp;hellip; and all lines under: #------------------------------------------------------------------------------
+# N U L L C o n n e c t o r
+#------------------------------------------------------------------------------
+#ModuleClass=CTINullClass,CTI_NULL.AMC_CTI_NULL
+#Module=CTIModule,CTINullClass
+&amp;hellip; and
+#------------------------------------------------------------------------------
+# N U L L C O N N E C T O R</description>
+            <content type="html"><![CDATA[
+
+<p>Below has not been tested. There are only for my personal reference.</p>
+
+<hr />
+
+<p>To place the solution into simulation mode you must perform the following steps;</p>
+
+<p>Within the configuration, under the <code>**ModuleManager**</code> section:</p>
+
+<h4 id="comment">Comment:</h4>
+
+<p><code>Module=CTIModule,XXXXXXXXXX</code></p>
+
+<h4 id="uncomment">Uncomment:</h4>
+
+<p><code>#ModuleClass=CTINullClass,CTI_NULL.MC_CTI_NULL</code><code>_  
+_</code><code>#Module=CTIModule,CTINullClass</code></p>
+
+<h4 id="and-all-lines-under">&hellip; and all lines under:</h4>
+
+<p><code>#------------------------------------------------------------------------------</code><br />
+<code># N U L L   C o n n e c t o r</code><br />
+<code>#------------------------------------------------------------------------------</code><br />
+<code>#ModuleClass=CTINullClass,CTI_NULL.AMC_CTI_NULL</code><br />
+<code>#Module=CTIModule,CTINullClass</code></p>
+
+<p><strong>&hellip; and</strong></p>
+
+<p><code>#------------------------------------------------------------------------------</code><br />
+<code># N U L L   C O N N E C T O R</code><br />
+<code>#------------------------------------------------------------------------------</code><br />
+<code>#TraceEnabled=1</code><br />
+<code>#TraceLevel=4</code><br />
+<code>#TraceMaxSize=50240</code><br />
+<code>#DataStore=DataStore</code><br />
+<code>#Channel=CTI1</code><br />
+<code>#ServerName=NULL</code><br />
+<code>#Simulator=YES</code><br />
+<code>#SimulatedLines=2</code><br />
+<code>#InternalExtLen=5</code><br />
+<code>#KnownQueues=2000,3000,20061,20062,20065,12345,77777,99999</code><br />
+<code>#EnableNullConnectorDemo=TRUE</code><br />
+<code>#SimulatorData=8041112222,Key1|Value1,Key2|Value2;6143334444,Key1|Value1,Key2|Value2</code><br />
+<code>#SimulatorCallsInterval=4000</code></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Avaya ACR and WFO License Generation Link</title>
+            <link>/2019/06/avaya-acr-and-wfo-license-generation-link/</link>
+            <pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/avaya-acr-and-wfo-license-generation-link/</guid>
+            <description>WFO: https://oaccess.verint.com/LicenseActivator/Activate.aspx  Reference: Avaya Workforce Optimization - System Administration Guide (Avaya_WFO_V15_2_System_Administration.pdf)  ACR: https://oaccess.verint.com/acr/  Reference: https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN258246 Reference: Avaya Contact Recorder - Planning, Installation and Administration Guide (acradmin_en.pdf)   I spend sometime trying to find these links. They should probably send it out when they generate the license emails instead of burying it inside documentation.
+ACR - Avaya Contact Recorder
+WFO - Workforce Optimization (generally refers to their Quality Management (QM) module)</description>
+            <content type="html"><![CDATA[<ul>
+<li>WFO: <a href="https://oaccess.verint.com/LicenseActivator/Activate.aspx" title="https://oaccess.verint.com/LicenseActivator/Activate.aspx">https://oaccess.verint.com/LicenseActivator/Activate.aspx</a>
+
+<ul>
+<li>Reference: Avaya Workforce Optimization - System Administration Guide (Avaya_WFO_V15_2_System_Administration.pdf)</li>
+</ul></li>
+<li>ACR: <a href="https://oaccess.verint.com/LicenseActivator/Activate.aspx" title="https://oaccess.verint.com/LicenseActivator/Activate.aspx">https://oaccess.verint.com/acr/</a>
+
+<ul>
+<li>Reference: <a href="https://oaccess.verint.com/LicenseActivator/Activate.aspx" title="https://oaccess.verint.com/LicenseActivator/Activate.aspx">https://support.avaya.com/ext/index?page=content&amp;id=SOLN258246</a></li>
+<li>Reference: Avaya Contact Recorder - Planning, Installation and Administration Guide (acradmin_en.pdf)</li>
+</ul></li>
+</ul>
+
+<p>I spend sometime trying to find these links. They should probably send it out when they generate the license emails instead of burying it inside documentation.</p>
+
+<hr />
+
+<p>ACR - Avaya Contact Recorder</p>
+
+<p>WFO - Workforce Optimization (generally refers to their Quality Management (QM) module)</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Windows - Visual Performance Panel Shortcut</title>
+            <link>/2019/06/windows-visual-performance-panel-shortcut/</link>
+            <pubDate>Mon, 10 Jun 2019 11:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/windows-visual-performance-panel-shortcut/</guid>
+            <description>%windir%\system32\SystemPropertiesPerformance.exe
+Yep that&amp;rsquo;s all. Paste it into the Run prompt or the command-line window. Just to jump into the the visual performance page to change the settings on a freshly prepared Windows machine.
+I wish there was an easier way to change the settings over command line but it seemed little too complicated compared to this one I have found.
+Maybe I will find something new later on..
+References:  https://stackoverflow.</description>
+            <content type="html"><![CDATA[
+
+<p><code>%windir%\system32\SystemPropertiesPerformance.exe</code></p>
+
+<p>Yep that&rsquo;s all. Paste it into the Run prompt or the command-line window. Just to jump into the the visual performance page to change the settings on a freshly prepared Windows machine.</p>
+
+<p>I wish there was an easier way to change the settings over command line but it seemed little too complicated compared to this one I have found.</p>
+
+<p>Maybe I will find something new later on..</p>
+
+<h3 id="references">References:</h3>
+
+<ul>
+<li><a href="https://stackoverflow.com/questions/2435418/how-to-open-performance-options-dialog-from-command-line-or-system-call" title="https://stackoverflow.com/questions/2435418/how-to-open-performance-options-dialog-from-command-line-or-system-call">https://stackoverflow.com/questions/2435418/how-to-open-performance-options-dialog-from-command-line-or-system-call</a></li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>mRemoteNG External Tools enhancement</title>
+            <link>/2019/06/mremoteng-external-tools-enhancement/</link>
+            <pubDate>Mon, 10 Jun 2019 10:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/mremoteng-external-tools-enhancement/</guid>
+            <description>Explore C: Drive (Windows using Domain Account)
+ Filename: %COMSPEC%  Arguments: /c net use \\%hostname%\c$ /user:%domain%\%username% %password% &amp;amp;&amp;amp; start \\%hostname%\c$
+ WinSCP to tmp folder (Linux)
+ Filename: __Tools\WinSCP-Portable\WinSCP.exe  Arguments: scp://%Username%:%Password%@%Hostname%/tmp/
+ Database .NET Integration (SQL Sever - Windows Integrated Login)
+ Filename: __Tools\CPAU.exe  Arguments: -u %domain%\%username% -p %password% -ex &amp;quot;__Tools\DatabaseNet4\Database4.exe 6 -s:%hostname% -e&amp;quot;
+ RDP Plus (Maximized RDP Window)
+ Filename: __Tools\rdp.exe  Arguments: /console /noprinters /nodrives /max /title:%NAME% /u:%domain%\%username% /p:%password% /v:%hostname%</description>
+            <content type="html"><![CDATA[
+
+<ol>
+<li><p>Explore C: Drive (Windows using Domain Account)</p>
+
+<ul>
+<li>Filename: <code>%COMSPEC%</code></li>
+</ul>
+
+<p>Arguments: <code>/c net use \\%hostname%\c$ /user:%domain%\%username% %password% &amp;&amp; start \\%hostname%\c$</code></p></li>
+
+<li><p>WinSCP to tmp folder (Linux)</p>
+
+<ul>
+<li>Filename: <code>__Tools\WinSCP-Portable\WinSCP.exe</code></li>
+</ul>
+
+<p>Arguments: <code>scp://%Username%:%Password%@%Hostname%/tmp/</code></p></li>
+
+<li><p>Database .NET Integration (SQL Sever - Windows Integrated Login)</p>
+
+<ul>
+<li>Filename: <code>__Tools\CPAU.exe</code></li>
+</ul>
+
+<p>Arguments: <code>-u %domain%\%username% -p %password% -ex &quot;__Tools\DatabaseNet4\Database4.exe 6 -s:%hostname% -e&quot;</code></p></li>
+
+<li><p>RDP Plus (Maximized RDP Window)</p>
+
+<ul>
+<li>Filename: <code>__Tools\rdp.exe</code></li>
+</ul>
+
+<p>Arguments: <code>/console /noprinters /nodrives /max /title:%NAME% /u:%domain%\%username% /p:%password% /v:%hostname%</code></p></li>
+</ol>
+
+<p>I have placed all my external tools under a folder called <code>__Tools</code> inside the mRemoteNG base folder.</p>
+
+<h4 id="list-of-external-tools-mentioned-in-the-list-above">List of external tools mentioned in the list above</h4>
+
+<ol>
+<li><a href="https://winscp.net/eng/download.php">WinSCP Portable</a> - FTP/SCP Client I use to access the filesystem on linux boxes.</li>
+<li><a href="http://www.joeware.net/freetools/tools/cpau/">CPAU</a> - Open application in alternative security context. Sort of <em>Run As</em> replacement.</li>
+<li><a href="https://fishcodelib.com/Database.htm">Database .NET</a> - One of my favorite portable database management tools which has support for many types of databases. It is also portable.</li>
+<li><a href="https://www.donkz.nl/downloads/">RDP Plus</a> - One of my fav tools I use to RDP into machines in a maximized window (not fullscreen). This helps to see the taskbar tray of the host box. It also has good command line support.</li>
+</ol>
+]]></content>
+        </item>
         
         <item>
             <title>My First Post</title>
             <link>/2019/05/my-first-post/</link>
-            <pubDate>Sun, 19 May 2019 07:04:32 +0300</pubDate>
+            <pubDate>Sun, 19 May 2019 04:04:32 +0000</pubDate>
             
             <guid>/2019/05/my-first-post/</guid>
-            <description>My First Post using Hugo
-Just a little something to jot down notes and ideas.
+            <description>My First Post using Hugo  Just a little something to jot down notes and ideas.
 For my reference:
- Quickstart - https://gohugo.io/getting-started/quick-start/
- Create new posts using the command: hugo new posts/my-first-post.md
- Hugo Server:hugo server -D
- For adding shorcodes - https://gohugo.io/content-management/shortcodes/
- For adding images -
- https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8
- https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/
-  After running hugo server for local web development, you need to do a final hugo run without the server part of the command to rebuild your site.</description>
-            <content type="html"><![CDATA[<p>My First Post using Hugo</p>
+ Quickstart - https://gohugo.io/getting-started/quick-start/ Create new posts using the command: hugo new posts/my-first-post.md Hugo Server:hugo server -D For adding shorcodes - https://gohugo.io/content-management/shortcodes/ For adding images -  https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8 https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/  After running hugo server for local web development, you need to do a final hugo run without the _server_ part of the command to rebuild your site.</description>
+            <content type="html"><![CDATA[<pre><code>My First Post using Hugo
+</code></pre>
 
 <p>Just a little something to jot down notes and ideas.</p>
 
@@ -35,29 +354,21 @@ For my reference:
 <p><strong>For my reference:</strong></p>
 
 <ul>
-<li><p>Quickstart - <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></p></li>
-
-<li><p>Create new posts using the command: <code>hugo new posts/my-first-post.md</code></p></li>
-
-<li><p>Hugo Server:<code>hugo server -D</code></p></li>
-
-<li><p>For adding shorcodes - <a href="https://gohugo.io/content-management/shortcodes/">https://gohugo.io/content-management/shortcodes/</a></p></li>
-
-<li><p>For adding images -</p>
+<li>Quickstart - <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></li>
+<li>Create new posts using the command: <code>hugo new posts/my-first-post.md</code></li>
+<li>Hugo Server:<code>hugo server -D</code></li>
+<li>For adding shorcodes - <a href="https://gohugo.io/content-management/shortcodes/">https://gohugo.io/content-management/shortcodes/</a></li>
+<li>For adding images -
 
 <ul>
-<li><p><a href="https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8">https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8</a></p></li>
-
-<li><p><a href="https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/">https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/</a></p></li>
+<li><a href="https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8">https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8</a></li>
+<li><a href="https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/">https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/</a></li>
 </ul></li>
-
-<li><p>After running <code>hugo server</code> for local web development, you need to do a final <code>hugo</code> run <em>without the <code>server</code> part of the command</em> to rebuild your site. You may then deploy your site by copying the <code>public/</code> directory to your production web server.</p>
+<li>After running <code>hugo server</code> for local web development, you need to do a final <code>hugo</code> run <em>without the</em> <code>_server_</code> <em>part of the command</em> to rebuild your site. You may then deploy your site by copying the <code>public/</code> directory to your production web server.
 
 <ul>
 <li><a href="https://gohugo.io/getting-started/usage/">https://gohugo.io/getting-started/usage/</a></li>
 </ul></li>
-
-<li></li>
 </ul>
 ]]></content>
         </item>

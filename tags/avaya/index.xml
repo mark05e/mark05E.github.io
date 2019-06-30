@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>a corner of a mind</title>
-    <link>/</link>
-    <description>Recent content on a corner of a mind</description>
+    <title>avaya on a corner of a mind</title>
+    <link>/tags/avaya/</link>
+    <description>Recent content in avaya on a corner of a mind</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
     <lastBuildDate>Sun, 30 Jun 2019 18:06:00 +0300</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/avaya/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,29 +20,6 @@
       <guid>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</guid>
       <description>Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=None&amp;amp;primaryinum=833303000000412&amp;amp;transactionid=XXXXX&amp;amp;type=audio&amp;amp;searcharchiver=false&amp;amp;searchbuffer=true&amp;amp;token=XXXXXX ... [locator |B698|E] 2019-06-30 09:48:55.354+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;amp;primaryinum=833303000000412&amp;amp;transactionid=XXXXX&amp;amp;type=speaker&amp;amp;searcharchiver=false&amp;amp;searchbuffer=true&amp;amp;token=XXXXX  Resolution https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN318006
  We use winhttp to talk between the application server and the content server. This is different than the proxy defined in IE</description>
-    </item>
-    
-    <item>
-      <title>Daniel Hamermesh on Spending Time [Podcast]</title>
-      <link>/2019/06/daniel-hamermesh-on-spending-time-podcast/</link>
-      <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/daniel-hamermesh-on-spending-time-podcast/</guid>
-      <description>Found these talks interesting
-From Planet Money
-https://www.npr.org/2019/05/22/725841004/is-time-really-on-your-side
-lead to:
-http://www.econtalk.org/daniel-hamermesh-on-spending-time/</description>
-    </item>
-    
-    <item>
-      <title>Tycho - &#34;Dive&#34; Album [Music]</title>
-      <link>/2019/06/tycho-dive-album-music/</link>
-      <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/tycho-dive-album-music/</guid>
-      <description>Tycho - &amp;ldquo;Dive&amp;rdquo; Album
-  </description>
     </item>
     
     <item>
@@ -89,55 +66,6 @@ Uncomment: #ModuleClass=CTINullClass,CTI_NULL.MC_CTI_NULL_ _#Module=CTIModule,CT
       <description>WFO: https://oaccess.verint.com/LicenseActivator/Activate.aspx  Reference: Avaya Workforce Optimization - System Administration Guide (Avaya_WFO_V15_2_System_Administration.pdf)  ACR: https://oaccess.verint.com/acr/  Reference: https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN258246 Reference: Avaya Contact Recorder - Planning, Installation and Administration Guide (acradmin_en.pdf)   I spend sometime trying to find these links. They should probably send it out when they generate the license emails instead of burying it inside documentation.
 ACR - Avaya Contact Recorder
 WFO - Workforce Optimization (generally refers to their Quality Management (QM) module)</description>
-    </item>
-    
-    <item>
-      <title>Windows - Visual Performance Panel Shortcut</title>
-      <link>/2019/06/windows-visual-performance-panel-shortcut/</link>
-      <pubDate>Mon, 10 Jun 2019 11:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/windows-visual-performance-panel-shortcut/</guid>
-      <description>%windir%\system32\SystemPropertiesPerformance.exe
-Yep that&amp;rsquo;s all. Paste it into the Run prompt or the command-line window. Just to jump into the the visual performance page to change the settings on a freshly prepared Windows machine.
-I wish there was an easier way to change the settings over command line but it seemed little too complicated compared to this one I have found.
-Maybe I will find something new later on..
-References:  https://stackoverflow.</description>
-    </item>
-    
-    <item>
-      <title>mRemoteNG External Tools enhancement</title>
-      <link>/2019/06/mremoteng-external-tools-enhancement/</link>
-      <pubDate>Mon, 10 Jun 2019 10:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/mremoteng-external-tools-enhancement/</guid>
-      <description>Explore C: Drive (Windows using Domain Account)
- Filename: %COMSPEC%  Arguments: /c net use \\%hostname%\c$ /user:%domain%\%username% %password% &amp;amp;&amp;amp; start \\%hostname%\c$
- WinSCP to tmp folder (Linux)
- Filename: __Tools\WinSCP-Portable\WinSCP.exe  Arguments: scp://%Username%:%Password%@%Hostname%/tmp/
- Database .NET Integration (SQL Sever - Windows Integrated Login)
- Filename: __Tools\CPAU.exe  Arguments: -u %domain%\%username% -p %password% -ex &amp;quot;__Tools\DatabaseNet4\Database4.exe 6 -s:%hostname% -e&amp;quot;
- RDP Plus (Maximized RDP Window)
- Filename: __Tools\rdp.exe  Arguments: /console /noprinters /nodrives /max /title:%NAME% /u:%domain%\%username% /p:%password% /v:%hostname%</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>/2019/05/my-first-post/</link>
-      <pubDate>Sun, 19 May 2019 04:04:32 +0000</pubDate>
-      
-      <guid>/2019/05/my-first-post/</guid>
-      <description>My First Post using Hugo  Just a little something to jot down notes and ideas.
-For my reference:
- Quickstart - https://gohugo.io/getting-started/quick-start/ Create new posts using the command: hugo new posts/my-first-post.md Hugo Server:hugo server -D For adding shorcodes - https://gohugo.io/content-management/shortcodes/ For adding images -  https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8 https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/  After running hugo server for local web development, you need to do a final hugo run without the _server_ part of the command to rebuild your site.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Applications Engineer based in the Middle East.</description>
     </item>
     
   </channel>

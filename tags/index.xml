@@ -7,15 +7,132 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
-    <lastBuildDate>Sun, 19 May 2019 07:04:32 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2019 18:06:00 +0300</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>avaya</title>
+      <link>/tags/avaya/</link>
+      <pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate>
+      
+      <guid>/tags/avaya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>call-recording</title>
+      <link>/tags/call-recording/</link>
+      <pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate>
+      
+      <guid>/tags/call-recording/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>verint</title>
+      <link>/tags/verint/</link>
+      <pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate>
+      
+      <guid>/tags/verint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate>
+      
+      <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workforce-optimization</title>
+      <link>/tags/workforce-optimization/</link>
+      <pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate>
+      
+      <guid>/tags/workforce-optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>/tags/music/</link>
+      <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcasts</title>
+      <link>/tags/podcasts/</link>
+      <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/tags/podcasts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work-music</title>
+      <link>/tags/work-music/</link>
+      <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/tags/work-music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wirehark</title>
+      <link>/tags/wirehark/</link>
+      <pubDate>Mon, 17 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/tags/wirehark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CTI</title>
+      <link>/tags/cti/</link>
+      <pubDate>Tue, 11 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/tags/cti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sysadmin</title>
+      <link>/tags/sysadmin/</link>
+      <pubDate>Mon, 10 Jun 2019 11:00:00 +0300</pubDate>
+      
+      <guid>/tags/sysadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>command-line</title>
+      <link>/tags/command-line/</link>
+      <pubDate>Mon, 10 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Mon, 10 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>untagged</title>
       <link>/tags/untagged/</link>
-      <pubDate>Sun, 19 May 2019 07:04:32 +0300</pubDate>
+      <pubDate>Sun, 19 May 2019 04:04:32 +0000</pubDate>
       
       <guid>/tags/untagged/</guid>
       <description></description>
