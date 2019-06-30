@@ -67,6 +67,8 @@
 <p>In this situation, the calls were not able on the CRS. ACR Master recorded the calls and did not push the calls to CRS. Inside WFO, only CRS was configured with the ACR Replay role.</p>
 
 <p>In this case, fixed integration between ACR Master and CRS. On tests after the integration, calls were able to be played back.</p>
+
+<p>yay!</p>
 ]]></content>
         </item>
         
