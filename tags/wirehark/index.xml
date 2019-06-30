@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wirehark on a corner of a mind</title>
+    <link>/tags/wirehark/</link>
+    <description>Recent content in wirehark on a corner of a mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>mark05E</copyright>
+    <lastBuildDate>Mon, 17 Jun 2019 10:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="/tags/wirehark/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wireshark - Filter MAC addresses</title>
+      <link>/2019/06/wireshark-filter-mac-addresses/</link>
+      <pubDate>Mon, 17 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/2019/06/wireshark-filter-mac-addresses/</guid>
+      <description>Few days ago I have been trying to troubleshoot some recording issue over the network while assisting with integration of Sestek&amp;rsquo;s Speech Analytics application.
+Background:
+The phone traffic are mirrored towards towards a server. We needed to know if the traffic from Avaya phones or a phone in specific was being sent towards this server.
+Wireshark Capture Filter (Filter you set before it start monitoring)
+ether host 24:d9:21:XX:XX:XX
+Wireshark Display Filter (Filter you set while traffic is being monitored)</description>
+    </item>
+    
+  </channel>
+</rss>

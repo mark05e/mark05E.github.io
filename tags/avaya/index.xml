@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>avaya on a corner of a mind</title>
+    <link>/tags/avaya/</link>
+    <description>Recent content in avaya on a corner of a mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>mark05E</copyright>
+    <lastBuildDate>Mon, 17 Jun 2019 10:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="/tags/avaya/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wireshark - Filter MAC addresses</title>
+      <link>/2019/06/wireshark-filter-mac-addresses/</link>
+      <pubDate>Mon, 17 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/2019/06/wireshark-filter-mac-addresses/</guid>
+      <description>Few days ago I have been trying to troubleshoot some recording issue over the network while assisting with integration of Sestek&amp;rsquo;s Speech Analytics application.
+Background:
+The phone traffic are mirrored towards towards a server. We needed to know if the traffic from Avaya phones or a phone in specific was being sent towards this server.
+Wireshark Capture Filter (Filter you set before it start monitoring)
+ether host 24:d9:21:XX:XX:XX
+Wireshark Display Filter (Filter you set while traffic is being monitored)</description>
+    </item>
+    
+    <item>
+      <title>AMC Contact Canvas - Voice Driver simulation</title>
+      <link>/2019/06/amc-contact-canvas-voice-driver-simulation/</link>
+      <pubDate>Tue, 11 Jun 2019 10:00:00 +0300</pubDate>
+      
+      <guid>/2019/06/amc-contact-canvas-voice-driver-simulation/</guid>
+      <description>Below has not been tested. There are only for my personal reference.
+To place the solution into simulation mode you must perform the following steps;
+Within the configuration, under the **ModuleManager** section:
+Comment: Module=CTIModule,XXXXXXXXXX
+Uncomment: #ModuleClass=CTINullClass,CTI_NULL.MC_CTI_NULL_ _#Module=CTIModule,CTINullClass
+&amp;hellip; and all lines under: #------------------------------------------------------------------------------
+# N U L L C o n n e c t o r
+#------------------------------------------------------------------------------
+#ModuleClass=CTINullClass,CTI_NULL.AMC_CTI_NULL
+#Module=CTIModule,CTINullClass
+&amp;hellip; and
+#------------------------------------------------------------------------------
+# N U L L C O N N E C T O R</description>
+    </item>
+    
+    <item>
+      <title>Avaya ACR and WFO License Generation Link</title>
+      <link>/2019/06/avaya-acr-and-wfo-license-generation-link/</link>
+      <pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate>
+      
+      <guid>/2019/06/avaya-acr-and-wfo-license-generation-link/</guid>
+      <description>WFO: https://oaccess.verint.com/LicenseActivator/Activate.aspx  Reference: Avaya Workforce Optimization - System Administration Guide (Avaya_WFO_V15_2_System_Administration.pdf)  ACR: https://oaccess.verint.com/acr/  Reference: https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN258246 Reference: Avaya Contact Recorder - Planning, Installation and Administration Guide (acradmin_en.pdf)   I spend sometime trying to find these links. They should probably send it out when they generate the license emails instead of burying it inside documentation.
+ACR - Avaya Contact Recorder
+WFO - Workforce Optimization (generally refers to their Quality Management (QM) module)</description>
+    </item>
+    
+  </channel>
+</rss>
