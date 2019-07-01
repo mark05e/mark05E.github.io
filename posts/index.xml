@@ -15,11 +15,31 @@
             <pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate>
             
             <guid>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</guid>
-            <description>Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=None&amp;amp;primaryinum=833303000000412&amp;amp;transactionid=XXXXX&amp;amp;type=audio&amp;amp;searcharchiver=false&amp;amp;searchbuffer=true&amp;amp;token=XXXXXX ... [locator |B698|E] 2019-06-30 09:48:55.354+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;amp;primaryinum=833303000000412&amp;amp;transactionid=XXXXX&amp;amp;type=speaker&amp;amp;searcharchiver=false&amp;amp;searchbuffer=true&amp;amp;token=XXXXX  Resolution https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN318006
- We use winhttp to talk between the application server and the content server. This is different than the proxy defined in IE</description>
+            <description>The Setup 3 ACR servers
+1 CRS
+1 Consolidated WFO/QM
+The Issue After integration between ACR and WFO, when trying to playback the recordings we get the error message ..
+ One or more of the interaction’s media files cannot be found
+ Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?</description>
             <content type="html"><![CDATA[
 
 <p><img src="/uploads/2019-06-30_182541.png" alt="" /></p>
+
+<h1 id="the-setup">The Setup</h1>
+
+<p>3 ACR servers</p>
+
+<p>1 CRS</p>
+
+<p>1 Consolidated WFO/QM</p>
+
+<h1 id="the-issue">The Issue</h1>
+
+<p>After integration between ACR and WFO, when trying to playback the  recordings we get the error message ..</p>
+
+<blockquote>
+<p><em>One or more of the interaction’s media files cannot be found</em></p>
+</blockquote>
 
 <h1 id="observation-1">Observation - 1</h1>
 

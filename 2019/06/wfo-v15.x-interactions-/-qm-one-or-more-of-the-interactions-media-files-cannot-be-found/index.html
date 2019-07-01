@@ -7,8 +7,12 @@
 <meta name="author"
     content="">
 <meta name="description"
-    content="Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=None&amp;amp;primaryinum=833303000000412&amp;amp;transactionid=XXXXX&amp;amp;type=audio&amp;amp;searcharchiver=false&amp;amp;searchbuffer=true&amp;amp;token=XXXXXX ... [locator |B698|E] 2019-06-30 09:48:55.354&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;amp;primaryinum=833303000000412&amp;amp;transactionid=XXXXX&amp;amp;type=speaker&amp;amp;searcharchiver=false&amp;amp;searchbuffer=true&amp;amp;token=XXXXX  Resolution https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN318006
- We use winhttp to talk between the application server and the content server. This is different than the proxy defined in IE" />
+    content="The Setup 3 ACR servers
+1 CRS
+1 Consolidated WFO/QM
+The Issue After integration between ACR and WFO, when trying to playback the recordings we get the error message ..
+ One or more of the interaction’s media files cannot be found
+ Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?" />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/" />
@@ -39,13 +43,17 @@
 <link rel="shortcut icon" href="/favicon.ico">
 <meta name="theme-color" content="#252627">
 <meta itemprop="name" content="WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found">
-<meta itemprop="description" content="Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=None&amp;primaryinum=833303000000412&amp;transactionid=XXXXX&amp;type=audio&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXXX ... [locator |B698|E] 2019-06-30 09:48:55.354&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;primaryinum=833303000000412&amp;transactionid=XXXXX&amp;type=speaker&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX  Resolution https://support.avaya.com/ext/index?page=content&amp;id=SOLN318006
- We use winhttp to talk between the application server and the content server. This is different than the proxy defined in IE">
+<meta itemprop="description" content="The Setup 3 ACR servers
+1 CRS
+1 Consolidated WFO/QM
+The Issue After integration between ACR and WFO, when trying to playback the recordings we get the error message ..
+ One or more of the interaction’s media files cannot be found
+ Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?">
 
 
 <meta itemprop="datePublished" content="2019-06-30T18:06:00&#43;03:00" />
 <meta itemprop="dateModified" content="2019-06-30T18:06:00&#43;03:00" />
-<meta itemprop="wordCount" content="258">
+<meta itemprop="wordCount" content="299">
 
 
 
@@ -54,8 +62,12 @@
 <meta name="twitter:image" content="/"/>
 
 <meta name="twitter:title" content="WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found"/>
-<meta name="twitter:description" content="Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=None&amp;primaryinum=833303000000412&amp;transactionid=XXXXX&amp;type=audio&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXXX ... [locator |B698|E] 2019-06-30 09:48:55.354&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?encryption=Ultra&amp;primaryinum=833303000000412&amp;transactionid=XXXXX&amp;type=speaker&amp;searcharchiver=false&amp;searchbuffer=true&amp;token=XXXXX  Resolution https://support.avaya.com/ext/index?page=content&amp;id=SOLN318006
- We use winhttp to talk between the application server and the content server. This is different than the proxy defined in IE"/>
+<meta name="twitter:description" content="The Setup 3 ACR servers
+1 CRS
+1 Consolidated WFO/QM
+The Issue After integration between ACR and WFO, when trying to playback the recordings we get the error message ..
+ One or more of the interaction’s media files cannot be found
+ Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025&#43;03:00 Locator::INumLocatorImpl::sendContentRequest&lt;843&gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?"/>
 
 
 
@@ -133,6 +145,22 @@
 
 <p><img src="/uploads/2019-06-30_182541.png" alt="" /></p>
 
+<h1 id="the-setup">The Setup</h1>
+
+<p>3 ACR servers</p>
+
+<p>1 CRS</p>
+
+<p>1 Consolidated WFO/QM</p>
+
+<h1 id="the-issue">The Issue</h1>
+
+<p>After integration between ACR and WFO, when trying to playback the  recordings we get the error message ..</p>
+
+<blockquote>
+<p><em>One or more of the interaction’s media files cannot be found</em></p>
+</blockquote>
+
 <h1 id="observation-1">Observation - 1</h1>
 
 <h3 id="locator-logs-authentication-error-for-requests-going-to-contentserver">Locator Logs – Authentication error for requests going to ContentServer</h3>
@@ -192,7 +220,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/windows">windows</a></span><span class="tag"><a href="/tags/workforce-optimization">workforce-optimization</a></span><span class="tag"><a href="/tags/call-recording">call-recording</a></span><span class="tag"><a href="/tags/verint">verint</a></span><span class="tag"><a href="/tags/avaya">avaya</a></span>
                 </p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>258 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>299 Words</p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-06-30 15:06 &#43;0000</p>
         </div>
