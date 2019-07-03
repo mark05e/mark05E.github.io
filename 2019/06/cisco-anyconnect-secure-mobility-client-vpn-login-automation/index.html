@@ -7,18 +7,20 @@
 <meta name="author"
     content="">
 <meta name="description"
-    content="This is a quick one-liner to test whether a port is open. This is useful in cases where the Telnet client is not installed and you need something done quick.
-powershell Test-NetConnection &amp;lt;&amp;lt;HOSTNAME&amp;gt;&amp;gt; -Port &amp;lt;&amp;lt;PORT&amp;gt;&amp;gt;
-Example:
-powershell Test-NetConnection MARKLABPC -Port 445" />
+    content="I hate the few seconds I have to spend typing the password into the VPN client. I have come across an AHK script that helps with that. It works about 85% of the time..
+Note: Requires AutoHotKey
+Part 1 Download this AHK script and place it somewhere you like.
+ https://gist.github.com/aplocher/f56b8cd494f987d25e94
+Part 2 Create a batch file to call the above script with the parameters
+AnyConnect.ahk &amp;lt;vpn-url&amp;gt; &amp;lt;username&amp;gt; &amp;lt;password&amp;gt;" />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="/2019/06/test-port-open-using-powershell/" />
+<link rel="canonical" href="/2019/06/cisco-anyconnect-secure-mobility-client-vpn-login-automation/" />
 
 
 <title>
     
-    Test Port Open using Powershell :: a corner of a mind  — mark&#39;s mind
+    Cisco AnyConnect Secure Mobility Client - VPN - Login Automation :: a corner of a mind  — mark&#39;s mind
     
 </title>
 
@@ -40,33 +42,37 @@ powershell Test-NetConnection MARKLABPC -Port 445" />
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
 <link rel="shortcut icon" href="/favicon.ico">
 <meta name="theme-color" content="#252627">
-<meta itemprop="name" content="Test Port Open using Powershell">
-<meta itemprop="description" content="This is a quick one-liner to test whether a port is open. This is useful in cases where the Telnet client is not installed and you need something done quick.
-powershell Test-NetConnection &lt;&lt;HOSTNAME&gt;&gt; -Port &lt;&lt;PORT&gt;&gt;
-Example:
-powershell Test-NetConnection MARKLABPC -Port 445">
+<meta itemprop="name" content="Cisco AnyConnect Secure Mobility Client - VPN - Login Automation">
+<meta itemprop="description" content="I hate the few seconds I have to spend typing the password into the VPN client. I have come across an AHK script that helps with that. It works about 85% of the time..
+Note: Requires AutoHotKey
+Part 1 Download this AHK script and place it somewhere you like.
+ https://gist.github.com/aplocher/f56b8cd494f987d25e94
+Part 2 Create a batch file to call the above script with the parameters
+AnyConnect.ahk &lt;vpn-url&gt; &lt;username&gt; &lt;password&gt;">
 
 
-<meta itemprop="datePublished" content="2019-06-26T09:00:00&#43;03:00" />
-<meta itemprop="dateModified" content="2019-06-26T09:00:00&#43;03:00" />
-<meta itemprop="wordCount" content="41">
+<meta itemprop="datePublished" content="2019-06-26T20:00:00&#43;03:00" />
+<meta itemprop="dateModified" content="2019-06-26T20:00:00&#43;03:00" />
+<meta itemprop="wordCount" content="86">
 
 
 
-<meta itemprop="keywords" content="windows,sysadmin,command-line," />
+<meta itemprop="keywords" content="command-line,windows,sysadmin," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/"/>
 
-<meta name="twitter:title" content="Test Port Open using Powershell"/>
-<meta name="twitter:description" content="This is a quick one-liner to test whether a port is open. This is useful in cases where the Telnet client is not installed and you need something done quick.
-powershell Test-NetConnection &lt;&lt;HOSTNAME&gt;&gt; -Port &lt;&lt;PORT&gt;&gt;
-Example:
-powershell Test-NetConnection MARKLABPC -Port 445"/>
+<meta name="twitter:title" content="Cisco AnyConnect Secure Mobility Client - VPN - Login Automation"/>
+<meta name="twitter:description" content="I hate the few seconds I have to spend typing the password into the VPN client. I have come across an AHK script that helps with that. It works about 85% of the time..
+Note: Requires AutoHotKey
+Part 1 Download this AHK script and place it somewhere you like.
+ https://gist.github.com/aplocher/f56b8cd494f987d25e94
+Part 2 Create a batch file to call the above script with the parameters
+AnyConnect.ahk &lt;vpn-url&gt; &lt;username&gt; &lt;password&gt;"/>
 
 
 
 
-<meta property="article:published_time" content="2019-06-26 09:00:00 &#43;0300 &#43;0300" />
+<meta property="article:published_time" content="2019-06-26 20:00:00 &#43;0300 &#43;0300" />
 
 
 
@@ -130,18 +136,37 @@ powershell Test-NetConnection MARKLABPC -Port 445"/>
         </div>
 
         <article>
-            <h1 class="post-title"><a href="/2019/06/test-port-open-using-powershell/">Test Port Open using Powershell</a></h1>
+            <h1 class="post-title"><a href="/2019/06/cisco-anyconnect-secure-mobility-client-vpn-login-automation/">Cisco AnyConnect Secure Mobility Client - VPN - Login Automation</a></h1>
 
             
 
             <div class="post-content">
-                <p>This is a quick one-liner to test whether a port is open. This is useful in cases where the Telnet client is not installed and you need something done quick.</p>
+                
 
-<p><code>powershell Test-NetConnection &lt;&lt;HOSTNAME&gt;&gt; -Port &lt;&lt;PORT&gt;&gt;</code></p>
+<p>I hate the few seconds I have to spend typing the password into the VPN client. I have come across an <a href="https://en.wikipedia.org/wiki/AutoHotkey">AHK</a> script that helps with that. It works about 85% of the time..</p>
 
-<p>Example:</p>
+<p>Note: Requires <a href="https://www.autohotkey.com/download/">AutoHotKey</a></p>
 
-<p><code>powershell Test-NetConnection MARKLABPC -Port 445</code></p>
+<h3 id="part-1">Part 1</h3>
+
+<p>Download this AHK script and place it somewhere you like.</p>
+
+<script type="application/javascript" src="//gist.github.com/aplocher/f56b8cd494f987d25e94.js"></script>
+
+<p><a href="https://gist.github.com/aplocher/f56b8cd494f987d25e94" title="https://gist.github.com/aplocher/f56b8cd494f987d25e94">https://gist.github.com/aplocher/f56b8cd494f987d25e94</a></p>
+
+<h3 id="part-2">Part 2</h3>
+
+<p>Create a batch file to call the above script with the parameters</p>
+
+<p><code>AnyConnect.ahk &lt;vpn-url&gt; &lt;username&gt; &lt;password&gt;</code></p>
+
+<p>My batch script is as follows:</p>
+
+<p><code>@echo off</code><br />
+<code>taskkill /F /IM vpnui.exe</code><br />
+<code>AnyConnect.ahk vpn.marklabvpn.com mark007 Password123</code><br />
+<code>@echo on</code></p>
 
             </div>
         </article>
@@ -150,12 +175,12 @@ powershell Test-NetConnection MARKLABPC -Port 445"/>
 
         <div class="post-info">
                 <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/windows">windows</a></span><span class="tag"><a href="/tags/sysadmin">sysadmin</a></span><span class="tag"><a href="/tags/command-line">command-line</a></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/command-line">command-line</a></span><span class="tag"><a href="/tags/windows">windows</a></span><span class="tag"><a href="/tags/sysadmin">sysadmin</a></span>
                 </p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>41 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>86 Words</p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-06-26 06:00 &#43;0000</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-06-26 17:00 &#43;0000</p>
         </div>
 
         
@@ -168,17 +193,17 @@ powershell Test-NetConnection MARKLABPC -Port 445"/>
                 <div class="pagination__buttons">
                     
                         <span class="button previous">
-                            <a href="/2019/06/cisco-anyconnect-secure-mobility-client-vpn-login-automation/">
+                            <a href="/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/">
                                 <span class="button__icon">←</span>
-                                <span class="button__text">Cisco AnyConnect Secure Mobility Client - VPN - Login Automation</span>
+                                <span class="button__text">WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found</span>
                             </a>
                         </span>
                     
 
                     
                         <span class="button next">
-                            <a href="/2019/06/daniel-hamermesh-on-spending-time-podcast/">
-                                <span class="button__text">Daniel Hamermesh on Spending Time [Podcast]</span>
+                            <a href="/2019/06/test-port-open-using-powershell/">
+                                <span class="button__text">Test Port Open using Powershell</span>
                                 <span class="button__icon">→</span>
                             </a>
                         </span>

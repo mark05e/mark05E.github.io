@@ -140,6 +140,47 @@ The Issue After integration between ACR and WFO, when trying to playback the rec
         </item>
         
         <item>
+            <title>Cisco AnyConnect Secure Mobility Client - VPN - Login Automation</title>
+            <link>/2019/06/cisco-anyconnect-secure-mobility-client-vpn-login-automation/</link>
+            <pubDate>Wed, 26 Jun 2019 20:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/cisco-anyconnect-secure-mobility-client-vpn-login-automation/</guid>
+            <description>I hate the few seconds I have to spend typing the password into the VPN client. I have come across an AHK script that helps with that. It works about 85% of the time..
+Note: Requires AutoHotKey
+Part 1 Download this AHK script and place it somewhere you like.
+ https://gist.github.com/aplocher/f56b8cd494f987d25e94
+Part 2 Create a batch file to call the above script with the parameters
+AnyConnect.ahk &amp;lt;vpn-url&amp;gt; &amp;lt;username&amp;gt; &amp;lt;password&amp;gt;</description>
+            <content type="html"><![CDATA[
+
+<p>I hate the few seconds I have to spend typing the password into the VPN client. I have come across an <a href="https://en.wikipedia.org/wiki/AutoHotkey">AHK</a> script that helps with that. It works about 85% of the time..</p>
+
+<p>Note: Requires <a href="https://www.autohotkey.com/download/">AutoHotKey</a></p>
+
+<h3 id="part-1">Part 1</h3>
+
+<p>Download this AHK script and place it somewhere you like.</p>
+
+<script type="application/javascript" src="//gist.github.com/aplocher/f56b8cd494f987d25e94.js"></script>
+
+<p><a href="https://gist.github.com/aplocher/f56b8cd494f987d25e94" title="https://gist.github.com/aplocher/f56b8cd494f987d25e94">https://gist.github.com/aplocher/f56b8cd494f987d25e94</a></p>
+
+<h3 id="part-2">Part 2</h3>
+
+<p>Create a batch file to call the above script with the parameters</p>
+
+<p><code>AnyConnect.ahk &lt;vpn-url&gt; &lt;username&gt; &lt;password&gt;</code></p>
+
+<p>My batch script is as follows:</p>
+
+<p><code>@echo off</code><br />
+<code>taskkill /F /IM vpnui.exe</code><br />
+<code>AnyConnect.ahk vpn.marklabvpn.com mark007 Password123</code><br />
+<code>@echo on</code></p>
+]]></content>
+        </item>
+        
+        <item>
             <title>Test Port Open using Powershell</title>
             <link>/2019/06/test-port-open-using-powershell/</link>
             <pubDate>Wed, 26 Jun 2019 09:00:00 +0300</pubDate>
