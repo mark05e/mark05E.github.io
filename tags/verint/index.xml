@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
-    <lastBuildDate>Sun, 30 Jun 2019 18:06:00 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2019 19:00:00 +0300</lastBuildDate>
     
 	<atom:link href="/tags/verint/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ACR v15.x - Remove EMA Config Files</title>
+      <link>/2019/07/acr-v15.x-remove-ema-config-files/</link>
+      <pubDate>Tue, 02 Jul 2019 19:00:00 +0300</pubDate>
+      
+      <guid>/2019/07/acr-v15.x-remove-ema-config-files/</guid>
+      <description>I have had to delete the ACR topology from the WFO/QM multiple times. The configuration removal on WFO/QM is relatively easier than the part on the ACR - traverse multiple folders and delete specific files.
+In the end, I typed out a quick script (windows) and just ran it on all the ACR servers.
+ https://gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5</description>
+    </item>
     
     <item>
       <title>WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found</title>
