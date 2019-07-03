@@ -24,6 +24,18 @@ After few searches online, I found this method which involves downloading a CAB 
     </item>
     
     <item>
+      <title>Test Port Open using Powershell</title>
+      <link>/2019/06/test-port-open-using-powershell/</link>
+      <pubDate>Wed, 26 Jun 2019 09:00:00 +0300</pubDate>
+      
+      <guid>/2019/06/test-port-open-using-powershell/</guid>
+      <description>This is a quick one-liner to test whether a port is open. This is useful in cases where the Telnet client is not installed and you need something done quick.
+powershell Test-NetConnection &amp;lt;&amp;lt;HOSTNAME&amp;gt;&amp;gt; -Port &amp;lt;&amp;lt;PORT&amp;gt;&amp;gt;
+Example:
+powershell Test-NetConnection MARKLABPC -Port 445</description>
+    </item>
+    
+    <item>
       <title>Windows - Visual Performance Panel Shortcut</title>
       <link>/2019/06/windows-visual-performance-panel-shortcut/</link>
       <pubDate>Mon, 10 Jun 2019 11:00:00 +0300</pubDate>

@@ -140,6 +140,26 @@ The Issue After integration between ACR and WFO, when trying to playback the rec
         </item>
         
         <item>
+            <title>Test Port Open using Powershell</title>
+            <link>/2019/06/test-port-open-using-powershell/</link>
+            <pubDate>Wed, 26 Jun 2019 09:00:00 +0300</pubDate>
+            
+            <guid>/2019/06/test-port-open-using-powershell/</guid>
+            <description>This is a quick one-liner to test whether a port is open. This is useful in cases where the Telnet client is not installed and you need something done quick.
+powershell Test-NetConnection &amp;lt;&amp;lt;HOSTNAME&amp;gt;&amp;gt; -Port &amp;lt;&amp;lt;PORT&amp;gt;&amp;gt;
+Example:
+powershell Test-NetConnection MARKLABPC -Port 445</description>
+            <content type="html"><![CDATA[<p>This is a quick one-liner to test whether a port is open. This is useful in cases where the Telnet client is not installed and you need something done quick.</p>
+
+<p><code>powershell Test-NetConnection &lt;&lt;HOSTNAME&gt;&gt; -Port &lt;&lt;PORT&gt;&gt;</code></p>
+
+<p>Example:</p>
+
+<p><code>powershell Test-NetConnection MARKLABPC -Port 445</code></p>
+]]></content>
+        </item>
+        
+        <item>
             <title>Daniel Hamermesh on Spending Time [Podcast]</title>
             <link>/2019/06/daniel-hamermesh-on-spending-time-podcast/</link>
             <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
