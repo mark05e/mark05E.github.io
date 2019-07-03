@@ -7,17 +7,17 @@
 <meta name="author"
     content="">
 <meta name="description"
-    content="I have had to delete the ACR topology from the WFO/QM multiple times. The configuration removal on WFO/QM is relatively easier than the part on the ACR - traverse multiple folders and delete specific files.
-In the end, I typed out a quick script (windows) and just ran it on all the ACR servers.
- https://gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5" />
+    content="From time to time, I have to work on environments which our customers provide and by the time we realize that they have forgotten to install a pre-requisite, its too late to ask them to mount back the dvd media or sometimes its just time sensitive.
+After few searches online, I found this method which involves downloading a CAB file and installing it.
+ Download microsoft-windows-netfx3-ondemand-package.cab Execute this on an elevated prompt" />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="/2019/07/acr-v15.x-remove-ema-config-files/" />
+<link rel="canonical" href="/2019/07/.net-framework-3.5-install-for-server-2016-/-server-2012-without-dvd/" />
 
 
 <title>
     
-    ACR v15.x - Remove EMA Config Files :: a corner of a mind  — mark&#39;s mind
+    .Net Framework 3.5 install for Server 2016 / Server 2012 - without DVD :: a corner of a mind  — mark&#39;s mind
     
 </title>
 
@@ -39,31 +39,31 @@ In the end, I typed out a quick script (windows) and just ran it on all the ACR 
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
 <link rel="shortcut icon" href="/favicon.ico">
 <meta name="theme-color" content="#252627">
-<meta itemprop="name" content="ACR v15.x - Remove EMA Config Files">
-<meta itemprop="description" content="I have had to delete the ACR topology from the WFO/QM multiple times. The configuration removal on WFO/QM is relatively easier than the part on the ACR - traverse multiple folders and delete specific files.
-In the end, I typed out a quick script (windows) and just ran it on all the ACR servers.
- https://gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5">
+<meta itemprop="name" content=".Net Framework 3.5 install for Server 2016 / Server 2012 - without DVD">
+<meta itemprop="description" content="From time to time, I have to work on environments which our customers provide and by the time we realize that they have forgotten to install a pre-requisite, its too late to ask them to mount back the dvd media or sometimes its just time sensitive.
+After few searches online, I found this method which involves downloading a CAB file and installing it.
+ Download microsoft-windows-netfx3-ondemand-package.cab Execute this on an elevated prompt">
 
 
-<meta itemprop="datePublished" content="2019-07-02T19:00:00&#43;03:00" />
-<meta itemprop="dateModified" content="2019-07-02T19:00:00&#43;03:00" />
-<meta itemprop="wordCount" content="55">
+<meta itemprop="datePublished" content="2019-07-02T16:00:00&#43;03:00" />
+<meta itemprop="dateModified" content="2019-07-02T16:00:00&#43;03:00" />
+<meta itemprop="wordCount" content="93">
 
 
 
-<meta itemprop="keywords" content="call-recording,verint,avaya," />
+<meta itemprop="keywords" content="windows,command-line,sysadmin," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/"/>
 
-<meta name="twitter:title" content="ACR v15.x - Remove EMA Config Files"/>
-<meta name="twitter:description" content="I have had to delete the ACR topology from the WFO/QM multiple times. The configuration removal on WFO/QM is relatively easier than the part on the ACR - traverse multiple folders and delete specific files.
-In the end, I typed out a quick script (windows) and just ran it on all the ACR servers.
- https://gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5"/>
+<meta name="twitter:title" content=".Net Framework 3.5 install for Server 2016 / Server 2012 - without DVD"/>
+<meta name="twitter:description" content="From time to time, I have to work on environments which our customers provide and by the time we realize that they have forgotten to install a pre-requisite, its too late to ask them to mount back the dvd media or sometimes its just time sensitive.
+After few searches online, I found this method which involves downloading a CAB file and installing it.
+ Download microsoft-windows-netfx3-ondemand-package.cab Execute this on an elevated prompt"/>
 
 
 
 
-<meta property="article:published_time" content="2019-07-02 19:00:00 &#43;0300 &#43;0300" />
+<meta property="article:published_time" content="2019-07-02 16:00:00 &#43;0300 &#43;0300" />
 
 
 
@@ -127,18 +127,25 @@ In the end, I typed out a quick script (windows) and just ran it on all the ACR 
         </div>
 
         <article>
-            <h1 class="post-title"><a href="/2019/07/acr-v15.x-remove-ema-config-files/">ACR v15.x - Remove EMA Config Files</a></h1>
+            <h1 class="post-title"><a href="/2019/07/.net-framework-3.5-install-for-server-2016-/-server-2012-without-dvd/">.Net Framework 3.5 install for Server 2016 / Server 2012 - without DVD</a></h1>
 
             
 
             <div class="post-content">
-                <p>I have had to delete the ACR topology from the WFO/QM multiple times. The configuration removal on WFO/QM is relatively easier than the part on the ACR - traverse multiple folders and delete specific files.</p>
+                <p>From time to time, I have to work on environments which our customers provide and by the time we realize that they have forgotten to install a pre-requisite, its too late to ask them to mount back the dvd media or sometimes its just time sensitive.</p>
 
-<p>In the end, I typed out a quick script (windows) and just ran it on all the ACR servers.</p>
+<p>After few searches online, I found this method which involves downloading a CAB file and installing it.</p>
 
-<script type="application/javascript" src="//gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5.js"></script>
+<ol>
+<li>Download <a href="https://androidfilehost.com/?fid=745425885120760819">microsoft-windows-netfx3-ondemand-package.cab</a></li>
+<li>Execute this on an elevated prompt<br />
+<code>DISM.EXE /Online /Add-Package /PackagePath:&quot;D:\temp\Microsoft-Windows-NetFx3-OnDemand-Package.cab&quot;</code></li>
+</ol>
 
-<p><a href="https://gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5" title="https://gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5">https://gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5</a></p>
+<p>TIP: Alternative searches for the file if the link above breaks.<br />
+<a href="https://www.mmnt.ru/int/get?st=microsoft-windows-netfx3-ondemand-package.cab" title="https://www.mmnt.ru/int/get?st=microsoft-windows-netfx3-ondemand-package.cab">https://www.mmnt.ru/int/get?st=microsoft-windows-netfx3-ondemand-package.cab</a></p>
+
+<p><em>Tada. No need for the DVD!</em></p>
 
             </div>
         </article>
@@ -147,12 +154,12 @@ In the end, I typed out a quick script (windows) and just ran it on all the ACR 
 
         <div class="post-info">
                 <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/call-recording">call-recording</a></span><span class="tag"><a href="/tags/verint">verint</a></span><span class="tag"><a href="/tags/avaya">avaya</a></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/windows">windows</a></span><span class="tag"><a href="/tags/command-line">command-line</a></span><span class="tag"><a href="/tags/sysadmin">sysadmin</a></span>
                 </p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>55 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>93 Words</p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-07-02 16:00 &#43;0000</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-07-02 13:00 &#43;0000</p>
         </div>
 
         
@@ -164,11 +171,18 @@ In the end, I typed out a quick script (windows) and just ran it on all the ACR 
 
                 <div class="pagination__buttons">
                     
+                        <span class="button previous">
+                            <a href="/2019/07/acr-v15.x-remove-ema-config-files/">
+                                <span class="button__icon">←</span>
+                                <span class="button__text">ACR v15.x - Remove EMA Config Files</span>
+                            </a>
+                        </span>
+                    
 
                     
                         <span class="button next">
-                            <a href="/2019/07/.net-framework-3.5-install-for-server-2016-/-server-2012-without-dvd/">
-                                <span class="button__text">.Net Framework 3.5 install for Server 2016 / Server 2012 - without DVD</span>
+                            <a href="/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/">
+                                <span class="button__text">WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found</span>
                                 <span class="button__icon">→</span>
                             </a>
                         </span>

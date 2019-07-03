@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
-    <lastBuildDate>Mon, 10 Jun 2019 11:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2019 16:00:00 +0300</lastBuildDate>
     
 	<atom:link href="/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>.Net Framework 3.5 install for Server 2016 / Server 2012 - without DVD</title>
+      <link>/2019/07/.net-framework-3.5-install-for-server-2016-/-server-2012-without-dvd/</link>
+      <pubDate>Tue, 02 Jul 2019 16:00:00 +0300</pubDate>
+      
+      <guid>/2019/07/.net-framework-3.5-install-for-server-2016-/-server-2012-without-dvd/</guid>
+      <description>From time to time, I have to work on environments which our customers provide and by the time we realize that they have forgotten to install a pre-requisite, its too late to ask them to mount back the dvd media or sometimes its just time sensitive.
+After few searches online, I found this method which involves downloading a CAB file and installing it.
+ Download microsoft-windows-netfx3-ondemand-package.cab Execute this on an elevated prompt</description>
+    </item>
     
     <item>
       <title>Windows - Visual Performance Panel Shortcut</title>

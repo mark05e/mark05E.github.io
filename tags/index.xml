@@ -40,9 +40,27 @@
     </item>
     
     <item>
+      <title>command-line</title>
+      <link>/tags/command-line/</link>
+      <pubDate>Tue, 02 Jul 2019 16:00:00 +0300</pubDate>
+      
+      <guid>/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sysadmin</title>
+      <link>/tags/sysadmin/</link>
+      <pubDate>Tue, 02 Jul 2019 16:00:00 +0300</pubDate>
+      
+      <guid>/tags/sysadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>windows</title>
       <link>/tags/windows/</link>
-      <pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate>
+      <pubDate>Tue, 02 Jul 2019 16:00:00 +0300</pubDate>
       
       <guid>/tags/windows/</guid>
       <description></description>
@@ -99,24 +117,6 @@
       <pubDate>Tue, 11 Jun 2019 10:00:00 +0300</pubDate>
       
       <guid>/tags/cti/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sysadmin</title>
-      <link>/tags/sysadmin/</link>
-      <pubDate>Mon, 10 Jun 2019 11:00:00 +0300</pubDate>
-      
-      <guid>/tags/sysadmin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>command-line</title>
-      <link>/tags/command-line/</link>
-      <pubDate>Mon, 10 Jun 2019 10:00:00 +0300</pubDate>
-      
-      <guid>/tags/command-line/</guid>
       <description></description>
     </item>
     

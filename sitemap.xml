@@ -44,14 +44,31 @@
   </url>
   
   <url>
-    <loc>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</loc>
-    <lastmod>2019-06-30T18:06:00+03:00</lastmod>
+    <loc>/2019/07/.net-framework-3.5-install-for-server-2016-/-server-2012-without-dvd/</loc>
+    <lastmod>2019-07-02T16:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/command-line/</loc>
+    <lastmod>2019-07-02T16:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sysadmin/</loc>
+    <lastmod>2019-07-02T16:00:00+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/windows/</loc>
-    <lastmod>2019-06-30T18:06:00+03:00</lastmod>
+    <lastmod>2019-07-02T16:00:00+03:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</loc>
+    <lastmod>2019-06-30T18:06:00+03:00</lastmod>
   </url>
   
   <url>
@@ -118,18 +135,6 @@
   <url>
     <loc>/2019/06/windows-visual-performance-panel-shortcut/</loc>
     <lastmod>2019-06-10T11:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/sysadmin/</loc>
-    <lastmod>2019-06-10T11:00:00+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/command-line/</loc>
-    <lastmod>2019-06-10T10:00:00+03:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
