@@ -19,8 +19,16 @@
       
       <guid>/2019/07/diagrams-that-you-can-type-out/</guid>
       <description>So from time to time I&amp;rsquo;d need some quick diagrams to understand relationships between different processes/servers in a solution. I initially found few plugins in DocuWiki which would allow to type out these diagrams.
-Recently I have found resources which would allow you to type out on a web page and generate the diagram in real-time.
- ER Diagrams  http://www.webgraphviz.com/ http://viz-js.com/  PlantUML  https://www.planttext.com/ https://real-world-plantuml.com/  Others  https://mermaidjs.</description>
+Example: digraph {
+A [label=&amp;quot;King Arthur&amp;quot;]
+B [label=&amp;quot;Sir Bedevere the Wise&amp;quot;]
+L [label=&amp;quot;Sir Lancelot the Brave&amp;quot;]
+A -&amp;gt; B
+A -&amp;gt; L
+B -&amp;gt; L [constraint=false]
+}
+Reference: Graphviz Readthedocs
+Recently I have found resources which would allow you to type out on a web page and generate the diagram in real-time.</description>
     </item>
     
     <item>

@@ -8,8 +8,16 @@
     content="">
 <meta name="description"
     content="So from time to time I&amp;rsquo;d need some quick diagrams to understand relationships between different processes/servers in a solution. I initially found few plugins in DocuWiki which would allow to type out these diagrams.
-Recently I have found resources which would allow you to type out on a web page and generate the diagram in real-time.
- ER Diagrams  http://www.webgraphviz.com/ http://viz-js.com/  PlantUML  https://www.planttext.com/ https://real-world-plantuml.com/  Others  https://mermaidjs." />
+Example: digraph {
+A [label=&amp;quot;King Arthur&amp;quot;]
+B [label=&amp;quot;Sir Bedevere the Wise&amp;quot;]
+L [label=&amp;quot;Sir Lancelot the Brave&amp;quot;]
+A -&amp;gt; B
+A -&amp;gt; L
+B -&amp;gt; L [constraint=false]
+}
+Reference: Graphviz Readthedocs
+Recently I have found resources which would allow you to type out on a web page and generate the diagram in real-time." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="/2019/07/diagrams-that-you-can-type-out/" />
@@ -41,13 +49,21 @@ Recently I have found resources which would allow you to type out on a web page 
 <meta name="theme-color" content="#252627">
 <meta itemprop="name" content="Diagrams that you can type out!">
 <meta itemprop="description" content="So from time to time I&rsquo;d need some quick diagrams to understand relationships between different processes/servers in a solution. I initially found few plugins in DocuWiki which would allow to type out these diagrams.
-Recently I have found resources which would allow you to type out on a web page and generate the diagram in real-time.
- ER Diagrams  http://www.webgraphviz.com/ http://viz-js.com/  PlantUML  https://www.planttext.com/ https://real-world-plantuml.com/  Others  https://mermaidjs.">
+Example: digraph {
+A [label=&quot;King Arthur&quot;]
+B [label=&quot;Sir Bedevere the Wise&quot;]
+L [label=&quot;Sir Lancelot the Brave&quot;]
+A -&gt; B
+A -&gt; L
+B -&gt; L [constraint=false]
+}
+Reference: Graphviz Readthedocs
+Recently I have found resources which would allow you to type out on a web page and generate the diagram in real-time.">
 
 
 <meta itemprop="datePublished" content="2019-07-03T20:00:00&#43;03:00" />
 <meta itemprop="dateModified" content="2019-07-03T20:00:00&#43;03:00" />
-<meta itemprop="wordCount" content="65">
+<meta itemprop="wordCount" content="97">
 
 
 
@@ -57,8 +73,16 @@ Recently I have found resources which would allow you to type out on a web page 
 
 <meta name="twitter:title" content="Diagrams that you can type out!"/>
 <meta name="twitter:description" content="So from time to time I&rsquo;d need some quick diagrams to understand relationships between different processes/servers in a solution. I initially found few plugins in DocuWiki which would allow to type out these diagrams.
-Recently I have found resources which would allow you to type out on a web page and generate the diagram in real-time.
- ER Diagrams  http://www.webgraphviz.com/ http://viz-js.com/  PlantUML  https://www.planttext.com/ https://real-world-plantuml.com/  Others  https://mermaidjs."/>
+Example: digraph {
+A [label=&quot;King Arthur&quot;]
+B [label=&quot;Sir Bedevere the Wise&quot;]
+L [label=&quot;Sir Lancelot the Brave&quot;]
+A -&gt; B
+A -&gt; L
+B -&gt; L [constraint=false]
+}
+Reference: Graphviz Readthedocs
+Recently I have found resources which would allow you to type out on a web page and generate the diagram in real-time."/>
 
 
 
@@ -132,9 +156,28 @@ Recently I have found resources which would allow you to type out on a web page 
             
 
             <div class="post-content">
-                <p>So from time to time I&rsquo;d need some quick diagrams to understand relationships between different processes/servers in a solution. I initially found <a href="https://www.dokuwiki.org/plugins?plugintag=diagram#extension__table">few plugins in DocuWiki</a> which would allow to type out these diagrams.</p>
+                
+
+<p>So from time to time I&rsquo;d need some quick diagrams to understand relationships between different processes/servers in a solution. I initially found <a href="https://www.dokuwiki.org/plugins?plugintag=diagram#extension__table">few plugins in DocuWiki</a> which would allow to type out these diagrams.</p>
+
+<h3 id="example">Example:</h3>
+
+<p><code>digraph {</code><br />
+<code>A [label=&quot;King Arthur&quot;]</code><br />
+<code>B [label=&quot;Sir Bedevere the Wise&quot;]</code><br />
+<code>L [label=&quot;Sir Lancelot the Brave&quot;]</code><br />
+<code>A -&gt; B</code><br />
+<code>A -&gt; L</code><br />
+<code>B -&gt; L [constraint=false]</code><br />
+<code>}</code></p>
+
+<p><img src="https://graphviz.readthedocs.io/en/stable/_images/round-table.svg" alt="" /></p>
+
+<p>Reference: <a href="https://graphviz.readthedocs.io/en/stable/manual.html">Graphviz Readthedocs</a></p>
 
 <p>Recently I have found resources which would allow you to type out on a web page and generate the diagram in real-time.</p>
+
+<h2 id="online-resources">Online Resources:</h2>
 
 <ul>
 <li>ER Diagrams
@@ -163,7 +206,7 @@ Recently I have found resources which would allow you to type out on a web page 
 
         <div class="post-info">
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>65 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>97 Words</p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-07-03 17:00 &#43;0000</p>
         </div>
