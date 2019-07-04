@@ -109,7 +109,7 @@ After few searches online, I found this method which involves downloading a CAB 
 <code>DISM.EXE /Online /Add-Package /PackagePath:&quot;D:\temp\Microsoft-Windows-NetFx3-OnDemand-Package.cab&quot;</code></li>
 </ol>
 
-<p>TIP: Alternative searches for the file if the link above breaks.<br />
+<p><strong>TIP:</strong> Alternative searches for the file if the link above breaks.<br />
 <a href="https://www.mmnt.ru/int/get?st=microsoft-windows-netfx3-ondemand-package.cab" title="https://www.mmnt.ru/int/get?st=microsoft-windows-netfx3-ondemand-package.cab">https://www.mmnt.ru/int/get?st=microsoft-windows-netfx3-ondemand-package.cab</a></p>
 
 <p><em>Tada. No need for the DVD!</em></p>
