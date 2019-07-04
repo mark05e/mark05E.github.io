@@ -43,11 +43,11 @@ In the end, I typed out a quick script (windows) and just ran it on all the ACR 
     </item>
     
     <item>
-      <title>.Net Framework 3.5 install for Server 2016/2012 - without DVD</title>
-      <link>/2019/07/.net-framework-3.5-install-for-server-2016/2012-without-dvd/</link>
+      <title>.Net Framework 3.5 install for Server 2016 or 2012 - without DVD</title>
+      <link>/2019/07/.net-framework-3.5-install-for-server-2016-or-2012-without-dvd/</link>
       <pubDate>Tue, 02 Jul 2019 16:00:00 +0300</pubDate>
       
-      <guid>/2019/07/.net-framework-3.5-install-for-server-2016/2012-without-dvd/</guid>
+      <guid>/2019/07/.net-framework-3.5-install-for-server-2016-or-2012-without-dvd/</guid>
       <description>From time to time, I have to work on environments which our customers provide and by the time we realize that they have forgotten to install a pre-requisite, its too late to ask them to mount back the dvd media or sometimes its just time sensitive.
 After few searches online, I found this method which involves downloading a CAB file and installing it.
  Download microsoft-windows-netfx3-ondemand-package.cab Execute this on an elevated prompt</description>
