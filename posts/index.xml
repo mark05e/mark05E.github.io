@@ -6,8 +6,47 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>mark05E</copyright>
-        <lastBuildDate>Wed, 03 Jul 2019 20:00:00 +0300</lastBuildDate>
+        <lastBuildDate>Fri, 05 Jul 2019 08:00:00 +0300</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Avaya AACC - Export CCT User List</title>
+            <link>/2019/07/avaya-aacc-export-cct-user-list/</link>
+            <pubDate>Fri, 05 Jul 2019 08:00:00 +0300</pubDate>
+            
+            <guid>/2019/07/avaya-aacc-export-cct-user-list/</guid>
+            <description>1 - Create new ODBC Connection to CCT DB Source Reference: Maxim Tsvetov&amp;rsquo;s Blog
+2 - Setup Database.Net to connect to CCT ODBC connection 3 - Execute Query SELECT &amp;quot;NcctcAgent&amp;quot;.&amp;quot;AgentLoginID&amp;quot;, &amp;quot;NcctcAgent&amp;quot;.&amp;quot;FirstName&amp;quot;, &amp;quot;NcctcAgent&amp;quot;.&amp;quot;LastName&amp;quot;, &amp;quot;NcctcUser&amp;quot;.&amp;quot;LoginName&amp;quot;
+FROM &amp;quot;NcctcAgent&amp;quot;
+INNER JOIN &amp;quot;NcctcUserAgent&amp;quot; ON &amp;quot;NcctcUserAgent&amp;quot;.&amp;quot;AgentID&amp;quot;=&amp;quot;NcctcAgent&amp;quot;.&amp;quot;ID&amp;quot;
+INNER JOIN &amp;quot;NcctcUser&amp;quot; ON &amp;quot;NcctcUser&amp;quot;.&amp;quot;ID&amp;quot;=&amp;quot;NcctcUserAgent&amp;quot;.&amp;quot;UserID&amp;quot;
+Hope somebody finds this helpful.</description>
+            <content type="html"><![CDATA[
+
+<h2 id="1-create-new-odbc-connection-to-cct-db-source">1 - Create new ODBC Connection to CCT DB Source</h2>
+
+<p><img src="/uploads/2019-07-05_184259.png" alt="" /></p>
+
+<p><img src="/uploads/2019-07-05_184311.png" alt="" /></p>
+
+<p>Reference: <a href="https://maximtsvetov.blogspot.com/2018/01/avaya-aura-contact-center-7x-aacc-sa.html">Maxim Tsvetov&rsquo;s Blog</a></p>
+
+<h2 id="2-setup-database-net-to-connect-to-cct-odbc-connection">2 - Setup Database.Net to connect to CCT ODBC connection</h2>
+
+<p><img src="/uploads/2019-07-05_184554.png" alt="" /></p>
+
+<h2 id="3-execute-query">3 - Execute Query</h2>
+
+<p><code>SELECT &quot;NcctcAgent&quot;.&quot;AgentLoginID&quot;, &quot;NcctcAgent&quot;.&quot;FirstName&quot;, &quot;NcctcAgent&quot;.&quot;LastName&quot;, &quot;NcctcUser&quot;.&quot;LoginName&quot;</code><br />
+<code>FROM   &quot;NcctcAgent&quot;</code><br />
+<code>INNER JOIN &quot;NcctcUserAgent&quot; ON &quot;NcctcUserAgent&quot;.&quot;AgentID&quot;=&quot;NcctcAgent&quot;.&quot;ID&quot;</code><br />
+<code>INNER JOIN &quot;NcctcUser&quot; ON &quot;NcctcUser&quot;.&quot;ID&quot;=&quot;NcctcUserAgent&quot;.&quot;UserID&quot;</code></p>
+
+<p><img src="/uploads/2019-07-05_184655_e.png" alt="" /></p>
+
+<p>Hope somebody finds this helpful.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Diagrams that you can type out!</title>

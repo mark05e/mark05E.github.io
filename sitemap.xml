@@ -3,37 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2019/07/diagrams-that-you-can-type-out/</loc>
-    <lastmod>2019-07-03T20:00:00+03:00</lastmod>
+    <loc>/2019/07/avaya-aacc-export-cct-user-list/</loc>
+    <lastmod>2019-07-05T08:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2019-07-03T20:00:00+03:00</lastmod>
+    <lastmod>2019-07-05T08:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-07-05T08:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-07-03T20:00:00+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/2019/07/acr-v15.x-remove-ema-config-files/</loc>
-    <lastmod>2019-07-02T19:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-07-02T19:00:00+03:00</lastmod>
+    <lastmod>2019-07-05T08:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/avaya/</loc>
-    <lastmod>2019-07-02T19:00:00+03:00</lastmod>
+    <lastmod>2019-07-05T08:00:00+03:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/contact-center/</loc>
+    <lastmod>2019-07-05T08:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2019/07/diagrams-that-you-can-type-out/</loc>
+    <lastmod>2019-07-03T20:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2019/07/acr-v15.x-remove-ema-config-files/</loc>
+    <lastmod>2019-07-02T19:00:00+03:00</lastmod>
   </url>
   
   <url>

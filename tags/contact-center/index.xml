@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>contact-center on a corner of a mind</title>
+    <link>/tags/contact-center/</link>
+    <description>Recent content in contact-center on a corner of a mind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>mark05E</copyright>
+    <lastBuildDate>Fri, 05 Jul 2019 08:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="/tags/contact-center/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Avaya AACC - Export CCT User List</title>
+      <link>/2019/07/avaya-aacc-export-cct-user-list/</link>
+      <pubDate>Fri, 05 Jul 2019 08:00:00 +0300</pubDate>
+      
+      <guid>/2019/07/avaya-aacc-export-cct-user-list/</guid>
+      <description>1 - Create new ODBC Connection to CCT DB Source Reference: Maxim Tsvetov&amp;rsquo;s Blog
+2 - Setup Database.Net to connect to CCT ODBC connection 3 - Execute Query SELECT &amp;quot;NcctcAgent&amp;quot;.&amp;quot;AgentLoginID&amp;quot;, &amp;quot;NcctcAgent&amp;quot;.&amp;quot;FirstName&amp;quot;, &amp;quot;NcctcAgent&amp;quot;.&amp;quot;LastName&amp;quot;, &amp;quot;NcctcUser&amp;quot;.&amp;quot;LoginName&amp;quot;
+FROM &amp;quot;NcctcAgent&amp;quot;
+INNER JOIN &amp;quot;NcctcUserAgent&amp;quot; ON &amp;quot;NcctcUserAgent&amp;quot;.&amp;quot;AgentID&amp;quot;=&amp;quot;NcctcAgent&amp;quot;.&amp;quot;ID&amp;quot;
+INNER JOIN &amp;quot;NcctcUser&amp;quot; ON &amp;quot;NcctcUser&amp;quot;.&amp;quot;ID&amp;quot;=&amp;quot;NcctcUserAgent&amp;quot;.&amp;quot;UserID&amp;quot;
+Hope somebody finds this helpful.</description>
+    </item>
+    
+  </channel>
+</rss>
