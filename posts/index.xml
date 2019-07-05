@@ -50,11 +50,14 @@ Recently I have found resources which would allow you to type out on a web page 
 <h2 id="online-resources">Online Resources:</h2>
 
 <ul>
-<li>ER Diagrams
+<li>ER Diagrams (GraphViz)
 
 <ul>
 <li><a href="http://www.webgraphviz.com/" title="http://www.webgraphviz.com/">http://www.webgraphviz.com/</a></li>
 <li><a href="http://viz-js.com/">http://viz-js.com/</a></li>
+<li><a href="https://edotor.net/" title="https://edotor.net/">https://edotor.net/</a></li>
+<li><a href="http://dreampuf.github.io/GraphvizOnline/" title="http://dreampuf.github.io/GraphvizOnline/">http://dreampuf.github.io/GraphvizOnline/</a></li>
+<li><a href="http://graphviz.it" title="http://graphviz.it">http://graphviz.it</a></li>
 </ul></li>
 <li>PlantUML
 
