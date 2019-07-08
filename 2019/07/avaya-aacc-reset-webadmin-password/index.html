@@ -7,20 +7,20 @@
 <meta name="author"
     content="">
 <meta name="description"
-    content="1 - Create new ODBC Connection to CCT DB Source Reference: Maxim Tsvetov&amp;rsquo;s Blog
-2 - Setup Database.Net to connect to CCT ODBC connection 3 - Execute Query SELECT &amp;quot;NcctcAgent&amp;quot;.&amp;quot;AgentLoginID&amp;quot;, &amp;quot;NcctcAgent&amp;quot;.&amp;quot;FirstName&amp;quot;, &amp;quot;NcctcAgent&amp;quot;.&amp;quot;LastName&amp;quot;, &amp;quot;NcctcUser&amp;quot;.&amp;quot;LoginName&amp;quot;
-FROM &amp;quot;NcctcAgent&amp;quot;
-INNER JOIN &amp;quot;NcctcUserAgent&amp;quot; ON &amp;quot;NcctcUserAgent&amp;quot;.&amp;quot;AgentID&amp;quot;=&amp;quot;NcctcAgent&amp;quot;.&amp;quot;ID&amp;quot;
-INNER JOIN &amp;quot;NcctcUser&amp;quot; ON &amp;quot;NcctcUser&amp;quot;.&amp;quot;ID&amp;quot;=&amp;quot;NcctcUserAgent&amp;quot;.&amp;quot;UserID&amp;quot;
-Hope somebody finds this helpful." />
+    content="Note: The password has been untested.
+Using Database.Net (or your favourite ODBC client)&amp;hellip;
+ Connect locally to CCMA_CACHE on the AACC server.
+Use credentials on Maxim Tsvetov&amp;rsquo;s Blog_
+_ Open the APM.ccmUser table. Modify the User ID 1000 account password to 5767142366101EB6
+ Restart the whole server. Login with credentials webadmin/webadmin.  " />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="/2019/07/avaya-aacc-export-cct-user-list/" />
+<link rel="canonical" href="/2019/07/avaya-aacc-reset-webadmin-password/" />
 
 
 <title>
     
-    Avaya AACC - Export CCT User List :: a corner of a mind  — mark&#39;s mind
+    Avaya AACC - Reset WebAdmin password :: a corner of a mind  — mark&#39;s mind
     
 </title>
 
@@ -42,18 +42,18 @@ Hope somebody finds this helpful." />
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
 <link rel="shortcut icon" href="/favicon.ico">
 <meta name="theme-color" content="#252627">
-<meta itemprop="name" content="Avaya AACC - Export CCT User List">
-<meta itemprop="description" content="1 - Create new ODBC Connection to CCT DB Source Reference: Maxim Tsvetov&rsquo;s Blog
-2 - Setup Database.Net to connect to CCT ODBC connection 3 - Execute Query SELECT &quot;NcctcAgent&quot;.&quot;AgentLoginID&quot;, &quot;NcctcAgent&quot;.&quot;FirstName&quot;, &quot;NcctcAgent&quot;.&quot;LastName&quot;, &quot;NcctcUser&quot;.&quot;LoginName&quot;
-FROM &quot;NcctcAgent&quot;
-INNER JOIN &quot;NcctcUserAgent&quot; ON &quot;NcctcUserAgent&quot;.&quot;AgentID&quot;=&quot;NcctcAgent&quot;.&quot;ID&quot;
-INNER JOIN &quot;NcctcUser&quot; ON &quot;NcctcUser&quot;.&quot;ID&quot;=&quot;NcctcUserAgent&quot;.&quot;UserID&quot;
-Hope somebody finds this helpful.">
+<meta itemprop="name" content="Avaya AACC - Reset WebAdmin password">
+<meta itemprop="description" content="Note: The password has been untested.
+Using Database.Net (or your favourite ODBC client)&hellip;
+ Connect locally to CCMA_CACHE on the AACC server.
+Use credentials on Maxim Tsvetov&rsquo;s Blog_
+_ Open the APM.ccmUser table. Modify the User ID 1000 account password to 5767142366101EB6
+ Restart the whole server. Login with credentials webadmin/webadmin.  ">
 
 
-<meta itemprop="datePublished" content="2019-07-05T08:00:00&#43;03:00" />
-<meta itemprop="dateModified" content="2019-07-05T08:00:00&#43;03:00" />
-<meta itemprop="wordCount" content="50">
+<meta itemprop="datePublished" content="2019-07-07T16:00:00&#43;03:00" />
+<meta itemprop="dateModified" content="2019-07-07T16:00:00&#43;03:00" />
+<meta itemprop="wordCount" content="49">
 
 
 
@@ -61,18 +61,18 @@ Hope somebody finds this helpful.">
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="/"/>
 
-<meta name="twitter:title" content="Avaya AACC - Export CCT User List"/>
-<meta name="twitter:description" content="1 - Create new ODBC Connection to CCT DB Source Reference: Maxim Tsvetov&rsquo;s Blog
-2 - Setup Database.Net to connect to CCT ODBC connection 3 - Execute Query SELECT &quot;NcctcAgent&quot;.&quot;AgentLoginID&quot;, &quot;NcctcAgent&quot;.&quot;FirstName&quot;, &quot;NcctcAgent&quot;.&quot;LastName&quot;, &quot;NcctcUser&quot;.&quot;LoginName&quot;
-FROM &quot;NcctcAgent&quot;
-INNER JOIN &quot;NcctcUserAgent&quot; ON &quot;NcctcUserAgent&quot;.&quot;AgentID&quot;=&quot;NcctcAgent&quot;.&quot;ID&quot;
-INNER JOIN &quot;NcctcUser&quot; ON &quot;NcctcUser&quot;.&quot;ID&quot;=&quot;NcctcUserAgent&quot;.&quot;UserID&quot;
-Hope somebody finds this helpful."/>
+<meta name="twitter:title" content="Avaya AACC - Reset WebAdmin password"/>
+<meta name="twitter:description" content="Note: The password has been untested.
+Using Database.Net (or your favourite ODBC client)&hellip;
+ Connect locally to CCMA_CACHE on the AACC server.
+Use credentials on Maxim Tsvetov&rsquo;s Blog_
+_ Open the APM.ccmUser table. Modify the User ID 1000 account password to 5767142366101EB6
+ Restart the whole server. Login with credentials webadmin/webadmin.  "/>
 
 
 
 
-<meta property="article:published_time" content="2019-07-05 08:00:00 &#43;0300 &#43;0300" />
+<meta property="article:published_time" content="2019-07-07 16:00:00 &#43;0300 &#43;0300" />
 
 
 
@@ -136,35 +136,23 @@ Hope somebody finds this helpful."/>
         </div>
 
         <article>
-            <h1 class="post-title"><a href="/2019/07/avaya-aacc-export-cct-user-list/">Avaya AACC - Export CCT User List</a></h1>
+            <h1 class="post-title"><a href="/2019/07/avaya-aacc-reset-webadmin-password/">Avaya AACC - Reset WebAdmin password</a></h1>
 
             
 
             <div class="post-content">
-                
+                <p><strong>Note: The password has been untested.</strong></p>
 
-<h2 id="1-create-new-odbc-connection-to-cct-db-source">1 - Create new ODBC Connection to CCT DB Source</h2>
+<p>Using <a href="https://fishcodelib.com/Database.htm">Database.Net</a> (or your favourite ODBC client)&hellip;</p>
 
-<p><img src="/uploads/2019-07-05_184259.png" alt="" /></p>
-
-<p><img src="/uploads/2019-07-05_184311.png" alt="" /></p>
-
-<p>Reference: <a href="https://maximtsvetov.blogspot.com/2018/01/avaya-aura-contact-center-7x-aacc-sa.html">Maxim Tsvetov&rsquo;s Blog</a></p>
-
-<h2 id="2-setup-database-net-to-connect-to-cct-odbc-connection">2 - Setup Database.Net to connect to CCT ODBC connection</h2>
-
-<p><img src="/uploads/2019-07-05_184554.png" alt="" /></p>
-
-<h2 id="3-execute-query">3 - Execute Query</h2>
-
-<p><code>SELECT &quot;NcctcAgent&quot;.&quot;AgentLoginID&quot;, &quot;NcctcAgent&quot;.&quot;FirstName&quot;, &quot;NcctcAgent&quot;.&quot;LastName&quot;, &quot;NcctcUser&quot;.&quot;LoginName&quot;</code><br />
-<code>FROM   &quot;NcctcAgent&quot;</code><br />
-<code>INNER JOIN &quot;NcctcUserAgent&quot; ON &quot;NcctcUserAgent&quot;.&quot;AgentID&quot;=&quot;NcctcAgent&quot;.&quot;ID&quot;</code><br />
-<code>INNER JOIN &quot;NcctcUser&quot; ON &quot;NcctcUser&quot;.&quot;ID&quot;=&quot;NcctcUserAgent&quot;.&quot;UserID&quot;</code></p>
-
-<p><img src="/uploads/2019-07-05_184655_e.png" alt="" /></p>
-
-<p>Hope somebody finds this helpful.</p>
+<ol>
+<li>Connect locally to <code>CCMA_CACHE</code> on the AACC server.<br />
+<em>Use credentials on</em> <a href="https://maximtsvetov.blogspot.com/2018/01/avaya-aura-contact-center-7x-aacc-sa.html"><em>Maxim Tsvetov&rsquo;s Blog</em></a>_<br />
+<img src="/uploads/2019-07-07_210138.png" alt="" />_</li>
+<li>Open the <code>APM.ccmUser</code> table. Modify the User ID 1000 account password to <code>5767142366101EB6</code><br />
+<img src="/uploads/2019-07-07_210247_e.png" alt="" /></li>
+<li>Restart the whole server. Login with credentials webadmin/webadmin.</li>
+</ol>
 
             </div>
         </article>
@@ -176,9 +164,9 @@ Hope somebody finds this helpful."/>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/contact-center">contact-center</a></span><span class="tag"><a href="/tags/avaya">avaya</a></span>
                 </p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>50 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>49 Words</p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-07-05 05:00 &#43;0000</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-07-07 13:00 &#43;0000</p>
         </div>
 
         
@@ -190,18 +178,11 @@ Hope somebody finds this helpful."/>
 
                 <div class="pagination__buttons">
                     
-                        <span class="button previous">
-                            <a href="/2019/07/avaya-aacc-reset-webadmin-password/">
-                                <span class="button__icon">←</span>
-                                <span class="button__text">Avaya AACC - Reset WebAdmin password</span>
-                            </a>
-                        </span>
-                    
 
                     
                         <span class="button next">
-                            <a href="/2019/07/diagrams-that-you-can-type-out/">
-                                <span class="button__text">Diagrams that you can type out!</span>
+                            <a href="/2019/07/avaya-aacc-export-cct-user-list/">
+                                <span class="button__text">Avaya AACC - Export CCT User List</span>
                                 <span class="button__icon">→</span>
                             </a>
                         </span>

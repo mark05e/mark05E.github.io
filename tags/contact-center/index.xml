@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
-    <lastBuildDate>Fri, 05 Jul 2019 08:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jul 2019 16:00:00 +0300</lastBuildDate>
     
 	<atom:link href="/tags/contact-center/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Avaya AACC - Reset WebAdmin password</title>
+      <link>/2019/07/avaya-aacc-reset-webadmin-password/</link>
+      <pubDate>Sun, 07 Jul 2019 16:00:00 +0300</pubDate>
+      
+      <guid>/2019/07/avaya-aacc-reset-webadmin-password/</guid>
+      <description>Note: The password has been untested.
+Using Database.Net (or your favourite ODBC client)&amp;hellip;
+ Connect locally to CCMA_CACHE on the AACC server.
+Use credentials on Maxim Tsvetov&amp;rsquo;s Blog_
+_ Open the APM.ccmUser table. Modify the User ID 1000 account password to 5767142366101EB6
+ Restart the whole server. Login with credentials webadmin/webadmin.  </description>
+    </item>
     
     <item>
       <title>Avaya AACC - Export CCT User List</title>

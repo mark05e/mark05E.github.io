@@ -6,8 +6,35 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>mark05E</copyright>
-        <lastBuildDate>Fri, 05 Jul 2019 08:00:00 +0300</lastBuildDate>
+        <lastBuildDate>Sun, 07 Jul 2019 16:00:00 +0300</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Avaya AACC - Reset WebAdmin password</title>
+            <link>/2019/07/avaya-aacc-reset-webadmin-password/</link>
+            <pubDate>Sun, 07 Jul 2019 16:00:00 +0300</pubDate>
+            
+            <guid>/2019/07/avaya-aacc-reset-webadmin-password/</guid>
+            <description>Note: The password has been untested.
+Using Database.Net (or your favourite ODBC client)&amp;hellip;
+ Connect locally to CCMA_CACHE on the AACC server.
+Use credentials on Maxim Tsvetov&amp;rsquo;s Blog_
+_ Open the APM.ccmUser table. Modify the User ID 1000 account password to 5767142366101EB6
+ Restart the whole server. Login with credentials webadmin/webadmin.  </description>
+            <content type="html"><![CDATA[<p><strong>Note: The password has been untested.</strong></p>
+
+<p>Using <a href="https://fishcodelib.com/Database.htm">Database.Net</a> (or your favourite ODBC client)&hellip;</p>
+
+<ol>
+<li>Connect locally to <code>CCMA_CACHE</code> on the AACC server.<br />
+<em>Use credentials on</em> <a href="https://maximtsvetov.blogspot.com/2018/01/avaya-aura-contact-center-7x-aacc-sa.html"><em>Maxim Tsvetov&rsquo;s Blog</em></a>_<br />
+<img src="/uploads/2019-07-07_210138.png" alt="" />_</li>
+<li>Open the <code>APM.ccmUser</code> table. Modify the User ID 1000 account password to <code>5767142366101EB6</code><br />
+<img src="/uploads/2019-07-07_210247_e.png" alt="" /></li>
+<li>Restart the whole server. Login with credentials webadmin/webadmin.</li>
+</ol>
+]]></content>
+        </item>
         
         <item>
             <title>Avaya AACC - Export CCT User List</title>
