@@ -199,4 +199,8 @@
     <priority>0</priority>
   </url>
   
+  <url>
+    <loc>/contact/</loc>
+  </url>
+  
 </urlset>

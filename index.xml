@@ -239,5 +239,14 @@ For my reference:
       <description>Applications Engineer based in the Middle East.</description>
     </item>
     
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Chargement en cours… </description>
+    </item>
+    
   </channel>
 </rss>
