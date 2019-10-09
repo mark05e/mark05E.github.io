@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
-    <lastBuildDate>Sun, 07 Jul 2019 16:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0300</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,27 @@
     <item>
       <title>avaya</title>
       <link>/tags/avaya/</link>
-      <pubDate>Sun, 07 Jul 2019 16:00:00 +0300</pubDate>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate>
       
       <guid>/tags/avaya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql-server</title>
+      <link>/tags/sql-server/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate>
+      
+      <guid>/tags/sql-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workforce-optimization</title>
+      <link>/tags/workforce-optimization/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate>
+      
+      <guid>/tags/workforce-optimization/</guid>
       <description></description>
     </item>
     
@@ -72,15 +90,6 @@
       <pubDate>Tue, 02 Jul 2019 16:00:00 +0300</pubDate>
       
       <guid>/tags/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>workforce-optimization</title>
-      <link>/tags/workforce-optimization/</link>
-      <pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate>
-      
-      <guid>/tags/workforce-optimization/</guid>
       <description></description>
     </item>
     

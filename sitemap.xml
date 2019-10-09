@@ -3,32 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2019/07/avaya-aacc-reset-webadmin-password/</loc>
-    <lastmod>2019-07-07T16:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/</loc>
-    <lastmod>2019-07-07T16:00:00+03:00</lastmod>
+    <lastmod>2019-10-09T00:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</loc>
+    <lastmod>2019-10-09T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
-    <lastmod>2019-07-07T16:00:00+03:00</lastmod>
+    <lastmod>2019-10-09T00:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-07-07T16:00:00+03:00</lastmod>
+    <lastmod>2019-10-09T00:00:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/avaya/</loc>
-    <lastmod>2019-07-07T16:00:00+03:00</lastmod>
+    <lastmod>2019-10-09T00:00:00+03:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sql-server/</loc>
+    <lastmod>2019-10-09T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/workforce-optimization/</loc>
+    <lastmod>2019-10-09T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/2019/07/avaya-aacc-reset-webadmin-password/</loc>
+    <lastmod>2019-07-07T16:00:00+03:00</lastmod>
   </url>
   
   <url>
@@ -90,12 +107,6 @@
   <url>
     <loc>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</loc>
     <lastmod>2019-06-30T18:06:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/workforce-optimization/</loc>
-    <lastmod>2019-06-30T18:06:00+03:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

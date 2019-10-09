@@ -6,8 +6,39 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>mark05E</copyright>
-        <lastBuildDate>Sun, 07 Jul 2019 16:00:00 +0300</lastBuildDate>
+        <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0300</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>SSRS Excel Rendering Extension rrRenderingError Number of Rows exceed</title>
+            <link>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</link>
+            <pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate>
+            
+            <guid>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</guid>
+            <description>We are using Avaya Workforce Optimization v15 which now uses Microsoft SQL Server Reporting Services (SSRS) as a reporting engine. When one of our customers tried to export a large dataset, they got the error:
+Reporting Services Error
+Excel Rendering Extension: Number of rows exceeds the maximum possible in a worksheet of this version. Rows requested: 2259767. Maximum rows: 1048575. (rrRenderingError)
+On checking on this error, Microsoft documentation states that excel cannot handel more than 1048576 rows on the current versions (reference).</description>
+            <content type="html"><![CDATA[<p><img src="/uploads/2019-10-09_121921.png" alt="" /></p>
+
+<p>We are using Avaya Workforce Optimization v15 which now uses Microsoft SQL Server Reporting Services (SSRS) as a reporting engine. When one of our customers tried to export a large dataset, they got the error:</p>
+
+<p><code>Reporting Services Error</code><br />
+<code>Excel Rendering Extension: Number of rows exceeds the maximum possible in a worksheet of this version. Rows requested: 2259767. Maximum rows: 1048575. (rrRenderingError)</code></p>
+
+<p>On checking on this error, Microsoft documentation states that excel cannot handel more than <strong>1048576</strong> rows on the current versions (<a href="https://support.office.com/en-us/article/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3">reference</a>).</p>
+
+<p>Workaround would be allowing them to export as CSV from SSRS webpage. If CSV option is not enabled by default, you can modify the file</p>
+
+<p><code>X:\Program Files\Microsoft SQL Server\MSRSXX.XXXXX\Reporting Services\ReportServer\rsreportserver.config</code></p>
+
+<p>and search for the line</p>
+
+<p><code>&lt;Extension Name=&quot;CSV&quot; Type=&quot;Microsoft.ReportingServices.Rendering.DataRenderer.CsvReport,Microsoft.ReportingServices.DataRendering&quot; Visible=&quot;false&quot;/&gt;</code></p>
+
+<p>and set the <code>Visible=&quot;true&quot;</code></p>
+]]></content>
+        </item>
         
         <item>
             <title>Avaya AACC - Reset WebAdmin password</title>
