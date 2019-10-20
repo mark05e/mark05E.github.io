@@ -7,22 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
-    <lastBuildDate>Sun, 20 Oct 2019 14:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0300</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>WFO v12 - Cannot login into Webpage</title>
-      <link>/2019/10/wfo-v12-cannot-login-into-webpage/</link>
-      <pubDate>Sun, 20 Oct 2019 14:00:00 +0300</pubDate>
-      
-      <guid>/2019/10/wfo-v12-cannot-login-into-webpage/</guid>
-      <description>A customer was facing issue with WFO webpage login. Users are unable to login into the WFO web portal. They are able to get the login page but receiving the following error after entering credentials and pressing Enter.
-&amp;quot;Please contact the administrator or technical support specialist to analyze the problem.
-Full detail of the error can be found in the log.
-Error is: java.rmi.RemoteException: EJB Exception:; nested exception is: java.rmi.RemoteException: Failed to notify login failure; nested exception is: com.</description>
-    </item>
     
     <item>
       <title>SSRS Excel Rendering Extension rrRenderingError Number of Rows exceed</title>
