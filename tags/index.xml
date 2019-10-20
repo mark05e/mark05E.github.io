@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
-    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2019 14:00:00 +0300</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>avaya</title>
       <link>/tags/avaya/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate>
+      <pubDate>Sun, 20 Oct 2019 14:00:00 +0300</pubDate>
       
       <guid>/tags/avaya/</guid>
       <description></description>
@@ -24,16 +24,25 @@
     <item>
       <title>sql-server</title>
       <link>/tags/sql-server/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate>
+      <pubDate>Sun, 20 Oct 2019 14:00:00 +0300</pubDate>
       
       <guid>/tags/sql-server/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>verint</title>
+      <link>/tags/verint/</link>
+      <pubDate>Sun, 20 Oct 2019 14:00:00 +0300</pubDate>
+      
+      <guid>/tags/verint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>workforce-optimization</title>
       <link>/tags/workforce-optimization/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate>
+      <pubDate>Sun, 20 Oct 2019 14:00:00 +0300</pubDate>
       
       <guid>/tags/workforce-optimization/</guid>
       <description></description>
@@ -54,15 +63,6 @@
       <pubDate>Tue, 02 Jul 2019 19:00:00 +0300</pubDate>
       
       <guid>/tags/call-recording/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>verint</title>
-      <link>/tags/verint/</link>
-      <pubDate>Tue, 02 Jul 2019 19:00:00 +0300</pubDate>
-      
-      <guid>/tags/verint/</guid>
       <description></description>
     </item>
     
