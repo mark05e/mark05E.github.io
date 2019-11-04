@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>mark05E</copyright>
-    <lastBuildDate>Sun, 20 Oct 2019 14:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 06:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Intersystems Cache Database Drivers</title>
+      <link>/2019/11/intersystems-cache-database-drivers/</link>
+      <pubDate>Mon, 04 Nov 2019 06:00:00 +0000</pubDate>
+      
+      <guid>/2019/11/intersystems-cache-database-drivers/</guid>
+      <description>I keep searching for this link to download ODBC drivers on google search but it does not show up. It is buried deep within some Avaya pages. So now I put it here for my ease of use.
+ftp://ftp.intersystems.com/pub/cache/odbc/
+Also there are some resources that reference the below link for downloading other driver types (eg: JDBC) but the site is a pain to use during the times I have tested.</description>
+    </item>
     
     <item>
       <title>WFO v12 - Cannot login into Webpage</title>
