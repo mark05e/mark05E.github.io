@@ -1,130 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>avaya on a corner of a mind</title>
-    <link>/tags/avaya/</link>
-    <description>Recent content in avaya on a corner of a mind</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>mark05E</copyright>
-    <lastBuildDate>Mon, 04 Nov 2019 06:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/avaya/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Intersystems Cache Database Drivers</title>
-      <link>/2019/11/intersystems-cache-database-drivers/</link>
-      <pubDate>Mon, 04 Nov 2019 06:00:00 +0000</pubDate>
-      
-      <guid>/2019/11/intersystems-cache-database-drivers/</guid>
-      <description>I keep searching for this link to download ODBC drivers on google search but it does not show up. It is buried deep within some Avaya pages. So now I put it here for my ease of use.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>avaya on a corner of a mind</title><link>/tags/avaya/</link><description>Recent content in avaya on a corner of a mind</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>mark05E</copyright><lastBuildDate>Mon, 04 Nov 2019 06:00:00 +0000</lastBuildDate><atom:link href="/tags/avaya/index.xml" rel="self" type="application/rss+xml"/><item><title>Intersystems Cache Database Drivers</title><link>/2019/11/intersystems-cache-database-drivers/</link><pubDate>Mon, 04 Nov 2019 06:00:00 +0000</pubDate><guid>/2019/11/intersystems-cache-database-drivers/</guid><description>I keep searching for this link to download ODBC drivers on google search but it does not show up. It is buried deep within some Avaya pages. So now I put it here for my ease of use.
 ftp://ftp.intersystems.com/pub/cache/odbc/
-Also there are some resources that reference the below link for downloading other driver types (eg: JDBC) but the site is a pain to use during the times I have tested.</description>
-    </item>
-    
-    <item>
-      <title>WFO v12 - Cannot login into Webpage</title>
-      <link>/2019/10/wfo-v12-cannot-login-into-webpage/</link>
-      <pubDate>Sun, 20 Oct 2019 14:00:00 +0300</pubDate>
-      
-      <guid>/2019/10/wfo-v12-cannot-login-into-webpage/</guid>
-      <description>A customer was facing issue with WFO webpage login. Users are unable to login into the WFO web portal. They are able to get the login page but receiving the following error after entering credentials and pressing Enter.
+Also there are some resources that reference the below link for downloading other driver types (eg: JDBC) but the site is a pain to use during the times I have tested.</description></item><item><title>WFO v12 - Cannot login into Webpage</title><link>/2019/10/wfo-v12-cannot-login-into-webpage/</link><pubDate>Sun, 20 Oct 2019 14:00:00 +0300</pubDate><guid>/2019/10/wfo-v12-cannot-login-into-webpage/</guid><description>A customer was facing issue with WFO webpage login. Users are unable to login into the WFO web portal. They are able to get the login page but receiving the following error after entering credentials and pressing Enter.
 &amp;quot;Please contact the administrator or technical support specialist to analyze the problem.
 Full detail of the error can be found in the log.
-Error is: java.rmi.RemoteException: EJB Exception:; nested exception is: java.rmi.RemoteException: Failed to notify login failure; nested exception is: com.</description>
-    </item>
-    
-    <item>
-      <title>SSRS Excel Rendering Extension rrRenderingError Number of Rows exceed</title>
-      <link>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate>
-      
-      <guid>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</guid>
-      <description>We are using Avaya Workforce Optimization v15 which now uses Microsoft SQL Server Reporting Services (SSRS) as a reporting engine. When one of our customers tried to export a large dataset, they got the error:
+Error is: java.rmi.RemoteException: EJB Exception:; nested exception is: java.rmi.RemoteException: Failed to notify login failure; nested exception is: com.</description></item><item><title>SSRS Excel Rendering Extension rrRenderingError Number of Rows exceed</title><link>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</link><pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate><guid>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</guid><description>We are using Avaya Workforce Optimization v15 which now uses Microsoft SQL Server Reporting Services (SSRS) as a reporting engine. When one of our customers tried to export a large dataset, they got the error:
 Reporting Services Error
 Excel Rendering Extension: Number of rows exceeds the maximum possible in a worksheet of this version. Rows requested: 2259767. Maximum rows: 1048575. (rrRenderingError)
-On checking on this error, Microsoft documentation states that excel cannot handel more than 1048576 rows on the current versions (reference).</description>
-    </item>
-    
-    <item>
-      <title>Avaya AACC - Reset WebAdmin password</title>
-      <link>/2019/07/avaya-aacc-reset-webadmin-password/</link>
-      <pubDate>Sun, 07 Jul 2019 16:00:00 +0300</pubDate>
-      
-      <guid>/2019/07/avaya-aacc-reset-webadmin-password/</guid>
-      <description>Note: The password has been untested.
+On checking on this error, Microsoft documentation states that excel cannot handel more than 1048576 rows on the current versions (reference).</description></item><item><title>Avaya AACC - Reset WebAdmin password</title><link>/2019/07/avaya-aacc-reset-webadmin-password/</link><pubDate>Sun, 07 Jul 2019 16:00:00 +0300</pubDate><guid>/2019/07/avaya-aacc-reset-webadmin-password/</guid><description>Note: The password has been untested.
 Using Database.Net (or your favourite ODBC client)&amp;hellip;
- Connect locally to CCMA_CACHE on the AACC server.
+Connect locally to CCMA_CACHE on the AACC server.
 Use credentials on Maxim Tsvetov&amp;rsquo;s Blog_
 _ Open the APM.ccmUser table. Modify the User ID 1000 account password to 5767142366101EB6
- Restart the whole server. Login with credentials webadmin/webadmin.  </description>
-    </item>
-    
-    <item>
-      <title>Avaya AACC - Export CCT User List</title>
-      <link>/2019/07/avaya-aacc-export-cct-user-list/</link>
-      <pubDate>Fri, 05 Jul 2019 08:00:00 +0300</pubDate>
-      
-      <guid>/2019/07/avaya-aacc-export-cct-user-list/</guid>
-      <description>1 - Create new ODBC Connection to CCT DB Source Reference: Maxim Tsvetov&amp;rsquo;s Blog
+Restart the whole server. Login with credentials webadmin/webadmin.</description></item><item><title>Avaya AACC - Export CCT User List</title><link>/2019/07/avaya-aacc-export-cct-user-list/</link><pubDate>Fri, 05 Jul 2019 08:00:00 +0300</pubDate><guid>/2019/07/avaya-aacc-export-cct-user-list/</guid><description>1 - Create new ODBC Connection to CCT DB Source Reference: Maxim Tsvetov&amp;rsquo;s Blog
 2 - Setup Database.Net to connect to CCT ODBC connection 3 - Execute Query SELECT &amp;quot;NcctcAgent&amp;quot;.&amp;quot;AgentLoginID&amp;quot;, &amp;quot;NcctcAgent&amp;quot;.&amp;quot;FirstName&amp;quot;, &amp;quot;NcctcAgent&amp;quot;.&amp;quot;LastName&amp;quot;, &amp;quot;NcctcUser&amp;quot;.&amp;quot;LoginName&amp;quot;
 FROM &amp;quot;NcctcAgent&amp;quot;
 INNER JOIN &amp;quot;NcctcUserAgent&amp;quot; ON &amp;quot;NcctcUserAgent&amp;quot;.&amp;quot;AgentID&amp;quot;=&amp;quot;NcctcAgent&amp;quot;.&amp;quot;ID&amp;quot;
 INNER JOIN &amp;quot;NcctcUser&amp;quot; ON &amp;quot;NcctcUser&amp;quot;.&amp;quot;ID&amp;quot;=&amp;quot;NcctcUserAgent&amp;quot;.&amp;quot;UserID&amp;quot;
-Hope somebody finds this helpful.</description>
-    </item>
-    
-    <item>
-      <title>ACR v15.x - Remove EMA Config Files</title>
-      <link>/2019/07/acr-v15.x-remove-ema-config-files/</link>
-      <pubDate>Tue, 02 Jul 2019 19:00:00 +0300</pubDate>
-      
-      <guid>/2019/07/acr-v15.x-remove-ema-config-files/</guid>
-      <description>I have had to delete the ACR topology from the WFO/QM multiple times. The configuration removal on WFO/QM is relatively easier than the part on the ACR - traverse multiple folders and delete specific files.
+Hope somebody finds this helpful.</description></item><item><title>ACR v15.x - Remove EMA Config Files</title><link>/2019/07/acr-v15.x-remove-ema-config-files/</link><pubDate>Tue, 02 Jul 2019 19:00:00 +0300</pubDate><guid>/2019/07/acr-v15.x-remove-ema-config-files/</guid><description>I have had to delete the ACR topology from the WFO/QM multiple times. The configuration removal on WFO/QM is relatively easier than the part on the ACR - traverse multiple folders and delete specific files.
 In the end, I typed out a quick script (windows) and just ran it on all the ACR servers.
- https://gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5</description>
-    </item>
-    
-    <item>
-      <title>WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found</title>
-      <link>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</link>
-      <pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate>
-      
-      <guid>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</guid>
-      <description>The Setup 3 ACR servers
+https://gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5</description></item><item><title>WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found</title><link>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</link><pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate><guid>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</guid><description>The Setup 3 ACR servers
 1 CRS
 1 Consolidated WFO/QM
 The Issue After integration between ACR and WFO, when trying to playback the recordings we get the error message ..
- One or more of the interaction’s media files cannot be found
- Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?</description>
-    </item>
-    
-    <item>
-      <title>Wireshark - Filter MAC addresses</title>
-      <link>/2019/06/wireshark-filter-mac-addresses/</link>
-      <pubDate>Mon, 17 Jun 2019 10:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/wireshark-filter-mac-addresses/</guid>
-      <description>Few days ago I have been trying to troubleshoot some recording issue over the network while assisting with integration of Sestek&amp;rsquo;s Speech Analytics application.
+One or more of the interaction’s media files cannot be found
+Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?</description></item><item><title>Wireshark - Filter MAC addresses</title><link>/2019/06/wireshark-filter-mac-addresses/</link><pubDate>Mon, 17 Jun 2019 10:00:00 +0300</pubDate><guid>/2019/06/wireshark-filter-mac-addresses/</guid><description>Few days ago I have been trying to troubleshoot some recording issue over the network while assisting with integration of Sestek&amp;rsquo;s Speech Analytics application.
 Background:
 The phone traffic are mirrored towards towards a server. We needed to know if the traffic from Avaya phones or a phone in specific was being sent towards this server.
 Wireshark Capture Filter (Filter you set before it start monitoring)
 ether host 24:d9:21:XX:XX:XX
-Wireshark Display Filter (Filter you set while traffic is being monitored)</description>
-    </item>
-    
-    <item>
-      <title>AMC Contact Canvas - Voice Driver simulation</title>
-      <link>/2019/06/amc-contact-canvas-voice-driver-simulation/</link>
-      <pubDate>Tue, 11 Jun 2019 10:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/amc-contact-canvas-voice-driver-simulation/</guid>
-      <description>Below has not been tested. There are only for my personal reference.
+Wireshark Display Filter (Filter you set while traffic is being monitored)</description></item><item><title>AMC Contact Canvas - Voice Driver simulation</title><link>/2019/06/amc-contact-canvas-voice-driver-simulation/</link><pubDate>Tue, 11 Jun 2019 10:00:00 +0300</pubDate><guid>/2019/06/amc-contact-canvas-voice-driver-simulation/</guid><description>Below has not been tested. There are only for my personal reference.
 To place the solution into simulation mode you must perform the following steps;
 Within the configuration, under the **ModuleManager** section:
 Comment: Module=CTIModule,XXXXXXXXXX
-Uncomment: #ModuleClass=CTINullClass,CTI_NULL.MC_CTI_NULL_ _#Module=CTIModule,CTINullClass
+Uncomment: #ModuleClass=CTINullClass,CTI_NULL.MC_CTI_NULL``_ _``#Module=CTIModule,CTINullClass
 &amp;hellip; and all lines under: #------------------------------------------------------------------------------
 # N U L L C o n n e c t o r
 #------------------------------------------------------------------------------
@@ -132,19 +40,6 @@ Uncomment: #ModuleClass=CTINullClass,CTI_NULL.MC_CTI_NULL_ _#Module=CTIModule,CT
 #Module=CTIModule,CTINullClass
 &amp;hellip; and
 #------------------------------------------------------------------------------
-# N U L L C O N N E C T O R</description>
-    </item>
-    
-    <item>
-      <title>Avaya ACR and WFO License Generation Link</title>
-      <link>/2019/06/avaya-acr-and-wfo-license-generation-link/</link>
-      <pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/avaya-acr-and-wfo-license-generation-link/</guid>
-      <description>WFO: https://oaccess.verint.com/LicenseActivator/Activate.aspx  Reference: Avaya Workforce Optimization - System Administration Guide (Avaya_WFO_V15_2_System_Administration.pdf)  ACR: https://oaccess.verint.com/acr/  Reference: https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN258246 Reference: Avaya Contact Recorder - Planning, Installation and Administration Guide (acradmin_en.pdf)   I spend sometime trying to find these links. They should probably send it out when they generate the license emails instead of burying it inside documentation.
+# N U L L C O N N E C T O R</description></item><item><title>Avaya ACR and WFO License Generation Link</title><link>/2019/06/avaya-acr-and-wfo-license-generation-link/</link><pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate><guid>/2019/06/avaya-acr-and-wfo-license-generation-link/</guid><description>WFO: https://oaccess.verint.com/LicenseActivator/Activate.aspx Reference: Avaya Workforce Optimization - System Administration Guide (Avaya_WFO_V15_2_System_Administration.pdf) ACR: https://oaccess.verint.com/acr/ Reference: https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN258246 Reference: Avaya Contact Recorder - Planning, Installation and Administration Guide (acradmin_en.pdf) I spend sometime trying to find these links. They should probably send it out when they generate the license emails instead of burying it inside documentation.
 ACR - Avaya Contact Recorder
-WFO - Workforce Optimization (generally refers to their Quality Management (QM) module)</description>
-    </item>
-    
-  </channel>
-</rss>
+WFO - Workforce Optimization (generally refers to their Quality Management (QM) module)</description></item></channel></rss>

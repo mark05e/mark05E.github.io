@@ -1,32 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>linux on a corner of a mind</title>
-    <link>/tags/linux/</link>
-    <description>Recent content in linux on a corner of a mind</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>mark05E</copyright>
-    <lastBuildDate>Mon, 10 Jun 2019 10:00:00 +0300</lastBuildDate>
-    
-	<atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>mRemoteNG External Tools enhancement</title>
-      <link>/2019/06/mremoteng-external-tools-enhancement/</link>
-      <pubDate>Mon, 10 Jun 2019 10:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/mremoteng-external-tools-enhancement/</guid>
-      <description>Explore C: Drive (Windows using Domain Account)
- Filename: %COMSPEC%  Arguments: /c net use \\%hostname%\c$ /user:%domain%\%username% %password% &amp;amp;&amp;amp; start \\%hostname%\c$
- WinSCP to tmp folder (Linux)
- Filename: __Tools\WinSCP-Portable\WinSCP.exe  Arguments: scp://%Username%:%Password%@%Hostname%/tmp/
- Database .NET Integration (SQL Sever - Windows Integrated Login)
- Filename: __Tools\CPAU.exe  Arguments: -u %domain%\%username% -p %password% -ex &amp;quot;__Tools\DatabaseNet4\Database4.exe 6 -s:%hostname% -e&amp;quot;
- RDP Plus (Maximized RDP Window)
- Filename: __Tools\rdp.exe  Arguments: /console /noprinters /nodrives /max /title:%NAME% /u:%domain%\%username% /p:%password% /v:%hostname%</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linux on a corner of a mind</title><link>/tags/linux/</link><description>Recent content in linux on a corner of a mind</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>mark05E</copyright><lastBuildDate>Mon, 10 Jun 2019 10:00:00 +0300</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>mRemoteNG External Tools enhancement</title><link>/2019/06/mremoteng-external-tools-enhancement/</link><pubDate>Mon, 10 Jun 2019 10:00:00 +0300</pubDate><guid>/2019/06/mremoteng-external-tools-enhancement/</guid><description>Explore C: Drive (Windows using Domain Account) Filename: %COMSPEC%
+Arguments: /c net use \\%hostname%\c$ /user:%domain%\%username% %password% &amp;amp;&amp;amp; start \\%hostname%\c$
+WinSCP to tmp folder (Linux) Filename: __Tools\WinSCP-Portable\WinSCP.exe
+Arguments: scp://%Username%:%Password%@%Hostname%/tmp/
+Database .NET Integration (SQL Sever - Windows Integrated Login) Filename: __Tools\CPAU.exe
+Arguments: -u %domain%\%username% -p %password% -ex &amp;quot;__Tools\DatabaseNet4\Database4.exe 6 -s:%hostname% -e&amp;quot;
+RDP Plus (Maximized RDP Window) Filename: __Tools\rdp.</description></item></channel></rss>

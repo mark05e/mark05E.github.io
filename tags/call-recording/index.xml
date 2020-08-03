@@ -1,52 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>call-recording on a corner of a mind</title>
-    <link>/tags/call-recording/</link>
-    <description>Recent content in call-recording on a corner of a mind</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>mark05E</copyright>
-    <lastBuildDate>Tue, 02 Jul 2019 19:00:00 +0300</lastBuildDate>
-    
-	<atom:link href="/tags/call-recording/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>ACR v15.x - Remove EMA Config Files</title>
-      <link>/2019/07/acr-v15.x-remove-ema-config-files/</link>
-      <pubDate>Tue, 02 Jul 2019 19:00:00 +0300</pubDate>
-      
-      <guid>/2019/07/acr-v15.x-remove-ema-config-files/</guid>
-      <description>I have had to delete the ACR topology from the WFO/QM multiple times. The configuration removal on WFO/QM is relatively easier than the part on the ACR - traverse multiple folders and delete specific files.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>call-recording on a corner of a mind</title><link>/tags/call-recording/</link><description>Recent content in call-recording on a corner of a mind</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>mark05E</copyright><lastBuildDate>Tue, 02 Jul 2019 19:00:00 +0300</lastBuildDate><atom:link href="/tags/call-recording/index.xml" rel="self" type="application/rss+xml"/><item><title>ACR v15.x - Remove EMA Config Files</title><link>/2019/07/acr-v15.x-remove-ema-config-files/</link><pubDate>Tue, 02 Jul 2019 19:00:00 +0300</pubDate><guid>/2019/07/acr-v15.x-remove-ema-config-files/</guid><description>I have had to delete the ACR topology from the WFO/QM multiple times. The configuration removal on WFO/QM is relatively easier than the part on the ACR - traverse multiple folders and delete specific files.
 In the end, I typed out a quick script (windows) and just ran it on all the ACR servers.
- https://gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5</description>
-    </item>
-    
-    <item>
-      <title>WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found</title>
-      <link>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</link>
-      <pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate>
-      
-      <guid>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</guid>
-      <description>The Setup 3 ACR servers
+https://gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5</description></item><item><title>WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found</title><link>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</link><pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate><guid>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</guid><description>The Setup 3 ACR servers
 1 CRS
 1 Consolidated WFO/QM
 The Issue After integration between ACR and WFO, when trying to playback the recordings we get the error message ..
- One or more of the interaction’s media files cannot be found
- Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?</description>
-    </item>
-    
-    <item>
-      <title>Avaya ACR and WFO License Generation Link</title>
-      <link>/2019/06/avaya-acr-and-wfo-license-generation-link/</link>
-      <pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/avaya-acr-and-wfo-license-generation-link/</guid>
-      <description>WFO: https://oaccess.verint.com/LicenseActivator/Activate.aspx  Reference: Avaya Workforce Optimization - System Administration Guide (Avaya_WFO_V15_2_System_Administration.pdf)  ACR: https://oaccess.verint.com/acr/  Reference: https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN258246 Reference: Avaya Contact Recorder - Planning, Installation and Administration Guide (acradmin_en.pdf)   I spend sometime trying to find these links. They should probably send it out when they generate the license emails instead of burying it inside documentation.
+One or more of the interaction’s media files cannot be found
+Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?</description></item><item><title>Avaya ACR and WFO License Generation Link</title><link>/2019/06/avaya-acr-and-wfo-license-generation-link/</link><pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate><guid>/2019/06/avaya-acr-and-wfo-license-generation-link/</guid><description>WFO: https://oaccess.verint.com/LicenseActivator/Activate.aspx Reference: Avaya Workforce Optimization - System Administration Guide (Avaya_WFO_V15_2_System_Administration.pdf) ACR: https://oaccess.verint.com/acr/ Reference: https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN258246 Reference: Avaya Contact Recorder - Planning, Installation and Administration Guide (acradmin_en.pdf) I spend sometime trying to find these links. They should probably send it out when they generate the license emails instead of burying it inside documentation.
 ACR - Avaya Contact Recorder
-WFO - Workforce Optimization (generally refers to their Quality Management (QM) module)</description>
-    </item>
-    
-  </channel>
-</rss>
+WFO - Workforce Optimization (generally refers to their Quality Management (QM) module)</description></item></channel></rss>

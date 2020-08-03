@@ -1,87 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>a corner of a mind</title>
-    <link>/</link>
-    <description>Recent content on a corner of a mind</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>mark05E</copyright>
-    <lastBuildDate>Mon, 04 Nov 2019 06:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Intersystems Cache Database Drivers</title>
-      <link>/2019/11/intersystems-cache-database-drivers/</link>
-      <pubDate>Mon, 04 Nov 2019 06:00:00 +0000</pubDate>
-      
-      <guid>/2019/11/intersystems-cache-database-drivers/</guid>
-      <description>I keep searching for this link to download ODBC drivers on google search but it does not show up. It is buried deep within some Avaya pages. So now I put it here for my ease of use.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>a corner of a mind</title><link>/</link><description>Recent content on a corner of a mind</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>mark05E</copyright><lastBuildDate>Fri, 12 Jun 2020 21:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Been a while - Week 24</title><link>/2020/06/been-a-while-week-24/</link><pubDate>Fri, 12 Jun 2020 21:00:00 +0000</pubDate><guid>/2020/06/been-a-while-week-24/</guid><description>Its been a while. I guess it happens to everyone. Get busy with their regular life.
+I keep wanting to post but I have nothing to post. Hence I have decided to start posting my reading list and websites that interest me.
+Here is the list for this week.
+Mozilla Front-end web developer learning path Devops learning resources discussion on HN Devops learning resources discussion on Reddit XGeneCloud - REST and GraphQL APIs on any DB (MSSQL, MySQL, Postgres, SQLite) PhilsComputerLab - Youtube channel about hardware reviews PyCopy - a minimalist and memory-efficient Python implementation Seed Studio Odyssey x86 as a Router review Energized Protection - block list List of online text to diagram tools The Cloud Coach WebScraping examples - Je-Suis-TM Graphviz tutorial - ncona.</description></item><item><title>Intersystems Cache Database Drivers</title><link>/2019/11/intersystems-cache-database-drivers/</link><pubDate>Mon, 04 Nov 2019 06:00:00 +0000</pubDate><guid>/2019/11/intersystems-cache-database-drivers/</guid><description>I keep searching for this link to download ODBC drivers on google search but it does not show up. It is buried deep within some Avaya pages. So now I put it here for my ease of use.
 ftp://ftp.intersystems.com/pub/cache/odbc/
-Also there are some resources that reference the below link for downloading other driver types (eg: JDBC) but the site is a pain to use during the times I have tested.</description>
-    </item>
-    
-    <item>
-      <title>WFO v12 - Cannot login into Webpage</title>
-      <link>/2019/10/wfo-v12-cannot-login-into-webpage/</link>
-      <pubDate>Sun, 20 Oct 2019 14:00:00 +0300</pubDate>
-      
-      <guid>/2019/10/wfo-v12-cannot-login-into-webpage/</guid>
-      <description>A customer was facing issue with WFO webpage login. Users are unable to login into the WFO web portal. They are able to get the login page but receiving the following error after entering credentials and pressing Enter.
+Also there are some resources that reference the below link for downloading other driver types (eg: JDBC) but the site is a pain to use during the times I have tested.</description></item><item><title>WFO v12 - Cannot login into Webpage</title><link>/2019/10/wfo-v12-cannot-login-into-webpage/</link><pubDate>Sun, 20 Oct 2019 14:00:00 +0300</pubDate><guid>/2019/10/wfo-v12-cannot-login-into-webpage/</guid><description>A customer was facing issue with WFO webpage login. Users are unable to login into the WFO web portal. They are able to get the login page but receiving the following error after entering credentials and pressing Enter.
 &amp;quot;Please contact the administrator or technical support specialist to analyze the problem.
 Full detail of the error can be found in the log.
-Error is: java.rmi.RemoteException: EJB Exception:; nested exception is: java.rmi.RemoteException: Failed to notify login failure; nested exception is: com.</description>
-    </item>
-    
-    <item>
-      <title>SSRS Excel Rendering Extension rrRenderingError Number of Rows exceed</title>
-      <link>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate>
-      
-      <guid>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</guid>
-      <description>We are using Avaya Workforce Optimization v15 which now uses Microsoft SQL Server Reporting Services (SSRS) as a reporting engine. When one of our customers tried to export a large dataset, they got the error:
+Error is: java.rmi.RemoteException: EJB Exception:; nested exception is: java.rmi.RemoteException: Failed to notify login failure; nested exception is: com.</description></item><item><title>SSRS Excel Rendering Extension rrRenderingError Number of Rows exceed</title><link>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</link><pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate><guid>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</guid><description>We are using Avaya Workforce Optimization v15 which now uses Microsoft SQL Server Reporting Services (SSRS) as a reporting engine. When one of our customers tried to export a large dataset, they got the error:
 Reporting Services Error
 Excel Rendering Extension: Number of rows exceeds the maximum possible in a worksheet of this version. Rows requested: 2259767. Maximum rows: 1048575. (rrRenderingError)
-On checking on this error, Microsoft documentation states that excel cannot handel more than 1048576 rows on the current versions (reference).</description>
-    </item>
-    
-    <item>
-      <title>Avaya AACC - Reset WebAdmin password</title>
-      <link>/2019/07/avaya-aacc-reset-webadmin-password/</link>
-      <pubDate>Sun, 07 Jul 2019 16:00:00 +0300</pubDate>
-      
-      <guid>/2019/07/avaya-aacc-reset-webadmin-password/</guid>
-      <description>Note: The password has been untested.
+On checking on this error, Microsoft documentation states that excel cannot handel more than 1048576 rows on the current versions (reference).</description></item><item><title>Avaya AACC - Reset WebAdmin password</title><link>/2019/07/avaya-aacc-reset-webadmin-password/</link><pubDate>Sun, 07 Jul 2019 16:00:00 +0300</pubDate><guid>/2019/07/avaya-aacc-reset-webadmin-password/</guid><description>Note: The password has been untested.
 Using Database.Net (or your favourite ODBC client)&amp;hellip;
- Connect locally to CCMA_CACHE on the AACC server.
+Connect locally to CCMA_CACHE on the AACC server.
 Use credentials on Maxim Tsvetov&amp;rsquo;s Blog_
 _ Open the APM.ccmUser table. Modify the User ID 1000 account password to 5767142366101EB6
- Restart the whole server. Login with credentials webadmin/webadmin.  </description>
-    </item>
-    
-    <item>
-      <title>Avaya AACC - Export CCT User List</title>
-      <link>/2019/07/avaya-aacc-export-cct-user-list/</link>
-      <pubDate>Fri, 05 Jul 2019 08:00:00 +0300</pubDate>
-      
-      <guid>/2019/07/avaya-aacc-export-cct-user-list/</guid>
-      <description>1 - Create new ODBC Connection to CCT DB Source Reference: Maxim Tsvetov&amp;rsquo;s Blog
+Restart the whole server. Login with credentials webadmin/webadmin.</description></item><item><title>Avaya AACC - Export CCT User List</title><link>/2019/07/avaya-aacc-export-cct-user-list/</link><pubDate>Fri, 05 Jul 2019 08:00:00 +0300</pubDate><guid>/2019/07/avaya-aacc-export-cct-user-list/</guid><description>1 - Create new ODBC Connection to CCT DB Source Reference: Maxim Tsvetov&amp;rsquo;s Blog
 2 - Setup Database.Net to connect to CCT ODBC connection 3 - Execute Query SELECT &amp;quot;NcctcAgent&amp;quot;.&amp;quot;AgentLoginID&amp;quot;, &amp;quot;NcctcAgent&amp;quot;.&amp;quot;FirstName&amp;quot;, &amp;quot;NcctcAgent&amp;quot;.&amp;quot;LastName&amp;quot;, &amp;quot;NcctcUser&amp;quot;.&amp;quot;LoginName&amp;quot;
 FROM &amp;quot;NcctcAgent&amp;quot;
 INNER JOIN &amp;quot;NcctcUserAgent&amp;quot; ON &amp;quot;NcctcUserAgent&amp;quot;.&amp;quot;AgentID&amp;quot;=&amp;quot;NcctcAgent&amp;quot;.&amp;quot;ID&amp;quot;
 INNER JOIN &amp;quot;NcctcUser&amp;quot; ON &amp;quot;NcctcUser&amp;quot;.&amp;quot;ID&amp;quot;=&amp;quot;NcctcUserAgent&amp;quot;.&amp;quot;UserID&amp;quot;
-Hope somebody finds this helpful.</description>
-    </item>
-    
-    <item>
-      <title>Diagrams that you can type out!</title>
-      <link>/2019/07/diagrams-that-you-can-type-out/</link>
-      <pubDate>Wed, 03 Jul 2019 20:00:00 +0300</pubDate>
-      
-      <guid>/2019/07/diagrams-that-you-can-type-out/</guid>
-      <description>So from time to time I&amp;rsquo;d need some quick diagrams to understand relationships between different processes/servers in a solution. I initially found few plugins in DocuWiki which would allow to type out these diagrams.
+Hope somebody finds this helpful.</description></item><item><title>Diagrams that you can type out!</title><link>/2019/07/diagrams-that-you-can-type-out/</link><pubDate>Wed, 03 Jul 2019 20:00:00 +0300</pubDate><guid>/2019/07/diagrams-that-you-can-type-out/</guid><description>So from time to time I&amp;rsquo;d need some quick diagrams to understand relationships between different processes/servers in a solution. I initially found few plugins in DocuWiki which would allow to type out these diagrams.
 Example: digraph {
 A [label=&amp;quot;King Arthur&amp;quot;]
 B [label=&amp;quot;Sir Bedevere the Wise&amp;quot;]
@@ -91,119 +29,38 @@ A -&amp;gt; L
 B -&amp;gt; L [constraint=false]
 }
 Reference: Graphviz Readthedocs
-Recently I have found resources which would allow you to type out on a web page and generate the diagram in real-time.</description>
-    </item>
-    
-    <item>
-      <title>ACR v15.x - Remove EMA Config Files</title>
-      <link>/2019/07/acr-v15.x-remove-ema-config-files/</link>
-      <pubDate>Tue, 02 Jul 2019 19:00:00 +0300</pubDate>
-      
-      <guid>/2019/07/acr-v15.x-remove-ema-config-files/</guid>
-      <description>I have had to delete the ACR topology from the WFO/QM multiple times. The configuration removal on WFO/QM is relatively easier than the part on the ACR - traverse multiple folders and delete specific files.
+Recently I have found resources which would allow you to type out on a web page and generate the diagram in real-time.</description></item><item><title>ACR v15.x - Remove EMA Config Files</title><link>/2019/07/acr-v15.x-remove-ema-config-files/</link><pubDate>Tue, 02 Jul 2019 19:00:00 +0300</pubDate><guid>/2019/07/acr-v15.x-remove-ema-config-files/</guid><description>I have had to delete the ACR topology from the WFO/QM multiple times. The configuration removal on WFO/QM is relatively easier than the part on the ACR - traverse multiple folders and delete specific files.
 In the end, I typed out a quick script (windows) and just ran it on all the ACR servers.
- https://gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5</description>
-    </item>
-    
-    <item>
-      <title>Net Framework 3.5 install for Server 2016/2012 - without DVD</title>
-      <link>/2019/07/net-framework-3.5-install-for-server-2016/2012-without-dvd/</link>
-      <pubDate>Tue, 02 Jul 2019 16:00:00 +0300</pubDate>
-      
-      <guid>/2019/07/net-framework-3.5-install-for-server-2016/2012-without-dvd/</guid>
-      <description>From time to time, I have to work on environments which our customers provide and by the time we realize that they have forgotten to install a pre-requisite, its too late to ask them to mount back the dvd media or sometimes its just time sensitive.
+https://gist.github.com/mark05e/bd487029c6ea6c5a1d326b4e9da720a5</description></item><item><title>Net Framework 3.5 install for Server 2016/2012 - without DVD</title><link>/2019/07/net-framework-3.5-install-for-server-2016/2012-without-dvd/</link><pubDate>Tue, 02 Jul 2019 16:00:00 +0300</pubDate><guid>/2019/07/net-framework-3.5-install-for-server-2016/2012-without-dvd/</guid><description>From time to time, I have to work on environments which our customers provide and by the time we realize that they have forgotten to install a pre-requisite, its too late to ask them to mount back the dvd media or sometimes its just time sensitive.
 After few searches online, I found this method which involves downloading a CAB file and installing it.
- Download microsoft-windows-netfx3-ondemand-package.cab Execute this on an elevated prompt</description>
-    </item>
-    
-    <item>
-      <title>WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found</title>
-      <link>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</link>
-      <pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate>
-      
-      <guid>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</guid>
-      <description>The Setup 3 ACR servers
+Download microsoft-windows-netfx3-ondemand-package.cab Execute this on an elevated prompt</description></item><item><title>WFO v15.x – Interactions / QM – One or more of the interaction’s media files cannot be found</title><link>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</link><pubDate>Sun, 30 Jun 2019 18:06:00 +0300</pubDate><guid>/2019/06/wfo-v15.x-interactions-/-qm-one-or-more-of-the-interactions-media-files-cannot-be-found/</guid><description>The Setup 3 ACR servers
 1 CRS
 1 Consolidated WFO/QM
 The Issue After integration between ACR and WFO, when trying to playback the recordings we get the error message ..
- One or more of the interaction’s media files cannot be found
- Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?</description>
-    </item>
-    
-    <item>
-      <title>Cisco AnyConnect Secure Mobility Client - VPN - Login Automation</title>
-      <link>/2019/06/cisco-anyconnect-secure-mobility-client-vpn-login-automation/</link>
-      <pubDate>Wed, 26 Jun 2019 20:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/cisco-anyconnect-secure-mobility-client-vpn-login-automation/</guid>
-      <description>I hate the few seconds I have to spend typing the password into the VPN client. I have come across an AHK script that helps with that. It works about 85% of the time..
+One or more of the interaction’s media files cannot be found
+Observation - 1 Locator Logs – Authentication error for requests going to ContentServer [locator |11B4|E] 2019-06-30 09:43:04.025+03:00 Locator::INumLocatorImpl::sendContentRequest&amp;lt;843&amp;gt; HEAD Request could not be authenticated (403) for url http://MARKLABWFO:80/retriever/replay?</description></item><item><title>Cisco AnyConnect Secure Mobility Client - VPN - Login Automation</title><link>/2019/06/cisco-anyconnect-secure-mobility-client-vpn-login-automation/</link><pubDate>Wed, 26 Jun 2019 20:00:00 +0300</pubDate><guid>/2019/06/cisco-anyconnect-secure-mobility-client-vpn-login-automation/</guid><description>I hate the few seconds I have to spend typing the password into the VPN client. I have come across an AHK script that helps with that. It works about 85% of the time..
 Note: Requires AutoHotKey
 Part 1 Download this AHK script and place it somewhere you like.
- https://gist.github.com/aplocher/f56b8cd494f987d25e94
+https://gist.github.com/aplocher/f56b8cd494f987d25e94
 Part 2 Create a batch file to call the above script with the parameters
-AnyConnect.ahk &amp;lt;vpn-url&amp;gt; &amp;lt;username&amp;gt; &amp;lt;password&amp;gt;</description>
-    </item>
-    
-    <item>
-      <title>Test Port Open using Powershell</title>
-      <link>/2019/06/test-port-open-using-powershell/</link>
-      <pubDate>Wed, 26 Jun 2019 09:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/test-port-open-using-powershell/</guid>
-      <description>This is a quick one-liner to test whether a port is open. This is useful in cases where the Telnet client is not installed and you need something done quick.
+AnyConnect.ahk &amp;lt;vpn-url&amp;gt; &amp;lt;username&amp;gt; &amp;lt;password&amp;gt;
+My batch script is as follows:</description></item><item><title>Test Port Open using Powershell</title><link>/2019/06/test-port-open-using-powershell/</link><pubDate>Wed, 26 Jun 2019 09:00:00 +0300</pubDate><guid>/2019/06/test-port-open-using-powershell/</guid><description>This is a quick one-liner to test whether a port is open. This is useful in cases where the Telnet client is not installed and you need something done quick.
 powershell Test-NetConnection &amp;lt;&amp;lt;HOSTNAME&amp;gt;&amp;gt; -Port &amp;lt;&amp;lt;PORT&amp;gt;&amp;gt;
 Example:
-powershell Test-NetConnection MARKLABPC -Port 445</description>
-    </item>
-    
-    <item>
-      <title>Daniel Hamermesh on Spending Time [Podcast]</title>
-      <link>/2019/06/daniel-hamermesh-on-spending-time-podcast/</link>
-      <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/daniel-hamermesh-on-spending-time-podcast/</guid>
-      <description>Found these talks interesting
+powershell Test-NetConnection MARKLABPC -Port 445</description></item><item><title>Daniel Hamermesh on Spending Time [Podcast]</title><link>/2019/06/daniel-hamermesh-on-spending-time-podcast/</link><pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate><guid>/2019/06/daniel-hamermesh-on-spending-time-podcast/</guid><description>Found these talks interesting
 From Planet Money
 https://www.npr.org/2019/05/22/725841004/is-time-really-on-your-side
 lead to:
-http://www.econtalk.org/daniel-hamermesh-on-spending-time/</description>
-    </item>
-    
-    <item>
-      <title>Tycho - &#34;Dive&#34; Album [Music]</title>
-      <link>/2019/06/tycho-dive-album-music/</link>
-      <pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/tycho-dive-album-music/</guid>
-      <description>Tycho - &amp;ldquo;Dive&amp;rdquo; Album
-  </description>
-    </item>
-    
-    <item>
-      <title>Wireshark - Filter MAC addresses</title>
-      <link>/2019/06/wireshark-filter-mac-addresses/</link>
-      <pubDate>Mon, 17 Jun 2019 10:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/wireshark-filter-mac-addresses/</guid>
-      <description>Few days ago I have been trying to troubleshoot some recording issue over the network while assisting with integration of Sestek&amp;rsquo;s Speech Analytics application.
+http://www.econtalk.org/daniel-hamermesh-on-spending-time/</description></item><item><title>Tycho - "Dive" Album [Music]</title><link>/2019/06/tycho-dive-album-music/</link><pubDate>Wed, 19 Jun 2019 10:00:00 +0300</pubDate><guid>/2019/06/tycho-dive-album-music/</guid><description>Tycho - &amp;ldquo;Dive&amp;rdquo; Album</description></item><item><title>Wireshark - Filter MAC addresses</title><link>/2019/06/wireshark-filter-mac-addresses/</link><pubDate>Mon, 17 Jun 2019 10:00:00 +0300</pubDate><guid>/2019/06/wireshark-filter-mac-addresses/</guid><description>Few days ago I have been trying to troubleshoot some recording issue over the network while assisting with integration of Sestek&amp;rsquo;s Speech Analytics application.
 Background:
 The phone traffic are mirrored towards towards a server. We needed to know if the traffic from Avaya phones or a phone in specific was being sent towards this server.
 Wireshark Capture Filter (Filter you set before it start monitoring)
 ether host 24:d9:21:XX:XX:XX
-Wireshark Display Filter (Filter you set while traffic is being monitored)</description>
-    </item>
-    
-    <item>
-      <title>AMC Contact Canvas - Voice Driver simulation</title>
-      <link>/2019/06/amc-contact-canvas-voice-driver-simulation/</link>
-      <pubDate>Tue, 11 Jun 2019 10:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/amc-contact-canvas-voice-driver-simulation/</guid>
-      <description>Below has not been tested. There are only for my personal reference.
+Wireshark Display Filter (Filter you set while traffic is being monitored)</description></item><item><title>AMC Contact Canvas - Voice Driver simulation</title><link>/2019/06/amc-contact-canvas-voice-driver-simulation/</link><pubDate>Tue, 11 Jun 2019 10:00:00 +0300</pubDate><guid>/2019/06/amc-contact-canvas-voice-driver-simulation/</guid><description>Below has not been tested. There are only for my personal reference.
 To place the solution into simulation mode you must perform the following steps;
 Within the configuration, under the **ModuleManager** section:
 Comment: Module=CTIModule,XXXXXXXXXX
-Uncomment: #ModuleClass=CTINullClass,CTI_NULL.MC_CTI_NULL_ _#Module=CTIModule,CTINullClass
+Uncomment: #ModuleClass=CTINullClass,CTI_NULL.MC_CTI_NULL``_ _``#Module=CTIModule,CTINullClass
 &amp;hellip; and all lines under: #------------------------------------------------------------------------------
 # N U L L C o n n e c t o r
 #------------------------------------------------------------------------------
@@ -211,77 +68,18 @@ Uncomment: #ModuleClass=CTINullClass,CTI_NULL.MC_CTI_NULL_ _#Module=CTIModule,CT
 #Module=CTIModule,CTINullClass
 &amp;hellip; and
 #------------------------------------------------------------------------------
-# N U L L C O N N E C T O R</description>
-    </item>
-    
-    <item>
-      <title>Avaya ACR and WFO License Generation Link</title>
-      <link>/2019/06/avaya-acr-and-wfo-license-generation-link/</link>
-      <pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/avaya-acr-and-wfo-license-generation-link/</guid>
-      <description>WFO: https://oaccess.verint.com/LicenseActivator/Activate.aspx  Reference: Avaya Workforce Optimization - System Administration Guide (Avaya_WFO_V15_2_System_Administration.pdf)  ACR: https://oaccess.verint.com/acr/  Reference: https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN258246 Reference: Avaya Contact Recorder - Planning, Installation and Administration Guide (acradmin_en.pdf)   I spend sometime trying to find these links. They should probably send it out when they generate the license emails instead of burying it inside documentation.
+# N U L L C O N N E C T O R</description></item><item><title>Avaya ACR and WFO License Generation Link</title><link>/2019/06/avaya-acr-and-wfo-license-generation-link/</link><pubDate>Tue, 11 Jun 2019 09:00:00 +0300</pubDate><guid>/2019/06/avaya-acr-and-wfo-license-generation-link/</guid><description>WFO: https://oaccess.verint.com/LicenseActivator/Activate.aspx Reference: Avaya Workforce Optimization - System Administration Guide (Avaya_WFO_V15_2_System_Administration.pdf) ACR: https://oaccess.verint.com/acr/ Reference: https://support.avaya.com/ext/index?page=content&amp;amp;id=SOLN258246 Reference: Avaya Contact Recorder - Planning, Installation and Administration Guide (acradmin_en.pdf) I spend sometime trying to find these links. They should probably send it out when they generate the license emails instead of burying it inside documentation.
 ACR - Avaya Contact Recorder
-WFO - Workforce Optimization (generally refers to their Quality Management (QM) module)</description>
-    </item>
-    
-    <item>
-      <title>Windows - Visual Performance Panel Shortcut</title>
-      <link>/2019/06/windows-visual-performance-panel-shortcut/</link>
-      <pubDate>Mon, 10 Jun 2019 11:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/windows-visual-performance-panel-shortcut/</guid>
-      <description>%windir%\system32\SystemPropertiesPerformance.exe
+WFO - Workforce Optimization (generally refers to their Quality Management (QM) module)</description></item><item><title>Windows - Visual Performance Panel Shortcut</title><link>/2019/06/windows-visual-performance-panel-shortcut/</link><pubDate>Mon, 10 Jun 2019 11:00:00 +0300</pubDate><guid>/2019/06/windows-visual-performance-panel-shortcut/</guid><description>%windir%\system32\SystemPropertiesPerformance.exe
 Yep that&amp;rsquo;s all. Paste it into the Run prompt or the command-line window. Just to jump into the the visual performance page to change the settings on a freshly prepared Windows machine.
 I wish there was an easier way to change the settings over command line but it seemed little too complicated compared to this one I have found.
 Maybe I will find something new later on..
-References:  https://stackoverflow.</description>
-    </item>
-    
-    <item>
-      <title>mRemoteNG External Tools enhancement</title>
-      <link>/2019/06/mremoteng-external-tools-enhancement/</link>
-      <pubDate>Mon, 10 Jun 2019 10:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/mremoteng-external-tools-enhancement/</guid>
-      <description>Explore C: Drive (Windows using Domain Account)
- Filename: %COMSPEC%  Arguments: /c net use \\%hostname%\c$ /user:%domain%\%username% %password% &amp;amp;&amp;amp; start \\%hostname%\c$
- WinSCP to tmp folder (Linux)
- Filename: __Tools\WinSCP-Portable\WinSCP.exe  Arguments: scp://%Username%:%Password%@%Hostname%/tmp/
- Database .NET Integration (SQL Sever - Windows Integrated Login)
- Filename: __Tools\CPAU.exe  Arguments: -u %domain%\%username% -p %password% -ex &amp;quot;__Tools\DatabaseNet4\Database4.exe 6 -s:%hostname% -e&amp;quot;
- RDP Plus (Maximized RDP Window)
- Filename: __Tools\rdp.exe  Arguments: /console /noprinters /nodrives /max /title:%NAME% /u:%domain%\%username% /p:%password% /v:%hostname%</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>/2019/05/my-first-post/</link>
-      <pubDate>Sun, 19 May 2019 04:04:32 +0000</pubDate>
-      
-      <guid>/2019/05/my-first-post/</guid>
-      <description>My First Post using Hugo  Just a little something to jot down notes and ideas.
+References: https://stackoverflow.</description></item><item><title>mRemoteNG External Tools enhancement</title><link>/2019/06/mremoteng-external-tools-enhancement/</link><pubDate>Mon, 10 Jun 2019 10:00:00 +0300</pubDate><guid>/2019/06/mremoteng-external-tools-enhancement/</guid><description>Explore C: Drive (Windows using Domain Account) Filename: %COMSPEC%
+Arguments: /c net use \\%hostname%\c$ /user:%domain%\%username% %password% &amp;amp;&amp;amp; start \\%hostname%\c$
+WinSCP to tmp folder (Linux) Filename: __Tools\WinSCP-Portable\WinSCP.exe
+Arguments: scp://%Username%:%Password%@%Hostname%/tmp/
+Database .NET Integration (SQL Sever - Windows Integrated Login) Filename: __Tools\CPAU.exe
+Arguments: -u %domain%\%username% -p %password% -ex &amp;quot;__Tools\DatabaseNet4\Database4.exe 6 -s:%hostname% -e&amp;quot;
+RDP Plus (Maximized RDP Window) Filename: __Tools\rdp.</description></item><item><title>My First Post</title><link>/2019/05/my-first-post/</link><pubDate>Sun, 19 May 2019 04:04:32 +0000</pubDate><guid>/2019/05/my-first-post/</guid><description>My First Post using Hugo Just a little something to jot down notes and ideas.
 For my reference:
- Quickstart - https://gohugo.io/getting-started/quick-start/ Create new posts using the command: hugo new posts/my-first-post.md Hugo Server:hugo server -D For adding shorcodes - https://gohugo.io/content-management/shortcodes/ For adding images -  https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8 https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/  After running hugo server for local web development, you need to do a final hugo run without the _server_ part of the command to rebuild your site.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Applications Engineer based in the Middle East.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/contact/</guid>
-      <description>Chargement en cours… </description>
-    </item>
-    
-  </channel>
-</rss>
+Quickstart - https://gohugo.io/getting-started/quick-start/ Create new posts using the command: hugo new posts/my-first-post.md Hugo Server:hugo server -D For adding shorcodes - https://gohugo.io/content-management/shortcodes/ For adding images - https://discourse.gohugo.io/t/solved-how-to-insert-image-in-my-post/1473/8 https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/ After running hugo server for local web development, you need to do a final hugo run without the _server_ part of the command to rebuild your site.</description></item><item><title>About</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>Applications Engineer based in the Middle East.</description></item><item><title>Contact</title><link>/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/contact/</guid><description>Chargement en cours…</description></item></channel></rss>

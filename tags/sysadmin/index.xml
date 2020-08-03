@@ -1,82 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>sysadmin on a corner of a mind</title>
-    <link>/tags/sysadmin/</link>
-    <description>Recent content in sysadmin on a corner of a mind</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>mark05E</copyright>
-    <lastBuildDate>Tue, 02 Jul 2019 16:00:00 +0300</lastBuildDate>
-    
-	<atom:link href="/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Net Framework 3.5 install for Server 2016/2012 - without DVD</title>
-      <link>/2019/07/net-framework-3.5-install-for-server-2016/2012-without-dvd/</link>
-      <pubDate>Tue, 02 Jul 2019 16:00:00 +0300</pubDate>
-      
-      <guid>/2019/07/net-framework-3.5-install-for-server-2016/2012-without-dvd/</guid>
-      <description>From time to time, I have to work on environments which our customers provide and by the time we realize that they have forgotten to install a pre-requisite, its too late to ask them to mount back the dvd media or sometimes its just time sensitive.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sysadmin on a corner of a mind</title><link>/tags/sysadmin/</link><description>Recent content in sysadmin on a corner of a mind</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>mark05E</copyright><lastBuildDate>Tue, 02 Jul 2019 16:00:00 +0300</lastBuildDate><atom:link href="/tags/sysadmin/index.xml" rel="self" type="application/rss+xml"/><item><title>Net Framework 3.5 install for Server 2016/2012 - without DVD</title><link>/2019/07/net-framework-3.5-install-for-server-2016/2012-without-dvd/</link><pubDate>Tue, 02 Jul 2019 16:00:00 +0300</pubDate><guid>/2019/07/net-framework-3.5-install-for-server-2016/2012-without-dvd/</guid><description>From time to time, I have to work on environments which our customers provide and by the time we realize that they have forgotten to install a pre-requisite, its too late to ask them to mount back the dvd media or sometimes its just time sensitive.
 After few searches online, I found this method which involves downloading a CAB file and installing it.
- Download microsoft-windows-netfx3-ondemand-package.cab Execute this on an elevated prompt</description>
-    </item>
-    
-    <item>
-      <title>Cisco AnyConnect Secure Mobility Client - VPN - Login Automation</title>
-      <link>/2019/06/cisco-anyconnect-secure-mobility-client-vpn-login-automation/</link>
-      <pubDate>Wed, 26 Jun 2019 20:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/cisco-anyconnect-secure-mobility-client-vpn-login-automation/</guid>
-      <description>I hate the few seconds I have to spend typing the password into the VPN client. I have come across an AHK script that helps with that. It works about 85% of the time..
+Download microsoft-windows-netfx3-ondemand-package.cab Execute this on an elevated prompt</description></item><item><title>Cisco AnyConnect Secure Mobility Client - VPN - Login Automation</title><link>/2019/06/cisco-anyconnect-secure-mobility-client-vpn-login-automation/</link><pubDate>Wed, 26 Jun 2019 20:00:00 +0300</pubDate><guid>/2019/06/cisco-anyconnect-secure-mobility-client-vpn-login-automation/</guid><description>I hate the few seconds I have to spend typing the password into the VPN client. I have come across an AHK script that helps with that. It works about 85% of the time..
 Note: Requires AutoHotKey
 Part 1 Download this AHK script and place it somewhere you like.
- https://gist.github.com/aplocher/f56b8cd494f987d25e94
+https://gist.github.com/aplocher/f56b8cd494f987d25e94
 Part 2 Create a batch file to call the above script with the parameters
-AnyConnect.ahk &amp;lt;vpn-url&amp;gt; &amp;lt;username&amp;gt; &amp;lt;password&amp;gt;</description>
-    </item>
-    
-    <item>
-      <title>Test Port Open using Powershell</title>
-      <link>/2019/06/test-port-open-using-powershell/</link>
-      <pubDate>Wed, 26 Jun 2019 09:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/test-port-open-using-powershell/</guid>
-      <description>This is a quick one-liner to test whether a port is open. This is useful in cases where the Telnet client is not installed and you need something done quick.
+AnyConnect.ahk &amp;lt;vpn-url&amp;gt; &amp;lt;username&amp;gt; &amp;lt;password&amp;gt;
+My batch script is as follows:</description></item><item><title>Test Port Open using Powershell</title><link>/2019/06/test-port-open-using-powershell/</link><pubDate>Wed, 26 Jun 2019 09:00:00 +0300</pubDate><guid>/2019/06/test-port-open-using-powershell/</guid><description>This is a quick one-liner to test whether a port is open. This is useful in cases where the Telnet client is not installed and you need something done quick.
 powershell Test-NetConnection &amp;lt;&amp;lt;HOSTNAME&amp;gt;&amp;gt; -Port &amp;lt;&amp;lt;PORT&amp;gt;&amp;gt;
 Example:
-powershell Test-NetConnection MARKLABPC -Port 445</description>
-    </item>
-    
-    <item>
-      <title>Windows - Visual Performance Panel Shortcut</title>
-      <link>/2019/06/windows-visual-performance-panel-shortcut/</link>
-      <pubDate>Mon, 10 Jun 2019 11:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/windows-visual-performance-panel-shortcut/</guid>
-      <description>%windir%\system32\SystemPropertiesPerformance.exe
+powershell Test-NetConnection MARKLABPC -Port 445</description></item><item><title>Windows - Visual Performance Panel Shortcut</title><link>/2019/06/windows-visual-performance-panel-shortcut/</link><pubDate>Mon, 10 Jun 2019 11:00:00 +0300</pubDate><guid>/2019/06/windows-visual-performance-panel-shortcut/</guid><description>%windir%\system32\SystemPropertiesPerformance.exe
 Yep that&amp;rsquo;s all. Paste it into the Run prompt or the command-line window. Just to jump into the the visual performance page to change the settings on a freshly prepared Windows machine.
 I wish there was an easier way to change the settings over command line but it seemed little too complicated compared to this one I have found.
 Maybe I will find something new later on..
-References:  https://stackoverflow.</description>
-    </item>
-    
-    <item>
-      <title>mRemoteNG External Tools enhancement</title>
-      <link>/2019/06/mremoteng-external-tools-enhancement/</link>
-      <pubDate>Mon, 10 Jun 2019 10:00:00 +0300</pubDate>
-      
-      <guid>/2019/06/mremoteng-external-tools-enhancement/</guid>
-      <description>Explore C: Drive (Windows using Domain Account)
- Filename: %COMSPEC%  Arguments: /c net use \\%hostname%\c$ /user:%domain%\%username% %password% &amp;amp;&amp;amp; start \\%hostname%\c$
- WinSCP to tmp folder (Linux)
- Filename: __Tools\WinSCP-Portable\WinSCP.exe  Arguments: scp://%Username%:%Password%@%Hostname%/tmp/
- Database .NET Integration (SQL Sever - Windows Integrated Login)
- Filename: __Tools\CPAU.exe  Arguments: -u %domain%\%username% -p %password% -ex &amp;quot;__Tools\DatabaseNet4\Database4.exe 6 -s:%hostname% -e&amp;quot;
- RDP Plus (Maximized RDP Window)
- Filename: __Tools\rdp.exe  Arguments: /console /noprinters /nodrives /max /title:%NAME% /u:%domain%\%username% /p:%password% /v:%hostname%</description>
-    </item>
-    
-  </channel>
-</rss>
+References: https://stackoverflow.</description></item><item><title>mRemoteNG External Tools enhancement</title><link>/2019/06/mremoteng-external-tools-enhancement/</link><pubDate>Mon, 10 Jun 2019 10:00:00 +0300</pubDate><guid>/2019/06/mremoteng-external-tools-enhancement/</guid><description>Explore C: Drive (Windows using Domain Account) Filename: %COMSPEC%
+Arguments: /c net use \\%hostname%\c$ /user:%domain%\%username% %password% &amp;amp;&amp;amp; start \\%hostname%\c$
+WinSCP to tmp folder (Linux) Filename: __Tools\WinSCP-Portable\WinSCP.exe
+Arguments: scp://%Username%:%Password%@%Hostname%/tmp/
+Database .NET Integration (SQL Sever - Windows Integrated Login) Filename: __Tools\CPAU.exe
+Arguments: -u %domain%\%username% -p %password% -ex &amp;quot;__Tools\DatabaseNet4\Database4.exe 6 -s:%hostname% -e&amp;quot;
+RDP Plus (Maximized RDP Window) Filename: __Tools\rdp.</description></item></channel></rss>

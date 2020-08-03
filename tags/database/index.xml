@@ -1,27 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>database on a corner of a mind</title>
-    <link>/tags/database/</link>
-    <description>Recent content in database on a corner of a mind</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>mark05E</copyright>
-    <lastBuildDate>Mon, 04 Nov 2019 06:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/database/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Intersystems Cache Database Drivers</title>
-      <link>/2019/11/intersystems-cache-database-drivers/</link>
-      <pubDate>Mon, 04 Nov 2019 06:00:00 +0000</pubDate>
-      
-      <guid>/2019/11/intersystems-cache-database-drivers/</guid>
-      <description>I keep searching for this link to download ODBC drivers on google search but it does not show up. It is buried deep within some Avaya pages. So now I put it here for my ease of use.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>database on a corner of a mind</title><link>/tags/database/</link><description>Recent content in database on a corner of a mind</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>mark05E</copyright><lastBuildDate>Mon, 04 Nov 2019 06:00:00 +0000</lastBuildDate><atom:link href="/tags/database/index.xml" rel="self" type="application/rss+xml"/><item><title>Intersystems Cache Database Drivers</title><link>/2019/11/intersystems-cache-database-drivers/</link><pubDate>Mon, 04 Nov 2019 06:00:00 +0000</pubDate><guid>/2019/11/intersystems-cache-database-drivers/</guid><description>I keep searching for this link to download ODBC drivers on google search but it does not show up. It is buried deep within some Avaya pages. So now I put it here for my ease of use.
 ftp://ftp.intersystems.com/pub/cache/odbc/
-Also there are some resources that reference the below link for downloading other driver types (eg: JDBC) but the site is a pain to use during the times I have tested.</description>
-    </item>
-    
-  </channel>
-</rss>
+Also there are some resources that reference the below link for downloading other driver types (eg: JDBC) but the site is a pain to use during the times I have tested.</description></item></channel></rss>

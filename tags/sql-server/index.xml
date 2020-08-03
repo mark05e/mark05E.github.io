@@ -1,40 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>sql-server on a corner of a mind</title>
-    <link>/tags/sql-server/</link>
-    <description>Recent content in sql-server on a corner of a mind</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>mark05E</copyright>
-    <lastBuildDate>Sun, 20 Oct 2019 14:00:00 +0300</lastBuildDate>
-    
-	<atom:link href="/tags/sql-server/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>WFO v12 - Cannot login into Webpage</title>
-      <link>/2019/10/wfo-v12-cannot-login-into-webpage/</link>
-      <pubDate>Sun, 20 Oct 2019 14:00:00 +0300</pubDate>
-      
-      <guid>/2019/10/wfo-v12-cannot-login-into-webpage/</guid>
-      <description>A customer was facing issue with WFO webpage login. Users are unable to login into the WFO web portal. They are able to get the login page but receiving the following error after entering credentials and pressing Enter.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sql-server on a corner of a mind</title><link>/tags/sql-server/</link><description>Recent content in sql-server on a corner of a mind</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>mark05E</copyright><lastBuildDate>Sun, 20 Oct 2019 14:00:00 +0300</lastBuildDate><atom:link href="/tags/sql-server/index.xml" rel="self" type="application/rss+xml"/><item><title>WFO v12 - Cannot login into Webpage</title><link>/2019/10/wfo-v12-cannot-login-into-webpage/</link><pubDate>Sun, 20 Oct 2019 14:00:00 +0300</pubDate><guid>/2019/10/wfo-v12-cannot-login-into-webpage/</guid><description>A customer was facing issue with WFO webpage login. Users are unable to login into the WFO web portal. They are able to get the login page but receiving the following error after entering credentials and pressing Enter.
 &amp;quot;Please contact the administrator or technical support specialist to analyze the problem.
 Full detail of the error can be found in the log.
-Error is: java.rmi.RemoteException: EJB Exception:; nested exception is: java.rmi.RemoteException: Failed to notify login failure; nested exception is: com.</description>
-    </item>
-    
-    <item>
-      <title>SSRS Excel Rendering Extension rrRenderingError Number of Rows exceed</title>
-      <link>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate>
-      
-      <guid>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</guid>
-      <description>We are using Avaya Workforce Optimization v15 which now uses Microsoft SQL Server Reporting Services (SSRS) as a reporting engine. When one of our customers tried to export a large dataset, they got the error:
+Error is: java.rmi.RemoteException: EJB Exception:; nested exception is: java.rmi.RemoteException: Failed to notify login failure; nested exception is: com.</description></item><item><title>SSRS Excel Rendering Extension rrRenderingError Number of Rows exceed</title><link>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</link><pubDate>Wed, 09 Oct 2019 00:00:00 +0300</pubDate><guid>/2019/10/ssrs-excel-rendering-extension-rrrenderingerror-number-of-rows-exceed/</guid><description>We are using Avaya Workforce Optimization v15 which now uses Microsoft SQL Server Reporting Services (SSRS) as a reporting engine. When one of our customers tried to export a large dataset, they got the error:
 Reporting Services Error
 Excel Rendering Extension: Number of rows exceeds the maximum possible in a worksheet of this version. Rows requested: 2259767. Maximum rows: 1048575. (rrRenderingError)
-On checking on this error, Microsoft documentation states that excel cannot handel more than 1048576 rows on the current versions (reference).</description>
-    </item>
-    
-  </channel>
-</rss>
+On checking on this error, Microsoft documentation states that excel cannot handel more than 1048576 rows on the current versions (reference).</description></item></channel></rss>
