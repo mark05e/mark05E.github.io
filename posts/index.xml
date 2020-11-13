@@ -15,6 +15,9 @@ example: <code>C:\Users\%username%\scoop\apps\obs-studio\26.0.2\bin\64bit\obs64.
 <li>Set preference to <strong>Classic app</strong> and click browse.</li>
 <li>Add path which you copied earlier.</li>
 <li>Click <strong>Options</strong> and <strong>Set Graphics Preference</strong> to <strong>Power Saver</strong></li>
+<li>Add another path and replace the version number with the word <strong>current.<br>
+<strong><code>C:\Users\%username%\scoop\apps\obs-studio\</code></strong><code>current</code></strong><code>\bin\64bit\obs64.exe</code></li>
+<li>Perform step 5 again for the new path.</li>
 <li>Restart OBS Studio. Enjoy!</li>
 </ol>
 ]]></content></item><item><title>Been a while - Week 24</title><link>/2020/06/been-a-while-week-24/</link><pubDate>Fri, 12 Jun 2020 21:00:00 +0000</pubDate><guid>/2020/06/been-a-while-week-24/</guid><description>Its been a while. I guess it happens to everyone. Get busy with their regular life.
