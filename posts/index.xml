@@ -1,4 +1,23 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on a corner of a mind</title><link>/posts/</link><description>Recent content in Posts on a corner of a mind</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>mark05E</copyright><lastBuildDate>Fri, 12 Jun 2020 21:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Been a while - Week 24</title><link>/2020/06/been-a-while-week-24/</link><pubDate>Fri, 12 Jun 2020 21:00:00 +0000</pubDate><guid>/2020/06/been-a-while-week-24/</guid><description>Its been a while. I guess it happens to everyone. Get busy with their regular life.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on a corner of a mind</title><link>/posts/</link><description>Recent content in Posts on a corner of a mind</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>mark05E</copyright><lastBuildDate>Thu, 12 Nov 2020 23:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>OBS Studio Blank Screen Issue</title><link>/2020/11/obs-studio-blank-screen-issue/</link><pubDate>Thu, 12 Nov 2020 23:00:00 +0000</pubDate><guid>/2020/11/obs-studio-blank-screen-issue/</guid><description>When using OBS Studio on a laptop, I keep getting blank screen when trying to record my desktop.
+Background: Installed OBS Studio using Scoop. Running Windows 10 version 1909 Laptop running Intel HD Graphics and AMD Radeon Pro (FirePro) Steps to resolve this: Find path to your OBS Studio exe file (obs64.exe) and copy it
+example: C:\Users\%username%\scoop\apps\obs-studio\26.0.2\bin\64bit\obs64.exe In the start menu, type Graphics Settings and open it. Set preference to Classic app and click browse.</description><content type="html"><![CDATA[<p>When using OBS Studio on a laptop, I keep getting blank screen when trying to record my desktop.</p>
+<h3 id="background">Background:</h3>
+<ul>
+<li>Installed OBS Studio using <a href="https://scoop.sh/">Scoop</a>.</li>
+<li>Running Windows 10 version 1909</li>
+<li>Laptop running Intel HD Graphics and AMD Radeon Pro (FirePro)</li>
+</ul>
+<h3 id="steps-to-resolve-this">Steps to resolve this:</h3>
+<ol>
+<li>Find path to your OBS Studio exe file (obs64.exe) and copy it<br>
+example: <code>C:\Users\%username%\scoop\apps\obs-studio\26.0.2\bin\64bit\obs64.exe</code></li>
+<li>In the start menu, type <strong>Graphics Settings</strong> and open it.</li>
+<li>Set preference to <strong>Classic app</strong> and click browse.</li>
+<li>Add path which you copied earlier.</li>
+<li>Click <strong>Options</strong> and <strong>Set Graphics Preference</strong> to <strong>Power Saver</strong></li>
+<li>Restart OBS Studio. Enjoy!</li>
+</ol>
+]]></content></item><item><title>Been a while - Week 24</title><link>/2020/06/been-a-while-week-24/</link><pubDate>Fri, 12 Jun 2020 21:00:00 +0000</pubDate><guid>/2020/06/been-a-while-week-24/</guid><description>Its been a while. I guess it happens to everyone. Get busy with their regular life.
 I keep wanting to post but I have nothing to post. Hence I have decided to start posting my reading list and websites that interest me.
 Here is the list for this week.
 Mozilla Front-end web developer learning path Devops learning resources discussion on HN Devops learning resources discussion on Reddit XGeneCloud - REST and GraphQL APIs on any DB (MSSQL, MySQL, Postgres, SQLite) PhilsComputerLab - Youtube channel about hardware reviews PyCopy - a minimalist and memory-efficient Python implementation Seed Studio Odyssey x86 as a Router review Energized Protection - block list List of online text to diagram tools The Cloud Coach WebScraping examples - Je-Suis-TM Graphviz tutorial - ncona.</description><content type="html"><![CDATA[<p>Its been a while. I guess it happens to everyone. Get busy with their regular life.</p>
