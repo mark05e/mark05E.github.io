@@ -16,7 +16,7 @@ example: <code>C:\Users\%username%\scoop\apps\obs-studio\26.0.2\bin\64bit\obs64.
 <li>Add path which you copied earlier.</li>
 <li>Click <strong>Options</strong> and <strong>Set Graphics Preference</strong> to <strong>Power Saver</strong></li>
 <li>Add another path and replace the version number with the word <strong>current.<br>
-<strong><code>C:\Users\%username%\scoop\apps\obs-studio\</code></strong><code>current</code></strong><code>\bin\64bit\obs64.exe</code></li>
+<code>C:\Users\%username%\scoop\apps\obs-studio\</code></strong><code>current</code>**<code>\bin\64bit\obs64.exe</code></li>
 <li>Perform step 5 again for the new path.</li>
 <li>Restart OBS Studio. Enjoy!</li>
 </ol>
